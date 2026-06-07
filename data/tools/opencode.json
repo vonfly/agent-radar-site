@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T01:45:04.510Z",
+  "generatedAt": "2026-06-07T01:51:53.792Z",
   "tool": {
     "slug": "opencode",
     "name": "OpenCode",
@@ -91,7 +91,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -118,7 +118,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-agent",
@@ -145,7 +145,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -172,7 +172,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-attach",
@@ -197,7 +197,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -224,7 +224,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-auth",
@@ -249,7 +249,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -276,7 +276,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-db",
@@ -301,7 +301,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -328,7 +328,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-debug",
@@ -353,7 +353,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -380,7 +380,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-export",
@@ -405,7 +405,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -432,7 +432,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-github",
@@ -457,7 +457,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -484,7 +484,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-import",
@@ -509,7 +509,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -536,7 +536,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-mcp",
@@ -563,7 +563,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -590,7 +590,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-models",
@@ -615,7 +615,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -642,7 +642,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-plugin",
@@ -667,7 +667,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -694,7 +694,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-pr",
@@ -719,7 +719,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -746,7 +746,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-project",
@@ -828,7 +828,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -855,7 +855,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-serve",
@@ -880,7 +880,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -907,7 +907,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-session",
@@ -932,7 +932,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -959,7 +959,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-stats",
@@ -984,7 +984,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1011,7 +1011,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-uninstall",
@@ -1036,7 +1036,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1063,7 +1063,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-upgrade",
@@ -1088,7 +1088,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1115,7 +1115,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:cli:opencode-web",
@@ -1140,7 +1140,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1168,7 +1168,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:compact",
@@ -1193,7 +1193,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1220,7 +1220,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:connect",
@@ -1245,7 +1245,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1272,7 +1272,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:details",
@@ -1297,7 +1297,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1324,7 +1324,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:editor",
@@ -1349,7 +1349,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1376,7 +1376,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:exit",
@@ -1401,7 +1401,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1428,7 +1428,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:export",
@@ -1453,7 +1453,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1480,7 +1480,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:help",
@@ -1505,7 +1505,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1532,7 +1532,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:init",
@@ -1557,7 +1557,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1584,7 +1584,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:models",
@@ -1609,7 +1609,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1636,7 +1636,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:new",
@@ -1661,7 +1661,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1688,7 +1688,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:redo",
@@ -1713,7 +1713,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1740,7 +1740,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:sessions",
@@ -1765,7 +1765,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1792,7 +1792,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:share",
@@ -1819,7 +1819,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1847,7 +1847,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:themes",
@@ -1872,7 +1872,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1899,7 +1899,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:thinking",
@@ -1924,7 +1924,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1951,7 +1951,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:undo",
@@ -1978,7 +1978,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2005,7 +2005,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "opencode:slash:unshare",
@@ -2030,7 +2030,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "checkedAt": "2026-06-07T01:51:53.792Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2058,7 +2058,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     }
   ],
   "skills": [

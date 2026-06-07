@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T01:45:04.510Z",
+  "generatedAt": "2026-06-07T01:51:53.792Z",
   "tools": [
     {
       "slug": "codex",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -190,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -218,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -246,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -274,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -302,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -330,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
