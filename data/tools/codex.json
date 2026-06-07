@@ -1,0 +1,3918 @@
+{
+  "generatedAt": "2026-06-07T01:45:04.510Z",
+  "tool": {
+    "slug": "codex",
+    "name": "Codex",
+    "vendor": "OpenAI",
+    "descriptionZh": "本地与云端协作的智能体编码工具。",
+    "latestVersion": "0.137.0",
+    "latestReleaseDate": "2026-06-04",
+    "repository": "https://github.com/openai/codex",
+    "docs": "https://developers.openai.com/codex/cli",
+    "installCommand": "npm install -g @openai/codex",
+    "accent": "#10a37f"
+  },
+  "commands": [
+    {
+      "id": "codex:cli:codex",
+      "tool": "codex",
+      "name": "codex",
+      "aliases": [],
+      "kind": "cli",
+      "category": "会话",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "启动 Codex 终端交互界面，可附带初始任务和图片。",
+      "usage": "codex \"检查这个项目的测试覆盖率\"",
+      "examples": [
+        "codex \"检查这个项目的测试覆盖率\""
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://developers.openai.com/codex/cli/reference",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-app",
+      "tool": "codex",
+      "name": "codex app",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Launch the Codex desktop app (opens the app installer if missing)",
+      "usage": "codex app --help",
+      "examples": [
+        "codex app --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-app-server",
+      "tool": "codex",
+      "name": "codex app-server",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：[experimental] Run the app server or related tooling",
+      "usage": "codex app-server --help",
+      "examples": [
+        "codex app-server --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-apply",
+      "tool": "codex",
+      "name": "codex apply",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Apply the latest diff produced by Codex agent as a `git apply` to your local",
+      "usage": "codex apply --help",
+      "examples": [
+        "codex apply --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-archive",
+      "tool": "codex",
+      "name": "codex archive",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Archive a saved session by id or session name",
+      "usage": "codex archive --help",
+      "examples": [
+        "codex archive --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-cloud",
+      "tool": "codex",
+      "name": "codex cloud",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：[EXPERIMENTAL] Browse tasks from Codex Cloud and apply changes locally",
+      "usage": "codex cloud --help",
+      "examples": [
+        "codex cloud --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-completion",
+      "tool": "codex",
+      "name": "codex completion",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Generate shell completion scripts",
+      "usage": "codex completion --help",
+      "examples": [
+        "codex completion --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-debug",
+      "tool": "codex",
+      "name": "codex debug",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Debugging tools",
+      "usage": "codex debug --help",
+      "examples": [
+        "codex debug --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-doctor",
+      "tool": "codex",
+      "name": "codex doctor",
+      "aliases": [],
+      "kind": "cli",
+      "category": "诊断",
+      "introducedIn": "0.131.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "检查运行环境、认证、终端、网络和配置问题。",
+      "usage": "codex doctor",
+      "examples": [
+        "codex doctor"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://developers.openai.com/codex/cli/reference",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-exec",
+      "tool": "codex",
+      "name": "codex exec",
+      "aliases": [],
+      "kind": "cli",
+      "category": "自动化",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "以非交互模式运行任务，适合脚本和 CI。",
+      "usage": "codex exec \"运行测试并解释失败原因\"",
+      "examples": [
+        "codex exec \"运行测试并解释失败原因\""
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://developers.openai.com/codex/cli/reference",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-exec-server",
+      "tool": "codex",
+      "name": "codex exec-server",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：[EXPERIMENTAL] Run the standalone exec-server service",
+      "usage": "codex exec-server --help",
+      "examples": [
+        "codex exec-server --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-features",
+      "tool": "codex",
+      "name": "codex features",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Inspect feature flags",
+      "usage": "codex features --help",
+      "examples": [
+        "codex features --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-fork",
+      "tool": "codex",
+      "name": "codex fork",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Fork a previous interactive session (picker by default; use --last to fork the",
+      "usage": "codex fork --help",
+      "examples": [
+        "codex fork --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-login",
+      "tool": "codex",
+      "name": "codex login",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Manage login",
+      "usage": "codex login --help",
+      "examples": [
+        "codex login --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-logout",
+      "tool": "codex",
+      "name": "codex logout",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Remove stored authentication credentials",
+      "usage": "codex logout --help",
+      "examples": [
+        "codex logout --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-mcp",
+      "tool": "codex",
+      "name": "codex mcp",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Manage external MCP servers for Codex",
+      "usage": "codex mcp --help",
+      "examples": [
+        "codex mcp --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-mcp-server",
+      "tool": "codex",
+      "name": "codex mcp-server",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Start Codex as an MCP server (stdio)",
+      "usage": "codex mcp-server --help",
+      "examples": [
+        "codex mcp-server --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-plugin",
+      "tool": "codex",
+      "name": "codex plugin",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Manage Codex plugins",
+      "usage": "codex plugin --help",
+      "examples": [
+        "codex plugin --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-remote-control",
+      "tool": "codex",
+      "name": "codex remote-control",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：[experimental] Manage the app-server daemon with remote control enabled",
+      "usage": "codex remote-control --help",
+      "examples": [
+        "codex remote-control --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-resume",
+      "tool": "codex",
+      "name": "codex resume",
+      "aliases": [],
+      "kind": "cli",
+      "category": "会话",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "恢复之前的 Codex 会话，继续已有上下文。",
+      "usage": "codex resume --last",
+      "examples": [
+        "codex resume --last"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://developers.openai.com/codex/cli/reference",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-review",
+      "tool": "codex",
+      "name": "codex review",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Run a code review non-interactively",
+      "usage": "codex review --help",
+      "examples": [
+        "codex review --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-sandbox",
+      "tool": "codex",
+      "name": "codex sandbox",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Run commands within a Codex-provided sandbox",
+      "usage": "codex sandbox --help",
+      "examples": [
+        "codex sandbox --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-unarchive",
+      "tool": "codex",
+      "name": "codex unarchive",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Unarchive a saved session by id or session name",
+      "usage": "codex unarchive --help",
+      "examples": [
+        "codex unarchive --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:cli:codex-update",
+      "tool": "codex",
+      "name": "codex update",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "0.137.0",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Update Codex to the latest version",
+      "usage": "codex update --help",
+      "examples": [
+        "codex update --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:48:40.952Z",
+        "version": "0.137.0",
+        "detail": "从 codex --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://developers.openai.com/codex/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:48:40.952Z"
+    },
+    {
+      "id": "codex:slash:agent",
+      "tool": "codex",
+      "name": "/agent",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/agent 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Switch the active agent thread.",
+      "usage": "/agent",
+      "examples": [
+        "/agent"
+      ],
+      "requirements": [
+        "适用场景：Inspect or continue work in a spawned subagent thread."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:approve",
+      "tool": "codex",
+      "name": "/approve",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/approve 用于执行常用开发工作流。官方说明：Approve one retry of a recent auto review denial.",
+      "usage": "/approve",
+      "examples": [
+        "/approve"
+      ],
+      "requirements": [
+        "适用场景：Retry a command or action that the auto reviewer denied."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:apps",
+      "tool": "codex",
+      "name": "/apps",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/apps 用于执行常用开发工作流。官方说明：Browse apps (connectors) and insert them into your prompt.",
+      "usage": "/apps",
+      "examples": [
+        "/apps"
+      ],
+      "requirements": [
+        "适用场景：Attach an app as $app-slug before asking Codex to use it."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:btw",
+      "tool": "codex",
+      "name": "/btw",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/btw 用于执行常用开发工作流。官方说明：Start an ephemeral side conversation.",
+      "usage": "/btw",
+      "examples": [
+        "/btw"
+      ],
+      "requirements": [
+        "适用场景：Ask a focused follow-up without disrupting the main thread's transcript."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:clear",
+      "tool": "codex",
+      "name": "/clear",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/clear 用于控制上下文、记忆和对话历史。官方说明：Clear the terminal and start a fresh chat.",
+      "usage": "/clear",
+      "examples": [
+        "/clear"
+      ],
+      "requirements": [
+        "适用场景：Reset the visible UI and conversation together when you want a fresh start."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:compact",
+      "tool": "codex",
+      "name": "/compact",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/compact 用于控制上下文、记忆和对话历史。官方说明：Summarize the visible conversation to free tokens.",
+      "usage": "/compact",
+      "examples": [
+        "/compact"
+      ],
+      "requirements": [
+        "适用场景：Use after long runs so Codex retains key points without blowing the context window."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:copy",
+      "tool": "codex",
+      "name": "/copy",
+      "aliases": [],
+      "kind": "slash",
+      "category": "导入导出",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/copy 用于复制、分享、导入或导出内容。官方说明：Copy the latest completed Codex output.",
+      "usage": "/copy",
+      "examples": [
+        "/copy"
+      ],
+      "requirements": [
+        "适用场景：Grab the latest finished response or plan text without manually selecting it. You can also press Ctrl+O."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:debug-config",
+      "tool": "codex",
+      "name": "/debug-config",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/debug-config 用于调整终端界面和工具配置。官方说明：Print config layer and requirements diagnostics.",
+      "usage": "/debug-config",
+      "examples": [
+        "/debug-config"
+      ],
+      "requirements": [
+        "适用场景：Debug precedence and policy requirements, including experimental network constraints."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:diff",
+      "tool": "codex",
+      "name": "/diff",
+      "aliases": [],
+      "kind": "slash",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/diff 用于检查代码改动、Pull Request 或实现质量。官方说明：Show the Git diff, including files Git isn't tracking yet.",
+      "usage": "/diff",
+      "examples": [
+        "/diff"
+      ],
+      "requirements": [
+        "适用场景：Review Codex's edits before you commit or run tests."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:exit",
+      "tool": "codex",
+      "name": "/exit",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/exit 用于执行常用开发工作流。官方说明：Exit the CLI (same as /quit).",
+      "usage": "/exit",
+      "examples": [
+        "/exit"
+      ],
+      "requirements": [
+        "适用场景：Alternative spelling; both commands exit the session."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:experimental",
+      "tool": "codex",
+      "name": "/experimental",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "experimental",
+      "summaryZh": "/experimental 用于执行常用开发工作流。官方说明：Toggle experimental features.",
+      "usage": "/experimental",
+      "examples": [
+        "/experimental"
+      ],
+      "requirements": [
+        "适用场景：Enable optional features such as subagents from the CLI."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 76,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 45/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 45,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:fast",
+      "tool": "codex",
+      "name": "/fast",
+      "aliases": [],
+      "kind": "slash",
+      "category": "模型",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/fast 用于选择模型、推理强度或响应速度。官方说明：Toggle a Fast service tier when the model catalog exposes one.",
+      "usage": "/fast",
+      "examples": [
+        "/fast"
+      ],
+      "requirements": [
+        "适用场景：Turn the current model's Fast tier on or off, or check whether the thread is using it."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:feedback",
+      "tool": "codex",
+      "name": "/feedback",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/feedback 用于查看状态、使用量或排查故障。官方说明：Send logs to the Codex maintainers.",
+      "usage": "/feedback",
+      "examples": [
+        "/feedback"
+      ],
+      "requirements": [
+        "适用场景：Report issues or share diagnostics with support."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:fork",
+      "tool": "codex",
+      "name": "/fork",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/fork 用于管理会话、并行任务和远程工作。官方说明：Fork the current conversation into a new thread.",
+      "usage": "/fork",
+      "examples": [
+        "/fork"
+      ],
+      "requirements": [
+        "适用场景：Branch the active session to explore a new approach without losing the current transcript."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:goal",
+      "tool": "codex",
+      "name": "/goal",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/goal 用于执行常用开发工作流。官方说明：Set, pause, resume, view, or clear a task goal.",
+      "usage": "/goal",
+      "examples": [
+        "/goal"
+      ],
+      "requirements": [
+        "适用场景：Give Codex a persistent target to track while a larger task runs."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:hooks",
+      "tool": "codex",
+      "name": "/hooks",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/hooks 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：View and manage lifecycle hooks.",
+      "usage": "/hooks",
+      "examples": [
+        "/hooks"
+      ],
+      "requirements": [
+        "适用场景：Inspect hook configuration loaded into the current session."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:ide",
+      "tool": "codex",
+      "name": "/ide",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/ide 用于执行常用开发工作流。官方说明：Include open files, current selection, and other IDE context.",
+      "usage": "/ide",
+      "examples": [
+        "/ide"
+      ],
+      "requirements": [
+        "适用场景：Pull editor context into the next prompt without re-explaining what's open in your IDE."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:init",
+      "tool": "codex",
+      "name": "/init",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/init 用于执行常用开发工作流。官方说明：Generate an AGENTS.md scaffold in the current directory.",
+      "usage": "/init",
+      "examples": [
+        "/init"
+      ],
+      "requirements": [
+        "适用场景：Capture persistent instructions for the repository or subdirectory you're working in."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:keymap",
+      "tool": "codex",
+      "name": "/keymap",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/keymap 用于调整终端界面和工具配置。官方说明：Remap TUI keyboard shortcuts.",
+      "usage": "/keymap",
+      "examples": [
+        "/keymap"
+      ],
+      "requirements": [
+        "适用场景：Inspect and persist custom shortcut bindings in config.toml."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:logout",
+      "tool": "codex",
+      "name": "/logout",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/logout 用于处理安装、升级和账号认证。官方说明：Sign out of Codex.",
+      "usage": "/logout",
+      "examples": [
+        "/logout"
+      ],
+      "requirements": [
+        "适用场景：Clear local credentials when using a shared machine."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:mcp",
+      "tool": "codex",
+      "name": "/mcp",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/mcp 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：List configured Model Context Protocol (MCP) tools.",
+      "usage": "/mcp",
+      "examples": [
+        "/mcp"
+      ],
+      "requirements": [
+        "适用场景：Check which external tools Codex can call during the session; add verbose for server details."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:memories",
+      "tool": "codex",
+      "name": "/memories",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/memories 用于执行常用开发工作流。官方说明：Configure memory use and generation.",
+      "usage": "/memories",
+      "examples": [
+        "/memories"
+      ],
+      "requirements": [
+        "适用场景：Turn memory injection or memory generation on or off without leaving the TUI."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:mention",
+      "tool": "codex",
+      "name": "/mention",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/mention 用于执行常用开发工作流。官方说明：Attach a file to the conversation.",
+      "usage": "/mention",
+      "examples": [
+        "/mention"
+      ],
+      "requirements": [
+        "适用场景：Point Codex at specific files or folders you want it to inspect next."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:model",
+      "tool": "codex",
+      "name": "/model",
+      "aliases": [],
+      "kind": "slash",
+      "category": "模型",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/model 用于选择模型、推理强度或响应速度。官方说明：Choose the active model (and reasoning effort, when available).",
+      "usage": "/model",
+      "examples": [
+        "/model"
+      ],
+      "requirements": [
+        "适用场景：Switch between general-purpose models (gpt-4.1-mini) and deeper reasoning models before running a task."
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:new",
+      "tool": "codex",
+      "name": "/new",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/new 用于执行常用开发工作流。官方说明：Start a new conversation inside the same CLI session.",
+      "usage": "/new",
+      "examples": [
+        "/new"
+      ],
+      "requirements": [
+        "适用场景：Reset the chat context without leaving the CLI when you want a fresh prompt in the same repo."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:permissions",
+      "tool": "codex",
+      "name": "/permissions",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安全",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/permissions 用于调整权限、安全边界或高风险操作。官方说明：Set what Codex can do without asking first.",
+      "usage": "/permissions",
+      "examples": [
+        "/permissions"
+      ],
+      "requirements": [
+        "适用场景：Relax or tighten approval requirements mid-session, such as switching between Auto and Read Only."
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:personality",
+      "tool": "codex",
+      "name": "/personality",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/personality 用于执行常用开发工作流。官方说明：Choose a communication style for responses.",
+      "usage": "/personality",
+      "examples": [
+        "/personality"
+      ],
+      "requirements": [
+        "适用场景：Make Codex more concise, more explanatory, or more collaborative without changing your instructions."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:plan",
+      "tool": "codex",
+      "name": "/plan",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/plan 用于执行常用开发工作流。官方说明：Switch to plan mode and optionally send a prompt.",
+      "usage": "/plan",
+      "examples": [
+        "/plan"
+      ],
+      "requirements": [
+        "适用场景：Ask Codex to propose an execution plan before implementation work starts."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:plugins",
+      "tool": "codex",
+      "name": "/plugins",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/plugins 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Browse installed and discoverable plugins.",
+      "usage": "/plugins",
+      "examples": [
+        "/plugins"
+      ],
+      "requirements": [
+        "适用场景：Inspect plugin tools, install suggested plugins, or manage plugin availability."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:ps",
+      "tool": "codex",
+      "name": "/ps",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "experimental",
+      "summaryZh": "/ps 用于执行常用开发工作流。官方说明：Show experimental background terminals and their recent output.",
+      "usage": "/ps",
+      "examples": [
+        "/ps"
+      ],
+      "requirements": [
+        "适用场景：Check long-running commands without leaving the main transcript."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 76,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 45/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 45,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:quit",
+      "tool": "codex",
+      "name": "/quit",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/quit 用于执行常用开发工作流。官方说明：Exit the CLI.",
+      "usage": "/quit",
+      "examples": [
+        "/quit"
+      ],
+      "requirements": [
+        "适用场景：Leave the session immediately."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:raw",
+      "tool": "codex",
+      "name": "/raw",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/raw 用于执行常用开发工作流。官方说明：Toggle raw scrollback mode.",
+      "usage": "/raw",
+      "examples": [
+        "/raw"
+      ],
+      "requirements": [
+        "适用场景：Make terminal selection and copying less formatted while reviewing long output."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:resume",
+      "tool": "codex",
+      "name": "/resume",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/resume 用于管理会话、并行任务和远程工作。官方说明：Resume a saved conversation from your session list.",
+      "usage": "/resume",
+      "examples": [
+        "/resume"
+      ],
+      "requirements": [
+        "适用场景：Continue work from a previous CLI session without starting over."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:review",
+      "tool": "codex",
+      "name": "/review",
+      "aliases": [],
+      "kind": "slash",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/review 用于检查代码改动、Pull Request 或实现质量。官方说明：Ask Codex to review your working tree.",
+      "usage": "/review",
+      "examples": [
+        "/review"
+      ],
+      "requirements": [
+        "适用场景：Run after Codex completes work or when you want a second set of eyes on local changes."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:sandbox-add-read-dir",
+      "tool": "codex",
+      "name": "/sandbox-add-read-dir",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安全",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/sandbox-add-read-dir 用于调整权限、安全边界或高风险操作。官方说明：Grant sandbox read access to an extra directory (Windows only).",
+      "usage": "/sandbox-add-read-dir",
+      "examples": [
+        "/sandbox-add-read-dir"
+      ],
+      "requirements": [
+        "适用场景：Unblock commands that need to read an absolute directory path outside the current readable roots."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:side",
+      "tool": "codex",
+      "name": "/side",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/side 用于执行常用开发工作流。官方说明：Start an ephemeral side conversation.",
+      "usage": "/side",
+      "examples": [
+        "/side"
+      ],
+      "requirements": [
+        "适用场景：Ask a focused follow-up without disrupting the main thread's transcript."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:skills",
+      "tool": "codex",
+      "name": "/skills",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/skills 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Browse and use skills.",
+      "usage": "/skills",
+      "examples": [
+        "/skills"
+      ],
+      "requirements": [
+        "适用场景：Improve task-specific behavior by selecting a relevant local skill."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:status",
+      "tool": "codex",
+      "name": "/status",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/status 用于查看状态、使用量或排查故障。官方说明：Display session configuration and token usage.",
+      "usage": "/status",
+      "examples": [
+        "/status"
+      ],
+      "requirements": [
+        "适用场景：Confirm the active model, approval policy, writable roots, and remaining context capacity."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:statusline",
+      "tool": "codex",
+      "name": "/statusline",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/statusline 用于调整终端界面和工具配置。官方说明：Configure TUI status-line fields interactively.",
+      "usage": "/statusline",
+      "examples": [
+        "/statusline"
+      ],
+      "requirements": [
+        "适用场景：Pick and reorder footer items (model/context/limits/git/tokens/session) and persist in config.toml."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:stop",
+      "tool": "codex",
+      "name": "/stop",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/stop 用于执行常用开发工作流。官方说明：Stop all background terminals.",
+      "usage": "/stop",
+      "examples": [
+        "/stop"
+      ],
+      "requirements": [
+        "适用场景：Cancel background terminal work started by the current session."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:theme",
+      "tool": "codex",
+      "name": "/theme",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/theme 用于调整终端界面和工具配置。官方说明：Choose a syntax-highlighting theme.",
+      "usage": "/theme",
+      "examples": [
+        "/theme"
+      ],
+      "requirements": [
+        "适用场景：Preview and persist a terminal syntax-highlighting theme."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:title",
+      "tool": "codex",
+      "name": "/title",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/title 用于执行常用开发工作流。官方说明：Configure terminal window or tab title fields interactively.",
+      "usage": "/title",
+      "examples": [
+        "/title"
+      ],
+      "requirements": [
+        "适用场景：Pick and reorder title items such as project, status, thread, branch, model, and task progress."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "codex:slash:vim",
+      "tool": "codex",
+      "name": "/vim",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/vim 用于执行常用开发工作流。官方说明：Toggle Vim mode for the composer.",
+      "usage": "/vim",
+      "examples": [
+        "/vim"
+      ],
+      "requirements": [
+        "适用场景：Switch between Vim normal/insert behavior and the default composer editing mode."
+      ],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "codex:skill:gh-address-comments",
+      "slug": "codex-gh-address-comments",
+      "name": "gh-address-comments",
+      "tool": "codex",
+      "provider": "OpenAI",
+      "status": "official-catalog",
+      "summaryZh": "读取当前 PR 的 review comments，逐条分析并协助完成修改。",
+      "useCases": [
+        "处理代码评审意见",
+        "汇总 PR 评论",
+        "验证评论是否已解决"
+      ],
+      "usage": [
+        "$skill-installer gh-address-comments",
+        "$gh-address-comments"
+      ],
+      "installCommand": "$skill-installer gh-address-comments",
+      "invokeCommand": "$gh-address-comments",
+      "requirements": [
+        "GitHub CLI 已认证"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "OpenAI curated skill",
+        "url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "id": "codex:skill:gh-fix-ci",
+      "slug": "codex-gh-fix-ci",
+      "name": "gh-fix-ci",
+      "tool": "codex",
+      "provider": "OpenAI",
+      "status": "official-catalog",
+      "summaryZh": "检查 GitHub PR 的失败检查与 Actions 日志，解释根因并在确认后修复。",
+      "useCases": [
+        "CI 失败排查",
+        "修复 GitHub Actions",
+        "整理失败检查摘要"
+      ],
+      "usage": [
+        "$skill-installer gh-fix-ci",
+        "$gh-fix-ci"
+      ],
+      "installCommand": "$skill-installer gh-fix-ci",
+      "invokeCommand": "$gh-fix-ci",
+      "requirements": [
+        "GitHub CLI 已认证"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "OpenAI curated skill",
+        "url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "id": "codex:skill:migrate-to-codex",
+      "slug": "codex-migrate-to-codex",
+      "name": "migrate-to-codex",
+      "tool": "codex",
+      "provider": "OpenAI",
+      "status": "official-catalog",
+      "summaryZh": "把 Claude Code 的说明、Skills、Agents、Hooks 和 MCP 配置迁移到 Codex。",
+      "useCases": [
+        "Claude Code 项目迁移",
+        "统一团队智能体配置",
+        "评估两套工具配置差异"
+      ],
+      "usage": [
+        "$skill-installer migrate-to-codex",
+        "$migrate-to-codex"
+      ],
+      "installCommand": "$skill-installer migrate-to-codex",
+      "invokeCommand": "$migrate-to-codex",
+      "requirements": [
+        "迁移前检查目标目录中的既有配置"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "OpenAI curated skill",
+        "url": "https://github.com/openai/skills/tree/main/skills/.curated/migrate-to-codex",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "id": "codex:skill:openai-docs",
+      "slug": "codex-openai-docs",
+      "name": "openai-docs",
+      "tool": "codex",
+      "provider": "OpenAI",
+      "status": "built-in",
+      "summaryZh": "优先使用 OpenAI 官方文档回答 API、模型选择、升级和 Codex 使用问题。",
+      "useCases": [
+        "开发 OpenAI API",
+        "核对最新模型",
+        "迁移模型或提示词"
+      ],
+      "usage": [
+        "$openai-docs",
+        "用 openai-docs 查询 Responses API"
+      ],
+      "installCommand": null,
+      "invokeCommand": "$openai-docs",
+      "requirements": [],
+      "riskLevel": "low",
+      "source": {
+        "label": "OpenAI openai-docs",
+        "url": "https://github.com/openai/skills/tree/main/skills/.system/openai-docs",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "id": "codex:skill:playwright",
+      "slug": "codex-playwright",
+      "name": "playwright",
+      "tool": "codex",
+      "provider": "OpenAI",
+      "status": "official-catalog",
+      "summaryZh": "使用 Playwright 自动化浏览器，执行页面导航、交互、截图和流程验证。",
+      "useCases": [
+        "前端端到端测试",
+        "复现网页问题",
+        "验证本地网站交互"
+      ],
+      "usage": [
+        "$skill-installer playwright",
+        "$playwright"
+      ],
+      "installCommand": "$skill-installer playwright",
+      "invokeCommand": "$playwright",
+      "requirements": [
+        "可用浏览器环境"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "OpenAI curated skill",
+        "url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "id": "codex:skill:security-best-practices",
+      "slug": "codex-security-best-practices",
+      "name": "security-best-practices",
+      "tool": "codex",
+      "provider": "OpenAI",
+      "status": "official-catalog",
+      "summaryZh": "针对支持的语言和框架检查安全设计与实现，并给出可执行修复建议。",
+      "useCases": [
+        "安全代码审查",
+        "新增认证与权限功能",
+        "检查常见漏洞"
+      ],
+      "usage": [
+        "$skill-installer security-best-practices",
+        "$security-best-practices"
+      ],
+      "installCommand": "$skill-installer security-best-practices",
+      "invokeCommand": "$security-best-practices",
+      "requirements": [],
+      "riskLevel": "low",
+      "source": {
+        "label": "OpenAI curated skill",
+        "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-best-practices",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "id": "codex:skill:skill-creator",
+      "slug": "codex-skill-creator",
+      "name": "skill-creator",
+      "tool": "codex",
+      "provider": "OpenAI",
+      "status": "built-in",
+      "summaryZh": "按照官方结构创建或更新可复用 Skill，包括 SKILL.md、脚本、参考资料和 UI 元数据。",
+      "useCases": [
+        "把重复流程固化为 Skill",
+        "维护已有 Skill",
+        "设计渐进式上下文加载"
+      ],
+      "usage": [
+        "$skill-creator",
+        "请使用 skill-creator 创建代码评审技能"
+      ],
+      "installCommand": null,
+      "invokeCommand": "$skill-creator",
+      "requirements": [
+        "最新版 Codex"
+      ],
+      "riskLevel": "low",
+      "source": {
+        "label": "OpenAI skill-creator",
+        "url": "https://github.com/openai/skills/tree/main/skills/.system/skill-creator",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "id": "codex:skill:skill-installer",
+      "slug": "codex-skill-installer",
+      "name": "skill-installer",
+      "tool": "codex",
+      "provider": "OpenAI",
+      "status": "built-in",
+      "summaryZh": "浏览并安装 OpenAI 官方 curated、experimental 或指定 GitHub 路径中的 Codex Skills。",
+      "useCases": [
+        "为 Codex 增加官方能力",
+        "从可信仓库安装团队技能",
+        "查看可安装技能清单"
+      ],
+      "usage": [
+        "$skill-installer",
+        "$skill-installer gh-fix-ci"
+      ],
+      "installCommand": null,
+      "invokeCommand": "$skill-installer",
+      "requirements": [
+        "最新版 Codex"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "OpenAI Skills 官方目录",
+        "url": "https://github.com/openai/skills",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    }
+  ],
+  "changes": [
+    {
+      "id": "codex-0.137.0",
+      "tool": "codex",
+      "version": "0.137.0",
+      "publishedAt": "2026-06-04",
+      "type": "changed",
+      "titleZh": "TUI 与企业配置改进",
+      "summaryZh": "新增更多键位支持，并改善企业额度与云端托管配置。",
+      "commandIds": [],
+      "source": {
+        "label": "官方更新日志",
+        "url": "https://developers.openai.com/codex/changelog",
+        "official": true
+      }
+    }
+  ]
+}

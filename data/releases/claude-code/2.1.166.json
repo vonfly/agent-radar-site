@@ -1,0 +1,15 @@
+{
+  "id": "claude-code-2.1.166",
+  "tool": "claude-code",
+  "version": "2.1.166",
+  "publishedAt": "2026-06-06",
+  "type": "security",
+  "titleZh": "回退模型与权限规则增强",
+  "summaryZh": "新增多级回退模型，并加强跨会话消息和 deny 规则安全性。",
+  "commandIds": [],
+  "source": {
+    "label": "官方更新日志",
+    "url": "https://code.claude.com/docs/en/changelog",
+    "official": true
+  }
+}

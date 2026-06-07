@@ -1,0 +1,6006 @@
+{
+  "generatedAt": "2026-06-07T01:45:04.510Z",
+  "tool": {
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "vendor": "Anthropic",
+    "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
+    "latestVersion": "2.1.168",
+    "latestReleaseDate": "2026-06-06",
+    "repository": "https://github.com/anthropics/claude-code",
+    "docs": "https://code.claude.com/docs",
+    "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
+    "accent": "#d97757"
+  },
+  "commands": [
+    {
+      "id": "claude-code:cli:claude",
+      "tool": "claude-code",
+      "name": "claude",
+      "aliases": [],
+      "kind": "cli",
+      "category": "会话",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "在当前项目中启动 Claude Code 交互会话。",
+      "usage": "claude \"解释这个仓库的架构\"",
+      "examples": [
+        "claude \"解释这个仓库的架构\""
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://code.claude.com/docs/en/cli-usage",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-agents",
+      "tool": "claude-code",
+      "name": "claude agents",
+      "aliases": [],
+      "kind": "cli",
+      "category": "多智能体",
+      "introducedIn": "2.1.x",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "查看、调度和重新连接后台智能体会话。",
+      "usage": "claude agents --cwd .",
+      "examples": [
+        "claude agents --cwd ."
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://code.claude.com/docs/en/cli-usage",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-auth",
+      "tool": "claude-code",
+      "name": "claude auth",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "2.1.167",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Manage authentication",
+      "usage": "claude auth --help",
+      "examples": [
+        "claude auth --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "从 claude --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-auto-mode",
+      "tool": "claude-code",
+      "name": "claude auto-mode",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "2.1.167",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Inspect auto mode classifier",
+      "usage": "claude auto-mode --help",
+      "examples": [
+        "claude auto-mode --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "从 claude --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-doctor",
+      "tool": "claude-code",
+      "name": "claude doctor",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "2.1.167",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Check the health of your Claude Code",
+      "usage": "claude doctor --help",
+      "examples": [
+        "claude doctor --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "从 claude --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-install",
+      "tool": "claude-code",
+      "name": "claude install",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "2.1.167",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Install Claude Code native build. Use",
+      "usage": "claude install --help",
+      "examples": [
+        "claude install --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "从 claude --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-mcp",
+      "tool": "claude-code",
+      "name": "claude mcp",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "2.1.167",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Configure and manage MCP servers",
+      "usage": "claude mcp --help",
+      "examples": [
+        "claude mcp --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "从 claude --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-project",
+      "tool": "claude-code",
+      "name": "claude project",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "2.1.167",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Manage Claude Code project state",
+      "usage": "claude project --help",
+      "examples": [
+        "claude project --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "从 claude --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-setup-token",
+      "tool": "claude-code",
+      "name": "claude setup-token",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "2.1.167",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Set up a long-lived authentication token",
+      "usage": "claude setup-token --help",
+      "examples": [
+        "claude setup-token --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "从 claude --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:cli:claude-ultrareview",
+      "tool": "claude-code",
+      "name": "claude ultrareview",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "2.1.167",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：Run a cloud-hosted multi-agent code",
+      "usage": "claude ultrareview --help",
+      "examples": [
+        "claude ultrareview --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "从 claude --help 自动发现并确认"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:flag:dangerously-skip-permissions",
+      "tool": "claude-code",
+      "name": "--dangerously-skip-permissions",
+      "aliases": [],
+      "kind": "flag",
+      "category": "安全",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "跳过大部分权限确认，仅应在受控隔离环境中使用。",
+      "usage": "claude --dangerously-skip-permissions",
+      "examples": [
+        "claude --dangerously-skip-permissions"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
+      },
+      "assessment": {
+        "score": 54,
+        "verdict": "watch",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100",
+          "会绕过权限确认，必须限制使用范围"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://code.claude.com/docs/en/cli-usage",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:flag:claude--p",
+      "tool": "claude-code",
+      "name": "claude -p",
+      "aliases": [],
+      "kind": "flag",
+      "category": "自动化",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "执行一次性查询并输出结果，适合脚本调用。",
+      "usage": "claude -p \"总结最近的代码改动\"",
+      "examples": [
+        "claude -p \"总结最近的代码改动\""
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T14:49:30.483Z",
+        "version": "2.1.167",
+        "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://code.claude.com/docs/en/cli-usage",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T14:49:30.483Z"
+    },
+    {
+      "id": "claude-code:skill:batch",
+      "tool": "claude-code",
+      "name": "/batch <instruction>",
+      "aliases": [],
+      "kind": "skill",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/batch 用于执行常用开发工作流。官方说明：Orchestrate large-scale changes across a codebase in parallel. Researches the codebase, decomposes the work into 5 to 30 independent units, and presents a plan. Once approved, spawns one background subagent per unit in an isolated git worktree. Each subagent implements its unit, runs tests, and opens a pull request. Requires a git repository. Example: /batch migrate src/ from Solid to React",
+      "usage": "/batch <instruction>",
+      "examples": [
+        "/batch <instruction>"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:claude-api",
+      "tool": "claude-code",
+      "name": "/claude-api [migrate|managed-agents-onboard]",
+      "aliases": [],
+      "kind": "skill",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/claude-api 用于执行常用开发工作流。官方说明：Load Claude API reference material for your project's language (Python, TypeScript, Java, Go, Ruby, C#, PHP, or cURL) and Managed Agents reference. Covers tool use, streaming, batches, structured outputs, and common pitfalls. Also activates automatically when your code imports anthropic or @anthropic-ai/sdk. Run /claude-api migrate to upgrade existing Claude API code to a newer model: Claude asks which files to scan and which model to target, then updates model IDs, thinking configuration, and other parameters that changed between versions. Run /claude-api managed-agents-onboard for an interactive walkthrough that creates a new Managed Agent from scratch",
+      "usage": "/claude-api [migrate|managed-agents-onboard]",
+      "examples": [
+        "/claude-api [migrate|managed-agents-onboard]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:code-review",
+      "tool": "claude-code",
+      "name": "/code-review [low|medium|high|xhigh|max|ultra] [--fix] [--comment] [target]",
+      "aliases": [],
+      "kind": "skill",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/code-review 用于检查代码改动、Pull Request 或实现质量。官方说明：Review the current diff for correctness bugs and for reuse, simplification, and efficiency cleanups. Pass --fix to apply findings to your working tree, --comment to post them as inline GitHub PR comments, or ultra to run a deep cloud review. From v2.1.154, /simplify runs a separate cleanup-only review that applies fixes without hunting for bugs. See Review a diff locally for effort levels and targeting",
+      "usage": "/code-review [low|medium|high|xhigh|max|ultra] [--fix] [--comment] [target]",
+      "examples": [
+        "/code-review [low|medium|high|xhigh|max|ultra] [--fix] [--comment] [target]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:debug",
+      "tool": "claude-code",
+      "name": "/debug [description]",
+      "aliases": [],
+      "kind": "skill",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/debug 用于查看状态、使用量或排查故障。官方说明：Enable debug logging for the current session and troubleshoot issues by reading the session debug log. Debug logging is off by default unless you started with claude --debug, so running /debug mid-session starts capturing logs from that point forward. Optionally describe the issue to focus the analysis",
+      "usage": "/debug [description]",
+      "examples": [
+        "/debug [description]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:fewer-permission-prompts",
+      "tool": "claude-code",
+      "name": "/fewer-permission-prompts",
+      "aliases": [],
+      "kind": "skill",
+      "category": "安全",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/fewer-permission-prompts 用于调整权限、安全边界或高风险操作。官方说明：Scan your transcripts for common read-only Bash and MCP tool calls, then add a prioritized allowlist to project .claude/settings.json to reduce permission prompts",
+      "usage": "/fewer-permission-prompts",
+      "examples": [
+        "/fewer-permission-prompts"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:loop",
+      "tool": "claude-code",
+      "name": "/loop [interval] [prompt]",
+      "aliases": [],
+      "kind": "skill",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/loop 用于执行常用开发工作流。官方说明：Run a prompt repeatedly while the session stays open. Omit the interval and Claude self-paces between iterations. Omit the prompt and, where available, Claude runs an autonomous maintenance check or the prompt in .claude/loop.md. Example: /loop 5m check if the deploy finished. See Run prompts on a schedule. Alias: /proactive",
+      "usage": "/loop [interval] [prompt]",
+      "examples": [
+        "/loop [interval] [prompt]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:run",
+      "tool": "claude-code",
+      "name": "/run",
+      "aliases": [],
+      "kind": "skill",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/run 用于执行常用开发工作流。官方说明：Launch and drive your project's app to see a change working in the running app, not just in tests. See Run and verify your app. Requires Claude Code v2.1.145 or later",
+      "usage": "/run",
+      "examples": [
+        "/run"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:run-skill-generator",
+      "tool": "claude-code",
+      "name": "/run-skill-generator",
+      "aliases": [],
+      "kind": "skill",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/run-skill-generator 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Teach /run and /verify how to build, launch, and drive your project's app from a clean environment by writing a per-project skill. Requires Claude Code v2.1.145 or later",
+      "usage": "/run-skill-generator",
+      "examples": [
+        "/run-skill-generator"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:simplify",
+      "tool": "claude-code",
+      "name": "/simplify [target]",
+      "aliases": [],
+      "kind": "skill",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/simplify 用于执行常用开发工作流。官方说明：Review the changed code for cleanup opportunities and apply the fixes. Four review agents run in parallel, covering reuse of existing helpers, simplification, efficiency, and whether the change sits at the right level of abstraction. From v2.1.154, the review does not look for correctness bugs. Use /code-review to find bugs. On earlier versions /simplify is equivalent to /code-review --fix. Pass a path or PR reference to review a specific target",
+      "usage": "/simplify [target]",
+      "examples": [
+        "/simplify [target]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:verify",
+      "tool": "claude-code",
+      "name": "/verify",
+      "aliases": [],
+      "kind": "skill",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/verify 用于检查代码改动、Pull Request 或实现质量。官方说明：Confirm a code change does what it should by building your project's app, running it, and observing the result, rather than relying on tests or type checks. See Run and verify your app. Requires Claude Code v2.1.145 or later",
+      "usage": "/verify",
+      "examples": [
+        "/verify"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:add-dir",
+      "tool": "claude-code",
+      "name": "/add-dir <path>",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/add-dir 用于执行常用开发工作流。官方说明：Add a working directory for file access during the current session. Most .claude/ configuration is not discovered from the added directory. You can later resume the session from the added directory with --continue or --resume",
+      "usage": "/add-dir <path>",
+      "examples": [
+        "/add-dir <path>"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:agents",
+      "tool": "claude-code",
+      "name": "/agents",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/agents 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Manage agent configurations",
+      "usage": "/agents",
+      "examples": [
+        "/agents"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:autofix-pr",
+      "tool": "claude-code",
+      "name": "/autofix-pr [prompt]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/autofix-pr 用于检查代码改动、Pull Request 或实现质量。官方说明：Spawn a Claude Code on the web session that watches the current branch's PR and pushes fixes when CI fails or reviewers leave comments. Detects the open PR from your checked-out branch with gh pr view; to watch a different PR, check out its branch first. By default the remote session is told to fix every CI failure and review comment; pass a prompt to give it different instructions, for example /autofix-pr only fix lint and type errors. Requires the gh CLI and access to Claude Code on the web",
+      "usage": "/autofix-pr [prompt]",
+      "examples": [
+        "/autofix-pr [prompt]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:background",
+      "tool": "claude-code",
+      "name": "/background [prompt]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/background 用于管理会话、并行任务和远程工作。官方说明：Detach the current session to run as a background agent and free this terminal. Pass a prompt to send one more instruction before detaching. Monitor the session with claude agents. Alias: /bg",
+      "usage": "/background [prompt]",
+      "examples": [
+        "/background [prompt]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:branch",
+      "tool": "claude-code",
+      "name": "/branch [name]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/branch 用于管理会话、并行任务和远程工作。官方说明：Create a branch of the current conversation at this point, so you can try a different direction without losing the conversation as it stands. Switches you into the branch and preserves the original, which you can return to with /resume. To hand a side task to a background subagent instead of switching into a copy yourself, use /fork",
+      "usage": "/branch [name]",
+      "examples": [
+        "/branch [name]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:btw",
+      "tool": "claude-code",
+      "name": "/btw <question>",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/btw 用于执行常用开发工作流。官方说明：Ask a quick side question without adding to the conversation",
+      "usage": "/btw <question>",
+      "examples": [
+        "/btw <question>"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:chrome",
+      "tool": "claude-code",
+      "name": "/chrome",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/chrome 用于执行常用开发工作流。官方说明：Configure Claude in Chrome settings",
+      "usage": "/chrome",
+      "examples": [
+        "/chrome"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:clear",
+      "tool": "claude-code",
+      "name": "/clear [name]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/clear 用于控制上下文、记忆和对话历史。官方说明：Start a new conversation with empty context. The previous conversation stays available in /resume. Pass a name to label the previous conversation in the /resume picker. To free up context while continuing the same conversation, use /compact instead. Aliases: /reset, /new",
+      "usage": "/clear [name]",
+      "examples": [
+        "/clear [name]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:color",
+      "tool": "claude-code",
+      "name": "/color [color|default]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/color 用于调整终端界面和工具配置。官方说明：Set the prompt bar color for the current session. Available colors: red, blue, green, yellow, purple, orange, pink, cyan. Use default to reset, or run with no argument to pick a random color. When Remote Control is connected, the color syncs to claude.ai/code",
+      "usage": "/color [color|default]",
+      "examples": [
+        "/color [color|default]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:compact",
+      "tool": "claude-code",
+      "name": "/compact [instructions]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/compact 用于控制上下文、记忆和对话历史。官方说明：Free up context by summarizing the conversation so far. Optionally pass focus instructions for the summary. See how compaction handles rules, skills, and memory files",
+      "usage": "/compact [instructions]",
+      "examples": [
+        "/compact [instructions]"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:config",
+      "tool": "claude-code",
+      "name": "/config",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/config 用于调整终端界面和工具配置。官方说明：Open the Settings interface to adjust theme, model, output style, and other preferences. Alias: /settings",
+      "usage": "/config",
+      "examples": [
+        "/config"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:context",
+      "tool": "claude-code",
+      "name": "/context [all]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/context 用于控制上下文、记忆和对话历史。官方说明：Visualize current context usage as a colored grid. Shows optimization suggestions for context-heavy tools, memory bloat, and capacity warnings. In fullscreen mode the per-item breakdown is collapsed to keep the grid visible. Pass all to expand it",
+      "usage": "/context [all]",
+      "examples": [
+        "/context [all]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:copy",
+      "tool": "claude-code",
+      "name": "/copy [N]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "导入导出",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/copy 用于复制、分享、导入或导出内容。官方说明：Copy the last assistant response to clipboard. Pass a number N to copy the Nth-latest response: /copy 2 copies the second-to-last. When code blocks are present, shows an interactive picker to select individual blocks or the full response. Press w in the picker to write the selection to a file instead of the clipboard, which is useful over SSH",
+      "usage": "/copy [N]",
+      "examples": [
+        "/copy [N]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:cost",
+      "tool": "claude-code",
+      "name": "/cost",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/cost 用于查看状态、使用量或排查故障。官方说明：Alias for /usage",
+      "usage": "/cost",
+      "examples": [
+        "/cost"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:deep-research",
+      "tool": "claude-code",
+      "name": "/deep-research <question>",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/deep-research 用于执行常用开发工作流。官方说明：Fan out web searches on a question, fetch and cross-check sources, and synthesize a cited report",
+      "usage": "/deep-research <question>",
+      "examples": [
+        "/deep-research <question>"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:desktop",
+      "tool": "claude-code",
+      "name": "/desktop",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/desktop 用于执行常用开发工作流。官方说明：Continue the current session in the Claude Code Desktop app. Requires macOS or Windows and a Claude subscription. Alias: /app",
+      "usage": "/desktop",
+      "examples": [
+        "/desktop"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:diff",
+      "tool": "claude-code",
+      "name": "/diff",
+      "aliases": [],
+      "kind": "slash",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/diff 用于检查代码改动、Pull Request 或实现质量。官方说明：Open an interactive diff viewer showing uncommitted changes and per-turn diffs. Use left/right arrows to switch between the current git diff and individual Claude turns, and up/down to browse files",
+      "usage": "/diff",
+      "examples": [
+        "/diff"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:doctor",
+      "tool": "claude-code",
+      "name": "/doctor",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/doctor 用于查看状态、使用量或排查故障。官方说明：Diagnose and verify your Claude Code installation and settings. Results show with status icons. Press f to have Claude fix any reported issues",
+      "usage": "/doctor",
+      "examples": [
+        "/doctor"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:effort",
+      "tool": "claude-code",
+      "name": "/effort [level|auto]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "模型",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/effort 用于选择模型、推理强度或响应速度。官方说明：Set the model effort level. Accepts low, medium, high, xhigh, max, or ultracode; available levels depend on the model, and max and ultracode are session-only. ultracode is a Claude Code setting that combines xhigh reasoning with automatic workflow orchestration. auto resets to the model default. Without an argument, opens an interactive slider; use left and right arrows to pick a level and Enter to apply. Takes effect immediately without waiting for the current response to finish",
+      "usage": "/effort [level|auto]",
+      "examples": [
+        "/effort [level|auto]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:exit",
+      "tool": "claude-code",
+      "name": "/exit",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/exit 用于执行常用开发工作流。官方说明：Exit the CLI. In an attached background session, this detaches and the session keeps running. Alias: /quit",
+      "usage": "/exit",
+      "examples": [
+        "/exit"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:export",
+      "tool": "claude-code",
+      "name": "/export [filename]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "导入导出",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/export 用于复制、分享、导入或导出内容。官方说明：Export the current conversation as plain text. With a filename, writes directly to that file. Without, opens a dialog to copy to clipboard or save to a file",
+      "usage": "/export [filename]",
+      "examples": [
+        "/export [filename]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:fast",
+      "tool": "claude-code",
+      "name": "/fast [on|off]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "模型",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/fast 用于选择模型、推理强度或响应速度。官方说明：Toggle fast mode on or off",
+      "usage": "/fast [on|off]",
+      "examples": [
+        "/fast [on|off]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:feedback",
+      "tool": "claude-code",
+      "name": "/feedback [report]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/feedback 用于查看状态、使用量或排查故障。官方说明：Submit feedback, report a bug, or share your conversation. Aliases: /bug, /share",
+      "usage": "/feedback [report]",
+      "examples": [
+        "/feedback [report]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:focus",
+      "tool": "claude-code",
+      "name": "/focus",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/focus 用于执行常用开发工作流。官方说明：Toggle the focus view, which shows only your last prompt, a one-line tool-call summary with edit diffstats, and the final response. The selection persists across sessions; set viewMode in settings to override it. Only available in fullscreen rendering",
+      "usage": "/focus",
+      "examples": [
+        "/focus"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:fork",
+      "tool": "claude-code",
+      "name": "/fork <directive>",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/fork 用于管理会话、并行任务和远程工作。官方说明：Spawn a forked subagent: a background subagent that inherits the full conversation and works on the directive while you keep going. Its result returns to your conversation when it finishes. To switch into a copy of the conversation yourself, use /branch. Before v2.1.161, /fork is an alias for /branch",
+      "usage": "/fork <directive>",
+      "examples": [
+        "/fork <directive>"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:goal",
+      "tool": "claude-code",
+      "name": "/goal [condition|clear]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/goal 用于执行常用开发工作流。官方说明：Set a goal: Claude keeps working across turns until the condition is met. With no argument, shows the current or most recently achieved goal. clear, stop, off, reset, none, or cancel removes an active goal early",
+      "usage": "/goal [condition|clear]",
+      "examples": [
+        "/goal [condition|clear]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:heapdump",
+      "tool": "claude-code",
+      "name": "/heapdump",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/heapdump 用于查看状态、使用量或排查故障。官方说明：Write a JavaScript heap snapshot and a memory breakdown to ~/Desktop, or your home directory on Linux without a Desktop folder, for diagnosing high memory usage. See troubleshooting",
+      "usage": "/heapdump",
+      "examples": [
+        "/heapdump"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:help",
+      "tool": "claude-code",
+      "name": "/help",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/help 用于执行常用开发工作流。官方说明：Show help and available commands",
+      "usage": "/help",
+      "examples": [
+        "/help"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:hooks",
+      "tool": "claude-code",
+      "name": "/hooks",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/hooks 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：View hook configurations for tool events",
+      "usage": "/hooks",
+      "examples": [
+        "/hooks"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:ide",
+      "tool": "claude-code",
+      "name": "/ide",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/ide 用于执行常用开发工作流。官方说明：Manage IDE integrations and show status",
+      "usage": "/ide",
+      "examples": [
+        "/ide"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:init",
+      "tool": "claude-code",
+      "name": "/init",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/init 用于执行常用开发工作流。官方说明：Initialize project with a CLAUDE.md guide. Set CLAUDECODENEWINIT=1 for an interactive flow that also walks through skills, hooks, and personal memory files",
+      "usage": "/init",
+      "examples": [
+        "/init"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:insights",
+      "tool": "claude-code",
+      "name": "/insights",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/insights 用于执行常用开发工作流。官方说明：Generate a report analyzing your Claude Code sessions, including project areas, interaction patterns, and friction points",
+      "usage": "/insights",
+      "examples": [
+        "/insights"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:install-github-app",
+      "tool": "claude-code",
+      "name": "/install-github-app",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/install-github-app 用于处理安装、升级和账号认证。官方说明：Set up the Claude GitHub Actions app for a repository. Walks you through selecting a repo and configuring the integration",
+      "usage": "/install-github-app",
+      "examples": [
+        "/install-github-app"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:install-slack-app",
+      "tool": "claude-code",
+      "name": "/install-slack-app",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/install-slack-app 用于处理安装、升级和账号认证。官方说明：Install the Claude Slack app. Opens a browser to complete the OAuth flow",
+      "usage": "/install-slack-app",
+      "examples": [
+        "/install-slack-app"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:keybindings",
+      "tool": "claude-code",
+      "name": "/keybindings",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/keybindings 用于调整终端界面和工具配置。官方说明：Open your keyboard shortcuts file",
+      "usage": "/keybindings",
+      "examples": [
+        "/keybindings"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:login",
+      "tool": "claude-code",
+      "name": "/login",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/login 用于处理安装、升级和账号认证。官方说明：Sign in to your Anthropic account",
+      "usage": "/login",
+      "examples": [
+        "/login"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:logout",
+      "tool": "claude-code",
+      "name": "/logout",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/logout 用于处理安装、升级和账号认证。官方说明：Sign out from your Anthropic account",
+      "usage": "/logout",
+      "examples": [
+        "/logout"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:mcp",
+      "tool": "claude-code",
+      "name": "/mcp",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/mcp 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Manage MCP server connections and OAuth authentication",
+      "usage": "/mcp",
+      "examples": [
+        "/mcp"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:memory",
+      "tool": "claude-code",
+      "name": "/memory",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/memory 用于控制上下文、记忆和对话历史。官方说明：Edit CLAUDE.md memory files, enable or disable auto-memory, and view auto-memory entries",
+      "usage": "/memory",
+      "examples": [
+        "/memory"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:mobile",
+      "tool": "claude-code",
+      "name": "/mobile",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/mobile 用于执行常用开发工作流。官方说明：Show QR code to download the Claude mobile app. Aliases: /ios, /android",
+      "usage": "/mobile",
+      "examples": [
+        "/mobile"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:model",
+      "tool": "claude-code",
+      "name": "/model [model]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "模型",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/model 用于选择模型、推理强度或响应速度。官方说明：Switch the AI model and save it as your default for new sessions. For models that support it, use left/right arrows to adjust effort level. With no argument, opens a picker; press s on a row to switch for the current session only. The picker asks for confirmation when the conversation has prior output, since the next response re-reads the full history without cached context. Once confirmed, the change applies without waiting for the current response to finish",
+      "usage": "/model [model]",
+      "examples": [
+        "/model [model]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:passes",
+      "tool": "claude-code",
+      "name": "/passes",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/passes 用于执行常用开发工作流。官方说明：Share a free week of Claude Code with friends. Only visible if your account is eligible",
+      "usage": "/passes",
+      "examples": [
+        "/passes"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:permissions",
+      "tool": "claude-code",
+      "name": "/permissions",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安全",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/permissions 用于调整权限、安全边界或高风险操作。官方说明：Manage allow, ask, and deny rules for tool permissions. Opens an interactive dialog where you can view rules by scope, add or remove rules, manage working directories, and review recent auto mode denials. Alias: /allowed-tools",
+      "usage": "/permissions",
+      "examples": [
+        "/permissions"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:plan",
+      "tool": "claude-code",
+      "name": "/plan [description]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/plan 用于执行常用开发工作流。官方说明：Enter plan mode directly from the prompt. Pass an optional description to enter plan mode and immediately start with that task, for example /plan fix the auth bug",
+      "usage": "/plan [description]",
+      "examples": [
+        "/plan [description]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:plugin",
+      "tool": "claude-code",
+      "name": "/plugin [subcommand]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/plugin 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Manage Claude Code plugins. Run with no argument to open the plugin menu, or pass a subcommand such as list, install, enable, or disable to act directly",
+      "usage": "/plugin [subcommand]",
+      "examples": [
+        "/plugin [subcommand]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:powerup",
+      "tool": "claude-code",
+      "name": "/powerup",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/powerup 用于执行常用开发工作流。官方说明：Discover Claude Code features through quick interactive lessons with animated demos",
+      "usage": "/powerup",
+      "examples": [
+        "/powerup"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:pr-comments",
+      "tool": "claude-code",
+      "name": "/pr-comments [PR]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": "见官方说明",
+      "removedIn": "见官方说明",
+      "maturity": "stable",
+      "summaryZh": "/pr-comments 用于检查代码改动、Pull Request 或实现质量。官方说明：Removed in v2.1.91. Ask Claude directly to view pull request comments instead. On earlier versions, fetches and displays comments from a GitHub pull request; automatically detects the PR for the current branch, or pass a PR URL or number. Requires the gh CLI",
+      "usage": "/pr-comments [PR]",
+      "examples": [
+        "/pr-comments [PR]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:privacy-settings",
+      "tool": "claude-code",
+      "name": "/privacy-settings",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安全",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/privacy-settings 用于调整权限、安全边界或高风险操作。官方说明：View and update your privacy settings. Only available for Pro and Max plan subscribers",
+      "usage": "/privacy-settings",
+      "examples": [
+        "/privacy-settings"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:radio",
+      "tool": "claude-code",
+      "name": "/radio",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/radio 用于执行常用开发工作流。官方说明：Open Claude FM lo-fi radio in your browser. Prints the stream URL when no browser is available. Not available on Bedrock, Vertex, or Foundry",
+      "usage": "/radio",
+      "examples": [
+        "/radio"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:recap",
+      "tool": "claude-code",
+      "name": "/recap",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/recap 用于控制上下文、记忆和对话历史。官方说明：Generate a one-line summary of the current session on demand. See Session recap for the automatic recap that appears after you've been away",
+      "usage": "/recap",
+      "examples": [
+        "/recap"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:release-notes",
+      "tool": "claude-code",
+      "name": "/release-notes",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/release-notes 用于执行常用开发工作流。官方说明：View the changelog in an interactive version picker. Select a specific version to see its release notes, or choose to show all versions",
+      "usage": "/release-notes",
+      "examples": [
+        "/release-notes"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:reload-plugins",
+      "tool": "claude-code",
+      "name": "/reload-plugins [--force]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/reload-plugins 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Reload all active plugins to apply pending changes without restarting. Reports counts for each reloaded component and flags any load errors. When the reload would change which MCP tools are loaded and invalidate the prompt cache, the command warns and skips unless you pass --force",
+      "usage": "/reload-plugins [--force]",
+      "examples": [
+        "/reload-plugins [--force]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:reload-skills",
+      "tool": "claude-code",
+      "name": "/reload-skills",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": "见官方说明",
+      "removedIn": "见官方说明",
+      "maturity": "stable",
+      "summaryZh": "/reload-skills 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Re-scan skill and command directories so skills added or changed on disk during the session become available without restarting. Reports how many skills are available and how many were added or removed. Added in v2.1.152",
+      "usage": "/reload-skills",
+      "examples": [
+        "/reload-skills"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:remote-control",
+      "tool": "claude-code",
+      "name": "/remote-control",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/remote-control 用于管理会话、并行任务和远程工作。官方说明：Make this session available for remote control from claude.ai. Alias: /rc",
+      "usage": "/remote-control",
+      "examples": [
+        "/remote-control"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100",
+          "可能向远端服务发送源码或上下文"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:remote-env",
+      "tool": "claude-code",
+      "name": "/remote-env",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/remote-env 用于管理会话、并行任务和远程工作。官方说明：Choose the default environment for cloud agents",
+      "usage": "/remote-env",
+      "examples": [
+        "/remote-env"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100",
+          "可能向远端服务发送源码或上下文"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:rename",
+      "tool": "claude-code",
+      "name": "/rename [name]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/rename 用于执行常用开发工作流。官方说明：Rename the current session and show the name on the prompt bar. Without a name, auto-generates one from conversation history",
+      "usage": "/rename [name]",
+      "examples": [
+        "/rename [name]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:resume",
+      "tool": "claude-code",
+      "name": "/resume [session]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/resume 用于管理会话、并行任务和远程工作。官方说明：Resume a conversation by ID or name, or open the session picker. As of v2.1.144, background sessions appear in the picker marked with bg. Alias: /continue",
+      "usage": "/resume [session]",
+      "examples": [
+        "/resume [session]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:review",
+      "tool": "claude-code",
+      "name": "/review [PR]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/review 用于检查代码改动、Pull Request 或实现质量。官方说明：Review a pull request locally in your current session. For a deeper cloud-based review, see /code-review ultra",
+      "usage": "/review [PR]",
+      "examples": [
+        "/review [PR]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:rewind",
+      "tool": "claude-code",
+      "name": "/rewind",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/rewind 用于控制上下文、记忆和对话历史。官方说明：Rewind the conversation and/or code to a previous point, or summarize from a selected message. See checkpointing. Aliases: /checkpoint, /undo",
+      "usage": "/rewind",
+      "examples": [
+        "/rewind"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:sandbox",
+      "tool": "claude-code",
+      "name": "/sandbox",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安全",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/sandbox 用于调整权限、安全边界或高风险操作。官方说明：Toggle sandbox mode. Available on supported platforms only",
+      "usage": "/sandbox",
+      "examples": [
+        "/sandbox"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:schedule",
+      "tool": "claude-code",
+      "name": "/schedule [description]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/schedule 用于执行常用开发工作流。官方说明：Create, update, list, or run routines, which execute on Anthropic-managed cloud infrastructure. Claude walks you through the setup conversationally. Alias: /routines",
+      "usage": "/schedule [description]",
+      "examples": [
+        "/schedule [description]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:scroll-speed",
+      "tool": "claude-code",
+      "name": "/scroll-speed",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "experimental",
+      "summaryZh": "/scroll-speed 用于执行常用开发工作流。官方说明：Adjust mouse wheel scroll speed interactively, with a ruler you can scroll while the dialog is open to preview the change. Available in fullscreen rendering only and not in the JetBrains IDE terminal",
+      "usage": "/scroll-speed",
+      "examples": [
+        "/scroll-speed"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 76,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 45/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 45,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:security-review",
+      "tool": "claude-code",
+      "name": "/security-review",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安全",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/security-review 用于调整权限、安全边界或高风险操作。官方说明：Analyze pending changes on the current branch for security vulnerabilities. Reviews the git diff and identifies risks like injection, auth issues, and data exposure",
+      "usage": "/security-review",
+      "examples": [
+        "/security-review"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:setup-bedrock",
+      "tool": "claude-code",
+      "name": "/setup-bedrock",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/setup-bedrock 用于处理安装、升级和账号认证。官方说明：Configure Amazon Bedrock authentication, region, and model pins through an interactive wizard. Only visible when CLAUDECODEUSEBEDROCK=1 is set. First-time Bedrock users can also access this wizard from the login screen",
+      "usage": "/setup-bedrock",
+      "examples": [
+        "/setup-bedrock"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:setup-vertex",
+      "tool": "claude-code",
+      "name": "/setup-vertex",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/setup-vertex 用于处理安装、升级和账号认证。官方说明：Configure Google Vertex AI authentication, project, region, and model pins through an interactive wizard. Only visible when CLAUDECODEUSEVERTEX=1 is set. First-time Vertex AI users can also access this wizard from the login screen",
+      "usage": "/setup-vertex",
+      "examples": [
+        "/setup-vertex"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:skills",
+      "tool": "claude-code",
+      "name": "/skills",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/skills 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：List available skills. Press t to sort by token count. Press Space to hide a skill from Claude or the / menu, then Enter to save",
+      "usage": "/skills",
+      "examples": [
+        "/skills"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:stats",
+      "tool": "claude-code",
+      "name": "/stats",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/stats 用于查看状态、使用量或排查故障。官方说明：Alias for /usage. Opens on the Stats tab",
+      "usage": "/stats",
+      "examples": [
+        "/stats"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:status",
+      "tool": "claude-code",
+      "name": "/status",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/status 用于查看状态、使用量或排查故障。官方说明：Open the Settings interface (Status tab) showing version, model, account, and connectivity. Works while Claude is responding, without waiting for the current response to finish",
+      "usage": "/status",
+      "examples": [
+        "/status"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:statusline",
+      "tool": "claude-code",
+      "name": "/statusline",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/statusline 用于调整终端界面和工具配置。官方说明：Configure Claude Code's status line. Describe what you want, or run without arguments to auto-configure from your shell prompt",
+      "usage": "/statusline",
+      "examples": [
+        "/statusline"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:stickers",
+      "tool": "claude-code",
+      "name": "/stickers",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/stickers 用于执行常用开发工作流。官方说明：Order Claude Code stickers",
+      "usage": "/stickers",
+      "examples": [
+        "/stickers"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:stop",
+      "tool": "claude-code",
+      "name": "/stop",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/stop 用于执行常用开发工作流。官方说明：Stop the current background session. Only available while attached to a background session; the transcript and any worktree are kept. To detach without stopping, use /exit or press ←",
+      "usage": "/stop",
+      "examples": [
+        "/stop"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:tasks",
+      "tool": "claude-code",
+      "name": "/tasks",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/tasks 用于管理会话、并行任务和远程工作。官方说明：View and manage everything running in the background. Also available as /bashes",
+      "usage": "/tasks",
+      "examples": [
+        "/tasks"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:team-onboarding",
+      "tool": "claude-code",
+      "name": "/team-onboarding",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/team-onboarding 用于执行常用开发工作流。官方说明：Generate a team onboarding guide from your Claude Code usage history. Claude analyzes your sessions, commands, and MCP server usage from the past 30 days and produces a markdown guide a teammate can paste as a first message to get set up quickly. For claude.ai subscribers on Pro, Max, Team, and Enterprise plans, also returns a share link teammates can open directly in Claude Code",
+      "usage": "/team-onboarding",
+      "examples": [
+        "/team-onboarding"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:teleport",
+      "tool": "claude-code",
+      "name": "/teleport",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/teleport 用于管理会话、并行任务和远程工作。官方说明：Pull a Claude Code on the web session into this terminal: opens a picker, then fetches the branch and conversation. Also available as /tp. Requires a claude.ai subscription",
+      "usage": "/teleport",
+      "examples": [
+        "/teleport"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:terminal-setup",
+      "tool": "claude-code",
+      "name": "/terminal-setup",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/terminal-setup 用于处理安装、升级和账号认证。官方说明：Configure terminal keybindings for Shift+Enter and other shortcuts. Only visible in terminals that need it, like VS Code, Cursor, Devin Desktop, Alacritty, or Zed",
+      "usage": "/terminal-setup",
+      "examples": [
+        "/terminal-setup"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:theme",
+      "tool": "claude-code",
+      "name": "/theme",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/theme 用于调整终端界面和工具配置。官方说明：Change the color theme. Includes an auto option that matches your terminal's light or dark background, light and dark variants, colorblind-accessible (daltonized) themes, ANSI themes that use your terminal's color palette, and any custom themes from ~/.claude/themes/ or plugins. Select New custom theme… to create one",
+      "usage": "/theme",
+      "examples": [
+        "/theme"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:tui",
+      "tool": "claude-code",
+      "name": "/tui [default|fullscreen]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/tui 用于调整终端界面和工具配置。官方说明：Set the terminal UI renderer and relaunch into it with your conversation intact. fullscreen enables the flicker-free alt-screen renderer. With no argument, prints the active renderer",
+      "usage": "/tui [default|fullscreen]",
+      "examples": [
+        "/tui [default|fullscreen]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:ultraplan",
+      "tool": "claude-code",
+      "name": "/ultraplan <prompt>",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/ultraplan 用于执行常用开发工作流。官方说明：Draft a plan in an ultraplan session, review it in your browser, then execute remotely or send it back to your terminal",
+      "usage": "/ultraplan <prompt>",
+      "examples": [
+        "/ultraplan <prompt>"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:ultrareview",
+      "tool": "claude-code",
+      "name": "/ultrareview [PR]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "评审",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/ultrareview 用于检查代码改动、Pull Request 或实现质量。官方说明：Run a deep, multi-agent code review in a cloud sandbox with ultrareview. The preferred invocation is now /code-review ultra, and /ultrareview remains as an alias. Includes 3 free runs on Pro and Max, then requires usage credits",
+      "usage": "/ultrareview [PR]",
+      "examples": [
+        "/ultrareview [PR]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:upgrade",
+      "tool": "claude-code",
+      "name": "/upgrade",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/upgrade 用于处理安装、升级和账号认证。官方说明：Open the upgrade page to switch to a higher plan tier",
+      "usage": "/upgrade",
+      "examples": [
+        "/upgrade"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:usage",
+      "tool": "claude-code",
+      "name": "/usage",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/usage 用于查看状态、使用量或排查故障。官方说明：Show session cost, plan usage limits, and activity stats. On a Pro, Max, Team, or Enterprise plan, includes a breakdown of usage by skill, subagent, plugin, and MCP server. See the cost tracking guide for details. /cost and /stats are aliases",
+      "usage": "/usage",
+      "examples": [
+        "/usage"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:usage-credits",
+      "tool": "claude-code",
+      "name": "/usage-credits",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/usage-credits 用于查看状态、使用量或排查故障。官方说明：Configure usage credits to keep working when you hit a limit. Previously /extra-usage",
+      "usage": "/usage-credits",
+      "examples": [
+        "/usage-credits"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:vim",
+      "tool": "claude-code",
+      "name": "/vim",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": "见官方说明",
+      "removedIn": "见官方说明",
+      "maturity": "stable",
+      "summaryZh": "/vim 用于执行常用开发工作流。官方说明：Removed in v2.1.92. To toggle between Vim and Normal editing modes, use /config → Editor mode",
+      "usage": "/vim",
+      "examples": [
+        "/vim"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:voice",
+      "tool": "claude-code",
+      "name": "/voice [hold|tap|off]",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/voice 用于执行常用开发工作流。官方说明：Toggle voice dictation, or enable it in a specific mode. Requires a Claude.ai account",
+      "usage": "/voice [hold|tap|off]",
+      "examples": [
+        "/voice [hold|tap|off]"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:web-setup",
+      "tool": "claude-code",
+      "name": "/web-setup",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/web-setup 用于处理安装、升级和账号认证。官方说明：Connect your GitHub account to Claude Code on the web using your local gh CLI credentials. /schedule prompts for this automatically if GitHub isn't connected",
+      "usage": "/web-setup",
+      "examples": [
+        "/web-setup"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 78,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100",
+          "可能向远端服务发送源码或上下文"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:slash:workflows",
+      "tool": "claude-code",
+      "name": "/workflows",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/workflows 用于管理会话、并行任务和远程工作。官方说明：Open the workflow progress view to watch, pause, resume, or save running and completed workflows",
+      "usage": "/workflows",
+      "examples": [
+        "/workflows"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://code.claude.com/docs/en/commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "claude-code:skill:batch",
+      "slug": "claude-code-batch",
+      "name": "batch",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/batch 用于执行常用开发工作流。官方说明：Orchestrate large-scale changes across a codebase in parallel. Researches the codebase, decomposes the work into 5 to 30 independent units, and presents a plan. Once approved, spawns one background subagent per unit in an isolated git worktree. Each subagent implements its unit, runs tests, and opens a pull request. Requires a git repository. Example: /batch migrate src/ from Solid to React",
+      "useCases": [
+        "执行常用开发工作流",
+        "需要通过 /batch 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/batch <instruction>"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/batch",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:claude-api",
+      "slug": "claude-code-claude-api",
+      "name": "claude-api",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/claude-api 用于执行常用开发工作流。官方说明：Load Claude API reference material for your project's language (Python, TypeScript, Java, Go, Ruby, C#, PHP, or cURL) and Managed Agents reference. Covers tool use, streaming, batches, structured outputs, and common pitfalls. Also activates automatically when your code imports anthropic or @anthropic-ai/sdk. Run /claude-api migrate to upgrade existing Claude API code to a newer model: Claude asks which files to scan and which model to target, then updates model IDs, thinking configuration, and other parameters that changed between versions. Run /claude-api managed-agents-onboard for an interactive walkthrough that creates a new Managed Agent from scratch",
+      "useCases": [
+        "执行常用开发工作流",
+        "需要通过 /claude-api 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/claude-api [migrate|managed-agents-onboard]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/claude-api",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:code-review",
+      "slug": "claude-code-code-review",
+      "name": "code-review",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/code-review 用于检查代码改动、Pull Request 或实现质量。官方说明：Review the current diff for correctness bugs and for reuse, simplification, and efficiency cleanups. Pass --fix to apply findings to your working tree, --comment to post them as inline GitHub PR comments, or ultra to run a deep cloud review. From v2.1.154, /simplify runs a separate cleanup-only review that applies fixes without hunting for bugs. See Review a diff locally for effort levels and targeting",
+      "useCases": [
+        "检查代码改动、Pull Request 或实现质量",
+        "需要通过 /code-review 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/code-review [low|medium|high|xhigh|max|ultra] [--fix] [--comment] [target]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/code-review",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:debug",
+      "slug": "claude-code-debug",
+      "name": "debug",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/debug 用于查看状态、使用量或排查故障。官方说明：Enable debug logging for the current session and troubleshoot issues by reading the session debug log. Debug logging is off by default unless you started with claude --debug, so running /debug mid-session starts capturing logs from that point forward. Optionally describe the issue to focus the analysis",
+      "useCases": [
+        "查看状态、使用量或排查故障",
+        "需要通过 /debug 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/debug [description]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/debug",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:fewer-permission-prompts",
+      "slug": "claude-code-fewer-permission-prompts",
+      "name": "fewer-permission-prompts",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/fewer-permission-prompts 用于调整权限、安全边界或高风险操作。官方说明：Scan your transcripts for common read-only Bash and MCP tool calls, then add a prioritized allowlist to project .claude/settings.json to reduce permission prompts",
+      "useCases": [
+        "调整权限、安全边界或高风险操作",
+        "需要通过 /fewer-permission-prompts 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/fewer-permission-prompts"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/fewer-permission-prompts",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:loop",
+      "slug": "claude-code-loop",
+      "name": "loop",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/loop 用于执行常用开发工作流。官方说明：Run a prompt repeatedly while the session stays open. Omit the interval and Claude self-paces between iterations. Omit the prompt and, where available, Claude runs an autonomous maintenance check or the prompt in .claude/loop.md. Example: /loop 5m check if the deploy finished. See Run prompts on a schedule. Alias: /proactive",
+      "useCases": [
+        "执行常用开发工作流",
+        "需要通过 /loop 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/loop [interval] [prompt]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/loop",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:run",
+      "slug": "claude-code-run",
+      "name": "run",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/run 用于执行常用开发工作流。官方说明：Launch and drive your project's app to see a change working in the running app, not just in tests. See Run and verify your app. Requires Claude Code v2.1.145 or later",
+      "useCases": [
+        "执行常用开发工作流",
+        "需要通过 /run 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/run"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/run",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:run-skill-generator",
+      "slug": "claude-code-run-skill-generator",
+      "name": "run-skill-generator",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/run-skill-generator 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Teach /run and /verify how to build, launch, and drive your project's app from a clean environment by writing a per-project skill. Requires Claude Code v2.1.145 or later",
+      "useCases": [
+        "管理 Skills、插件、Agents、Hooks 或 MCP 扩展",
+        "需要通过 /run-skill-generator 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/run-skill-generator"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/run-skill-generator",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:simplify",
+      "slug": "claude-code-simplify",
+      "name": "simplify",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/simplify 用于执行常用开发工作流。官方说明：Review the changed code for cleanup opportunities and apply the fixes. Four review agents run in parallel, covering reuse of existing helpers, simplification, efficiency, and whether the change sits at the right level of abstraction. From v2.1.154, the review does not look for correctness bugs. Use /code-review to find bugs. On earlier versions /simplify is equivalent to /code-review --fix. Pass a path or PR reference to review a specific target",
+      "useCases": [
+        "执行常用开发工作流",
+        "需要通过 /simplify 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/simplify [target]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/simplify",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "claude-code:skill:verify",
+      "slug": "claude-code-verify",
+      "name": "verify",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/verify 用于检查代码改动、Pull Request 或实现质量。官方说明：Confirm a code change does what it should by building your project's app, running it, and observing the result, rather than relying on tests or type checks. See Run and verify your app. Requires Claude Code v2.1.145 or later",
+      "useCases": [
+        "检查代码改动、Pull Request 或实现质量",
+        "需要通过 /verify 执行官方内置工作流时"
+      ],
+      "usage": [
+        "/verify"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/verify",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    }
+  ],
+  "changes": [
+    {
+      "id": "claude-code-2.1.168",
+      "tool": "claude-code",
+      "version": "2.1.168",
+      "publishedAt": "2026-06-06",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.168 发布",
+      "summaryZh": "从 2.1.167 更新到 2.1.168。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
+        "official": true
+      }
+    },
+    {
+      "id": "claude-code-2.1.167",
+      "tool": "claude-code",
+      "version": "2.1.167",
+      "publishedAt": "2026-06-06",
+      "type": "changed",
+      "titleZh": "可靠性修复",
+      "summaryZh": "本次版本集中改善稳定性和可靠性。",
+      "commandIds": [],
+      "source": {
+        "label": "官方更新日志",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "official": true
+      }
+    },
+    {
+      "id": "claude-code-2.1.166",
+      "tool": "claude-code",
+      "version": "2.1.166",
+      "publishedAt": "2026-06-06",
+      "type": "security",
+      "titleZh": "回退模型与权限规则增强",
+      "summaryZh": "新增多级回退模型，并加强跨会话消息和 deny 规则安全性。",
+      "commandIds": [],
+      "source": {
+        "label": "官方更新日志",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "official": true
+      }
+    }
+  ]
+}

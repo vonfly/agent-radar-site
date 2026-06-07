@@ -1,0 +1,15 @@
+{
+  "id": "opencode-1.16.2",
+  "tool": "opencode",
+  "version": "1.16.2",
+  "publishedAt": "2026-06-05",
+  "type": "changed",
+  "titleZh": "OpenCode 1.16.2 发布",
+  "summaryZh": "从 1.15.11 更新到 1.16.2。Core Bugfixes - Reasoning summaries now only run on providers that support them, avoiding GPT-5 request failures on compatible backends. - Edit operations now refuse loose matches that could overwrite the wrong code or replace an existing file by mistake.",
+  "commandIds": [],
+  "source": {
+    "label": "官方 GitHub Release",
+    "url": "https://github.com/anomalyco/opencode/releases/tag/v1.16.2",
+    "official": true
+  }
+}

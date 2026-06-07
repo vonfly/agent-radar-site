@@ -1,0 +1,15 @@
+{
+  "id": "codex-0.137.0",
+  "tool": "codex",
+  "version": "0.137.0",
+  "publishedAt": "2026-06-04",
+  "type": "changed",
+  "titleZh": "TUI 与企业配置改进",
+  "summaryZh": "新增更多键位支持，并改善企业额度与云端托管配置。",
+  "commandIds": [],
+  "source": {
+    "label": "官方更新日志",
+    "url": "https://developers.openai.com/codex/changelog",
+    "official": true
+  }
+}

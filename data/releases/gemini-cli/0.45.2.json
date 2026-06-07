@@ -1,0 +1,15 @@
+{
+  "id": "gemini-cli-0.45.2",
+  "tool": "gemini-cli",
+  "version": "0.45.2",
+  "publishedAt": "2026-06-05",
+  "type": "changed",
+  "titleZh": "Gemini CLI 0.45.2 发布",
+  "summaryZh": "从 0.43.0 更新到 0.45.2。What's Changed fix(patch): cherry-pick f40498d to release/v0.45.1-pr-27676 to patch version v0.45.1 and create version 0.45.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27700 Full Changelog: https://github.com/google-gemini/gemini-cli/compare/v0.45.1...v0.45.2",
+  "commandIds": [],
+  "source": {
+    "label": "官方 GitHub Release",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.2",
+    "official": true
+  }
+}

@@ -1,0 +1,2113 @@
+{
+  "generatedAt": "2026-06-07T01:45:04.510Z",
+  "tool": {
+    "slug": "opencode",
+    "name": "OpenCode",
+    "vendor": "Anomaly",
+    "descriptionZh": "支持多模型、多提供商和本地扩展的开源编码智能体。",
+    "latestVersion": "1.16.2",
+    "latestReleaseDate": "2026-06-05",
+    "repository": "https://github.com/anomalyco/opencode",
+    "docs": "https://opencode.ai/docs/",
+    "installCommand": "npm install -g opencode-ai",
+    "accent": "#f2b84b"
+  },
+  "commands": [
+    {
+      "id": "opencode:cli:opencode",
+      "tool": "opencode",
+      "name": "opencode",
+      "aliases": [],
+      "kind": "cli",
+      "category": "会话",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "在当前项目中启动 OpenCode TUI。",
+      "usage": "opencode",
+      "examples": [
+        "opencode"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T15:08:52.962Z",
+        "version": "1.16.2",
+        "detail": "已运行验证：opencode --version、opencode --help、opencode run --help、opencode agent --help、opencode mcp --help"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI 文档",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T15:08:52.962Z"
+    },
+    {
+      "id": "opencode:cli:opencode-acp",
+      "tool": "opencode",
+      "name": "opencode acp",
+      "aliases": [],
+      "kind": "cli",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode acp 用于执行常用开发工作流。官方说明：Start an ACP (Agent Client Protocol) server.",
+      "usage": "opencode acp",
+      "examples": [
+        "opencode acp"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-agent",
+      "tool": "opencode",
+      "name": "opencode agent",
+      "aliases": [],
+      "kind": "cli",
+      "category": "扩展",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode agent 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Manage agents for OpenCode.",
+      "usage": "opencode agent",
+      "examples": [
+        "opencode agent"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-attach",
+      "tool": "opencode",
+      "name": "opencode attach",
+      "aliases": [],
+      "kind": "cli",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode attach 用于执行常用开发工作流。官方说明：Attach a terminal to an already running OpenCode backend server started via serve or web commands.",
+      "usage": "opencode attach",
+      "examples": [
+        "opencode attach"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-auth",
+      "tool": "opencode",
+      "name": "opencode auth",
+      "aliases": [],
+      "kind": "cli",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode auth 用于处理安装、升级和账号认证。官方说明：Command to manage credentials and login for providers.",
+      "usage": "opencode auth",
+      "examples": [
+        "opencode auth"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-db",
+      "tool": "opencode",
+      "name": "opencode db",
+      "aliases": [],
+      "kind": "cli",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode db 用于执行常用开发工作流。官方说明：Database tools.",
+      "usage": "opencode db",
+      "examples": [
+        "opencode db"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-debug",
+      "tool": "opencode",
+      "name": "opencode debug",
+      "aliases": [],
+      "kind": "cli",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode debug 用于查看状态、使用量或排查故障。官方说明：Debugging and troubleshooting tools.",
+      "usage": "opencode debug",
+      "examples": [
+        "opencode debug"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-export",
+      "tool": "opencode",
+      "name": "opencode export",
+      "aliases": [],
+      "kind": "cli",
+      "category": "导入导出",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode export 用于复制、分享、导入或导出内容。官方说明：Export session data as JSON.",
+      "usage": "opencode export",
+      "examples": [
+        "opencode export"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-github",
+      "tool": "opencode",
+      "name": "opencode github",
+      "aliases": [],
+      "kind": "cli",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode github 用于执行常用开发工作流。官方说明：Manage the GitHub agent for repository automation.",
+      "usage": "opencode github",
+      "examples": [
+        "opencode github"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-import",
+      "tool": "opencode",
+      "name": "opencode import",
+      "aliases": [],
+      "kind": "cli",
+      "category": "导入导出",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode import 用于复制、分享、导入或导出内容。官方说明：Import session data from a JSON file or OpenCode share URL.",
+      "usage": "opencode import",
+      "examples": [
+        "opencode import"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-mcp",
+      "tool": "opencode",
+      "name": "opencode mcp",
+      "aliases": [],
+      "kind": "cli",
+      "category": "扩展",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode mcp 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Manage Model Context Protocol servers.",
+      "usage": "opencode mcp",
+      "examples": [
+        "opencode mcp"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-models",
+      "tool": "opencode",
+      "name": "opencode models",
+      "aliases": [],
+      "kind": "cli",
+      "category": "模型",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode models 用于选择模型、推理强度或响应速度。官方说明：List all available models from configured providers.",
+      "usage": "opencode models",
+      "examples": [
+        "opencode models"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-plugin",
+      "tool": "opencode",
+      "name": "opencode plugin",
+      "aliases": [],
+      "kind": "cli",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode plugin 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Install a plugin and update your config.",
+      "usage": "opencode plugin",
+      "examples": [
+        "opencode plugin"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-pr",
+      "tool": "opencode",
+      "name": "opencode pr",
+      "aliases": [],
+      "kind": "cli",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode pr 用于执行常用开发工作流。官方说明：Fetch and checkout a GitHub PR branch, then run OpenCode.",
+      "usage": "opencode pr",
+      "examples": [
+        "opencode pr"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-project",
+      "tool": "opencode",
+      "name": "opencode project",
+      "aliases": [],
+      "kind": "cli",
+      "category": "待分类",
+      "introducedIn": "1.16.2",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "unknown",
+      "summaryZh": "自动发现的新子命令。官方 help 说明：path to start opencode in                                                        [string]",
+      "usage": "opencode project --help",
+      "examples": [
+        "opencode project --help"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "runtime",
+        "checkedAt": "2026-06-06T15:08:52.962Z",
+        "version": "1.16.2",
+        "detail": "已运行验证：opencode --version、opencode --help、opencode run --help、opencode agent --help、opencode mcp --help"
+      },
+      "assessment": {
+        "score": 73,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 55/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 55,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方 CLI help 与文档",
+          "url": "https://opencode.ai/docs/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-06T15:08:52.962Z"
+    },
+    {
+      "id": "opencode:cli:opencode-run",
+      "tool": "opencode",
+      "name": "opencode run",
+      "aliases": [],
+      "kind": "cli",
+      "category": "工作流",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode run 用于执行常用开发工作流。官方说明：Run opencode in non-interactive mode by passing a prompt directly.",
+      "usage": "opencode run",
+      "examples": [
+        "opencode run"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-serve",
+      "tool": "opencode",
+      "name": "opencode serve",
+      "aliases": [],
+      "kind": "cli",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode serve 用于执行常用开发工作流。官方说明：Start a headless OpenCode server for API access. Check out the server docs for the full HTTP interface.",
+      "usage": "opencode serve",
+      "examples": [
+        "opencode serve"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-session",
+      "tool": "opencode",
+      "name": "opencode session",
+      "aliases": [],
+      "kind": "cli",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode session 用于管理会话、并行任务和远程工作。官方说明：Manage OpenCode sessions.",
+      "usage": "opencode session",
+      "examples": [
+        "opencode session"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-stats",
+      "tool": "opencode",
+      "name": "opencode stats",
+      "aliases": [],
+      "kind": "cli",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode stats 用于查看状态、使用量或排查故障。官方说明：Show token usage and cost statistics for your OpenCode sessions.",
+      "usage": "opencode stats",
+      "examples": [
+        "opencode stats"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-uninstall",
+      "tool": "opencode",
+      "name": "opencode uninstall",
+      "aliases": [],
+      "kind": "cli",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode uninstall 用于处理安装、升级和账号认证。官方说明：Uninstall OpenCode and remove all related files.",
+      "usage": "opencode uninstall",
+      "examples": [
+        "opencode uninstall"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-upgrade",
+      "tool": "opencode",
+      "name": "opencode upgrade",
+      "aliases": [],
+      "kind": "cli",
+      "category": "安装认证",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode upgrade 用于处理安装、升级和账号认证。官方说明：Updates opencode to the latest version or a specific version.",
+      "usage": "opencode upgrade",
+      "examples": [
+        "opencode upgrade"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:cli:opencode-web",
+      "tool": "opencode",
+      "name": "opencode web",
+      "aliases": [],
+      "kind": "cli",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "opencode web 用于执行常用开发工作流。官方说明：Start a headless OpenCode server with a web interface.",
+      "usage": "opencode web",
+      "examples": [
+        "opencode web"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 78,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100",
+          "可能向远端服务发送源码或上下文"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/cli/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:compact",
+      "tool": "opencode",
+      "name": "/compact",
+      "aliases": [],
+      "kind": "slash",
+      "category": "上下文",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/compact 用于控制上下文、记忆和对话历史。官方说明：Compact the current session. Alias: /summarize",
+      "usage": "/compact",
+      "examples": [
+        "/compact"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:connect",
+      "tool": "opencode",
+      "name": "/connect",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/connect 用于执行常用开发工作流。官方说明：Add a provider to OpenCode. Allows you to select from available providers and add their API keys.",
+      "usage": "/connect",
+      "examples": [
+        "/connect"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:details",
+      "tool": "opencode",
+      "name": "/details",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/details 用于执行常用开发工作流。官方说明：Toggle tool execution details.",
+      "usage": "/details",
+      "examples": [
+        "/details"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:editor",
+      "tool": "opencode",
+      "name": "/editor",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/editor 用于调整终端界面和工具配置。官方说明：Open external editor for composing messages. Uses the editor set in your EDITOR environment variable. Learn more.",
+      "usage": "/editor",
+      "examples": [
+        "/editor"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:exit",
+      "tool": "opencode",
+      "name": "/exit",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/exit 用于执行常用开发工作流。官方说明：Exit OpenCode. Aliases: /quit, /q",
+      "usage": "/exit",
+      "examples": [
+        "/exit"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:export",
+      "tool": "opencode",
+      "name": "/export",
+      "aliases": [],
+      "kind": "slash",
+      "category": "导入导出",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/export 用于复制、分享、导入或导出内容。官方说明：Export current conversation to Markdown and open in your default editor. Uses the editor set in your EDITOR environment variable. Learn more.",
+      "usage": "/export",
+      "examples": [
+        "/export"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:help",
+      "tool": "opencode",
+      "name": "/help",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/help 用于执行常用开发工作流。官方说明：Show the help dialog.",
+      "usage": "/help",
+      "examples": [
+        "/help"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:init",
+      "tool": "opencode",
+      "name": "/init",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/init 用于执行常用开发工作流。官方说明：Guided setup for creating or updating AGENTS.md. Learn more.",
+      "usage": "/init",
+      "examples": [
+        "/init"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:models",
+      "tool": "opencode",
+      "name": "/models",
+      "aliases": [],
+      "kind": "slash",
+      "category": "模型",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/models 用于选择模型、推理强度或响应速度。官方说明：List available models.",
+      "usage": "/models",
+      "examples": [
+        "/models"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:new",
+      "tool": "opencode",
+      "name": "/new",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/new 用于执行常用开发工作流。官方说明：Start a new session. Alias: /clear",
+      "usage": "/new",
+      "examples": [
+        "/new"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:redo",
+      "tool": "opencode",
+      "name": "/redo",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/redo 用于执行常用开发工作流。官方说明：Redo a previously undone message. Only available after using /undo.",
+      "usage": "/redo",
+      "examples": [
+        "/redo"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:sessions",
+      "tool": "opencode",
+      "name": "/sessions",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/sessions 用于管理会话、并行任务和远程工作。官方说明：List and switch between sessions. Aliases: /resume, /continue",
+      "usage": "/sessions",
+      "examples": [
+        "/sessions"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:share",
+      "tool": "opencode",
+      "name": "/share",
+      "aliases": [],
+      "kind": "slash",
+      "category": "导入导出",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/share 用于复制、分享、导入或导出内容。官方说明：Share current session. Learn more.",
+      "usage": "/share",
+      "examples": [
+        "/share"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 66,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100",
+          "可能向远端服务发送源码或上下文"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:themes",
+      "tool": "opencode",
+      "name": "/themes",
+      "aliases": [],
+      "kind": "slash",
+      "category": "配置",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/themes 用于调整终端界面和工具配置。官方说明：List available themes.",
+      "usage": "/themes",
+      "examples": [
+        "/themes"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:thinking",
+      "tool": "opencode",
+      "name": "/thinking",
+      "aliases": [],
+      "kind": "slash",
+      "category": "模型",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/thinking 用于选择模型、推理强度或响应速度。官方说明：Toggle the visibility of thinking/reasoning blocks in the conversation. When enabled, you can see the model's reasoning process for models that support extended thinking.",
+      "usage": "/thinking",
+      "examples": [
+        "/thinking"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:undo",
+      "tool": "opencode",
+      "name": "/undo",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "已存在",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/undo 用于执行常用开发工作流。官方说明：Undo last message in the conversation. Removes the most recent user message, all subsequent responses, and any file changes.",
+      "usage": "/undo",
+      "examples": [
+        "/undo"
+      ],
+      "requirements": [],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    },
+    {
+      "id": "opencode:slash:unshare",
+      "tool": "opencode",
+      "name": "/unshare",
+      "aliases": [],
+      "kind": "slash",
+      "category": "导入导出",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/unshare 用于复制、分享、导入或导出内容。官方说明：Unshare current session. Learn more.",
+      "usage": "/unshare",
+      "examples": [
+        "/unshare"
+      ],
+      "requirements": [],
+      "availability": [
+        "具体可用性取决于平台、套餐和环境"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-07T01:45:04.510Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 66,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100",
+          "可能向远端服务发送源码或上下文"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://opencode.ai/docs/tui/",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-07T01:45:04.510Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "opencode:skill:git-release",
+      "slug": "opencode-git-release",
+      "name": "git-release",
+      "tool": "opencode",
+      "provider": "Anomaly",
+      "status": "official-example",
+      "summaryZh": "OpenCode 官方文档示例 Skill，用于根据合并记录生成发布说明、建议版本号和发布命令。",
+      "useCases": [
+        "准备 GitHub Release",
+        "生成 changelog",
+        "规范版本发布流程"
+      ],
+      "usage": [
+        "创建 .opencode/skills/git-release/SKILL.md",
+        "准备下一个版本的发布说明"
+      ],
+      "installCommand": null,
+      "invokeCommand": "让 OpenCode 准备版本发布",
+      "requirements": [
+        "按官方示例创建 SKILL.md"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "OpenCode Agent Skills",
+        "url": "https://opencode.ai/docs/skills/",
+        "official": true
+      },
+      "lastCheckedAt": "2026-06-06T00:00:00.000Z"
+    }
+  ],
+  "changes": [
+    {
+      "id": "opencode-1.16.2",
+      "tool": "opencode",
+      "version": "1.16.2",
+      "publishedAt": "2026-06-05",
+      "type": "changed",
+      "titleZh": "OpenCode 1.16.2 发布",
+      "summaryZh": "从 1.15.11 更新到 1.16.2。Core Bugfixes - Reasoning summaries now only run on providers that support them, avoiding GPT-5 request failures on compatible backends. - Edit operations now refuse loose matches that could overwrite the wrong code or replace an existing file by mistake.",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anomalyco/opencode/releases/tag/v1.16.2",
+        "official": true
+      }
+    }
+  ]
+}

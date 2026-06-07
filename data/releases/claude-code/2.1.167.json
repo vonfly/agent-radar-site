@@ -1,0 +1,15 @@
+{
+  "id": "claude-code-2.1.167",
+  "tool": "claude-code",
+  "version": "2.1.167",
+  "publishedAt": "2026-06-06",
+  "type": "changed",
+  "titleZh": "可靠性修复",
+  "summaryZh": "本次版本集中改善稳定性和可靠性。",
+  "commandIds": [],
+  "source": {
+    "label": "官方更新日志",
+    "url": "https://code.claude.com/docs/en/changelog",
+    "official": true
+  }
+}

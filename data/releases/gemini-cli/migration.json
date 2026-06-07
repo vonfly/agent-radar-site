@@ -1,0 +1,17 @@
+{
+  "id": "gemini-cli-antigravity-migration",
+  "tool": "gemini-cli",
+  "version": "migration",
+  "publishedAt": "2026-05-19",
+  "type": "migration",
+  "titleZh": "个人用户将迁移至 Antigravity CLI",
+  "summaryZh": "个人免费、Pro 和 Ultra 层将在 2026-06-18 停止通过 Gemini CLI 提供服务，企业和 API Key 场景不受同等影响。",
+  "commandIds": [
+    "gemini-cli:cli:gemini"
+  ],
+  "source": {
+    "label": "官方迁移公告",
+    "url": "https://github.com/google-gemini/gemini-cli/discussions/27274",
+    "official": true
+  }
+}
