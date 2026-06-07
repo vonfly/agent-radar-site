@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T01:51:53.792Z",
+  "generatedAt": "2026-06-07T02:55:59.284Z",
   "tool": {
     "slug": "codex",
     "name": "Codex",
@@ -74,12 +74,12 @@
       "name": "codex app",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "工作流",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Launch the Codex desktop app (opens the app installer if missing)",
+      "summaryZh": "codex app 用于执行常用开发工作流：Launch the Codex desktop app (opens the app installer if missing)",
       "usage": "codex app --help",
       "examples": [
         "codex app --help"
@@ -129,12 +129,12 @@
       "name": "codex app-server",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "自动化",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：[experimental] Run the app server or related tooling",
+      "summaryZh": "codex app-server 用于非交互执行、批处理、定时任务或 CI 集成：[experimental] Run the app server or related tooling",
       "usage": "codex app-server --help",
       "examples": [
         "codex app-server --help"
@@ -184,12 +184,12 @@
       "name": "codex apply",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "自动化",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Apply the latest diff produced by Codex agent as a `git apply` to your local",
+      "summaryZh": "codex apply 用于非交互执行、批处理、定时任务或 CI 集成：Apply the latest diff produced by Codex agent as a `git apply` to your local",
       "usage": "codex apply --help",
       "examples": [
         "codex apply --help"
@@ -239,12 +239,12 @@
       "name": "codex archive",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "会话",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Archive a saved session by id or session name",
+      "summaryZh": "codex archive 用于管理会话、并行任务和远程工作：Archive a saved session by id or session name",
       "usage": "codex archive --help",
       "examples": [
         "codex archive --help"
@@ -294,12 +294,12 @@
       "name": "codex cloud",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "工作流",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：[EXPERIMENTAL] Browse tasks from Codex Cloud and apply changes locally",
+      "summaryZh": "codex cloud 用于执行常用开发工作流：[EXPERIMENTAL] Browse tasks from Codex Cloud and apply changes locally",
       "usage": "codex cloud --help",
       "examples": [
         "codex cloud --help"
@@ -349,12 +349,12 @@
       "name": "codex completion",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "配置",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Generate shell completion scripts",
+      "summaryZh": "codex completion 用于调整终端界面、工具配置或通用信息：Generate shell completion scripts",
       "usage": "codex completion --help",
       "examples": [
         "codex completion --help"
@@ -404,12 +404,12 @@
       "name": "codex debug",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "诊断",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Debugging tools",
+      "summaryZh": "codex debug 用于查看状态、使用量或排查故障：Debugging tools",
       "usage": "codex debug --help",
       "examples": [
         "codex debug --help"
@@ -569,12 +569,12 @@
       "name": "codex exec-server",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "自动化",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：[EXPERIMENTAL] Run the standalone exec-server service",
+      "summaryZh": "codex exec-server 用于非交互执行、批处理、定时任务或 CI 集成：[EXPERIMENTAL] Run the standalone exec-server service",
       "usage": "codex exec-server --help",
       "examples": [
         "codex exec-server --help"
@@ -624,12 +624,12 @@
       "name": "codex features",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "工作流",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Inspect feature flags",
+      "summaryZh": "codex features 用于执行常用开发工作流：Inspect feature flags",
       "usage": "codex features --help",
       "examples": [
         "codex features --help"
@@ -679,12 +679,12 @@
       "name": "codex fork",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "会话",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Fork a previous interactive session (picker by default; use --last to fork the",
+      "summaryZh": "codex fork 用于管理会话、并行任务和远程工作：Fork a previous interactive session (picker by default; use --last to fork the",
       "usage": "codex fork --help",
       "examples": [
         "codex fork --help"
@@ -734,12 +734,12 @@
       "name": "codex login",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "安装认证",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Manage login",
+      "summaryZh": "codex login 用于处理安装、升级和账号认证：Manage login",
       "usage": "codex login --help",
       "examples": [
         "codex login --help"
@@ -789,12 +789,12 @@
       "name": "codex logout",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "安装认证",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Remove stored authentication credentials",
+      "summaryZh": "codex logout 用于处理安装、升级和账号认证：Remove stored authentication credentials",
       "usage": "codex logout --help",
       "examples": [
         "codex logout --help"
@@ -844,12 +844,12 @@
       "name": "codex mcp",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "扩展",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Manage external MCP servers for Codex",
+      "summaryZh": "codex mcp 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Manage external MCP servers for Codex",
       "usage": "codex mcp --help",
       "examples": [
         "codex mcp --help"
@@ -899,12 +899,12 @@
       "name": "codex mcp-server",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "扩展",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Start Codex as an MCP server (stdio)",
+      "summaryZh": "codex mcp-server 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Start Codex as an MCP server (stdio)",
       "usage": "codex mcp-server --help",
       "examples": [
         "codex mcp-server --help"
@@ -954,12 +954,12 @@
       "name": "codex plugin",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "扩展",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Manage Codex plugins",
+      "summaryZh": "codex plugin 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Manage Codex plugins",
       "usage": "codex plugin --help",
       "examples": [
         "codex plugin --help"
@@ -1009,12 +1009,12 @@
       "name": "codex remote-control",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "会话",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：[experimental] Manage the app-server daemon with remote control enabled",
+      "summaryZh": "codex remote-control 用于管理会话、并行任务和远程工作：[experimental] Manage the app-server daemon with remote control enabled",
       "usage": "codex remote-control --help",
       "examples": [
         "codex remote-control --help"
@@ -1119,12 +1119,12 @@
       "name": "codex review",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "评审",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Run a code review non-interactively",
+      "summaryZh": "codex review 用于检查代码改动、Pull Request 或实现质量：Run a code review non-interactively",
       "usage": "codex review --help",
       "examples": [
         "codex review --help"
@@ -1174,12 +1174,12 @@
       "name": "codex sandbox",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "安全",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Run commands within a Codex-provided sandbox",
+      "summaryZh": "codex sandbox 用于调整权限、安全边界或高风险操作：Run commands within a Codex-provided sandbox",
       "usage": "codex sandbox --help",
       "examples": [
         "codex sandbox --help"
@@ -1229,12 +1229,12 @@
       "name": "codex unarchive",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "会话",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Unarchive a saved session by id or session name",
+      "summaryZh": "codex unarchive 用于管理会话、并行任务和远程工作：Unarchive a saved session by id or session name",
       "usage": "codex unarchive --help",
       "examples": [
         "codex unarchive --help"
@@ -1284,12 +1284,12 @@
       "name": "codex update",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "安装认证",
       "introducedIn": "0.137.0",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：Update Codex to the latest version",
+      "summaryZh": "codex update 用于处理安装、升级和账号认证：Update Codex to the latest version",
       "usage": "codex update --help",
       "examples": [
         "codex update --help"
@@ -1344,21 +1344,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/agent 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Switch the active agent thread.",
+      "summaryZh": "/agent 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Switch the active agent thread.",
       "usage": "/agent",
       "examples": [
-        "/agent"
+        "/agent",
+        "/agent <参数>"
       ],
       "requirements": [
-        "适用场景：Inspect or continue work in a spawned subagent thread."
+        "适用场景：Inspect or continue work in a spawned subagent thread.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1385,7 +1389,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:approve",
@@ -1398,21 +1402,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/approve 用于执行常用开发工作流。官方说明：Approve one retry of a recent auto review denial.",
+      "summaryZh": "/approve 用于执行常用开发工作流：Approve one retry of a recent auto review denial.",
       "usage": "/approve",
       "examples": [
-        "/approve"
+        "/approve",
+        "/approve <参数>"
       ],
       "requirements": [
-        "适用场景：Retry a command or action that the auto reviewer denied."
+        "适用场景：Retry a command or action that the auto reviewer denied.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1439,7 +1447,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:apps",
@@ -1452,21 +1460,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/apps 用于执行常用开发工作流。官方说明：Browse apps (connectors) and insert them into your prompt.",
+      "summaryZh": "/apps 用于执行常用开发工作流：Browse apps (connectors) and insert them into your prompt.",
       "usage": "/apps",
       "examples": [
-        "/apps"
+        "/apps",
+        "/apps <参数>"
       ],
       "requirements": [
-        "适用场景：Attach an app as $app-slug before asking Codex to use it."
+        "适用场景：Attach an app as $app-slug before asking Codex to use it.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1493,7 +1505,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:btw",
@@ -1506,21 +1518,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/btw 用于执行常用开发工作流。官方说明：Start an ephemeral side conversation.",
+      "summaryZh": "/btw启动an ephemeral side conversation.。",
       "usage": "/btw",
       "examples": [
-        "/btw"
+        "/btw",
+        "/btw <参数>"
       ],
       "requirements": [
-        "适用场景：Ask a focused follow-up without disrupting the main thread's transcript."
+        "适用场景：Ask a focused follow-up without disrupting the main thread's transcript.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1547,7 +1563,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:clear",
@@ -1560,21 +1576,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/clear 用于控制上下文、记忆和对话历史。官方说明：Clear the terminal and start a fresh chat.",
+      "summaryZh": "清空当前会话的全部对话历史，从头开始。",
       "usage": "/clear",
       "examples": [
-        "/clear"
+        "/clear",
+        "/clear <参数>"
       ],
       "requirements": [
-        "适用场景：Reset the visible UI and conversation together when you want a fresh start."
+        "适用场景：Reset the visible UI and conversation together when you want a fresh start.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1601,7 +1621,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:compact",
@@ -1614,21 +1634,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/compact 用于控制上下文、记忆和对话历史。官方说明：Summarize the visible conversation to free tokens.",
+      "summaryZh": "压缩较早的会话内容，释放上下文窗口空间，保留关键信息。",
       "usage": "/compact",
       "examples": [
-        "/compact"
+        "/compact",
+        "/compact <参数>"
       ],
       "requirements": [
-        "适用场景：Use after long runs so Codex retains key points without blowing the context window."
+        "适用场景：Use after long runs so Codex retains key points without blowing the context window.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1655,7 +1679,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:copy",
@@ -1668,21 +1692,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/copy 用于复制、分享、导入或导出内容。官方说明：Copy the latest completed Codex output.",
+      "summaryZh": "/copy 用于复制、分享、导入或导出内容：Copy the latest completed Codex output.",
       "usage": "/copy",
       "examples": [
-        "/copy"
+        "/copy",
+        "/copy <参数>"
       ],
       "requirements": [
-        "适用场景：Grab the latest finished response or plan text without manually selecting it. You can also press Ctrl+O."
+        "适用场景：Grab the latest finished response or plan text without manually selecting it. You can also press Ctrl+O.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1709,7 +1737,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:debug-config",
@@ -1722,21 +1750,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/debug-config 用于调整终端界面和工具配置。官方说明：Print config layer and requirements diagnostics.",
+      "summaryZh": "/debug-config输出config layer and requirements diagnostics.。",
       "usage": "/debug-config",
       "examples": [
-        "/debug-config"
+        "/debug-config",
+        "/debug-config <参数>"
       ],
       "requirements": [
-        "适用场景：Debug precedence and policy requirements, including experimental network constraints."
+        "适用场景：Debug precedence and policy requirements, including experimental network constraints.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1763,7 +1795,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:diff",
@@ -1776,21 +1808,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/diff 用于检查代码改动、Pull Request 或实现质量。官方说明：Show the Git diff, including files Git isn't tracking yet.",
+      "summaryZh": "查看当前未提交的代码变更差异。",
       "usage": "/diff",
       "examples": [
-        "/diff"
+        "/diff",
+        "/diff <参数>"
       ],
       "requirements": [
-        "适用场景：Review Codex's edits before you commit or run tests."
+        "适用场景：Review Codex's edits before you commit or run tests.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1817,7 +1853,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:exit",
@@ -1825,26 +1861,30 @@
       "name": "/exit",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/exit 用于执行常用开发工作流。官方说明：Exit the CLI (same as /quit).",
+      "summaryZh": "退出当前交互会话并返回终端。",
       "usage": "/exit",
       "examples": [
-        "/exit"
+        "/exit",
+        "/exit <参数>"
       ],
       "requirements": [
-        "适用场景：Alternative spelling; both commands exit the session."
+        "适用场景：Alternative spelling; both commands exit the session.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1871,7 +1911,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:experimental",
@@ -1884,21 +1924,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "experimental",
-      "summaryZh": "/experimental 用于执行常用开发工作流。官方说明：Toggle experimental features.",
+      "summaryZh": "/experimental切换experimental features.。",
       "usage": "/experimental",
       "examples": [
-        "/experimental"
+        "/experimental",
+        "/experimental <参数>"
       ],
       "requirements": [
-        "适用场景：Enable optional features such as subagents from the CLI."
+        "适用场景：Enable optional features such as subagents from the CLI.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1925,7 +1969,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:fast",
@@ -1938,21 +1982,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/fast 用于选择模型、推理强度或响应速度。官方说明：Toggle a Fast service tier when the model catalog exposes one.",
+      "summaryZh": "切换到快速模式，使用更快的模型响应。",
       "usage": "/fast",
       "examples": [
-        "/fast"
+        "/fast",
+        "/fast <参数>"
       ],
       "requirements": [
-        "适用场景：Turn the current model's Fast tier on or off, or check whether the thread is using it."
+        "适用场景：Turn the current model's Fast tier on or off, or check whether the thread is using it.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1979,7 +2027,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:feedback",
@@ -1992,21 +2040,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/feedback 用于查看状态、使用量或排查故障。官方说明：Send logs to the Codex maintainers.",
+      "summaryZh": "向开发团队提交使用反馈。",
       "usage": "/feedback",
       "examples": [
-        "/feedback"
+        "/feedback",
+        "/feedback <参数>"
       ],
       "requirements": [
-        "适用场景：Report issues or share diagnostics with support."
+        "适用场景：Report issues or share diagnostics with support.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2033,7 +2085,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:fork",
@@ -2046,21 +2098,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/fork 用于管理会话、并行任务和远程工作。官方说明：Fork the current conversation into a new thread.",
+      "summaryZh": "将当前会话分支到新的并行会话中独立推进。",
       "usage": "/fork",
       "examples": [
-        "/fork"
+        "/fork",
+        "/fork <参数>"
       ],
       "requirements": [
-        "适用场景：Branch the active session to explore a new approach without losing the current transcript."
+        "适用场景：Branch the active session to explore a new approach without losing the current transcript.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2087,7 +2143,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:goal",
@@ -2100,21 +2156,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/goal 用于执行常用开发工作流。官方说明：Set, pause, resume, view, or clear a task goal.",
+      "summaryZh": "/goal 用于执行常用开发工作流：Set, pause, resume, view, or clear a task goal.",
       "usage": "/goal",
       "examples": [
-        "/goal"
+        "/goal",
+        "/goal <参数>"
       ],
       "requirements": [
-        "适用场景：Give Codex a persistent target to track while a larger task runs."
+        "适用场景：Give Codex a persistent target to track while a larger task runs.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2141,7 +2201,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:hooks",
@@ -2154,21 +2214,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/hooks 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：View and manage lifecycle hooks.",
+      "summaryZh": "/hooks查看and manage lifecycle hooks.。",
       "usage": "/hooks",
       "examples": [
-        "/hooks"
+        "/hooks",
+        "/hooks <参数>"
       ],
       "requirements": [
-        "适用场景：Inspect hook configuration loaded into the current session."
+        "适用场景：Inspect hook configuration loaded into the current session.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2195,7 +2259,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:ide",
@@ -2203,26 +2267,30 @@
       "name": "/ide",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/ide 用于执行常用开发工作流。官方说明：Include open files, current selection, and other IDE context.",
+      "summaryZh": "在 IDE（VS Code / JetBrains）中打开当前项目。",
       "usage": "/ide",
       "examples": [
-        "/ide"
+        "/ide",
+        "/ide <参数>"
       ],
       "requirements": [
-        "适用场景：Pull editor context into the next prompt without re-explaining what's open in your IDE."
+        "适用场景：Pull editor context into the next prompt without re-explaining what's open in your IDE.",
+        "需要在交互会话中使用",
+        "需要对应的 IDE 集成已启用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "VS Code",
+        "JetBrains"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2249,7 +2317,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:init",
@@ -2257,26 +2325,30 @@
       "name": "/init",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/init 用于执行常用开发工作流。官方说明：Generate an AGENTS.md scaffold in the current directory.",
+      "summaryZh": "在当前项目目录中生成配置文件，初始化工具。",
       "usage": "/init",
       "examples": [
-        "/init"
+        "/init",
+        "/init <参数>"
       ],
       "requirements": [
-        "适用场景：Capture persistent instructions for the repository or subdirectory you're working in."
+        "适用场景：Capture persistent instructions for the repository or subdirectory you're working in.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2303,7 +2375,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:keymap",
@@ -2316,21 +2388,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/keymap 用于调整终端界面和工具配置。官方说明：Remap TUI keyboard shortcuts.",
+      "summaryZh": "/keymap 用于调整终端界面、工具配置或通用信息：Remap TUI keyboard shortcuts.",
       "usage": "/keymap",
       "examples": [
-        "/keymap"
+        "/keymap",
+        "/keymap <参数>"
       ],
       "requirements": [
-        "适用场景：Inspect and persist custom shortcut bindings in config.toml."
+        "适用场景：Inspect and persist custom shortcut bindings in config.toml.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2357,7 +2433,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:logout",
@@ -2370,21 +2446,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/logout 用于处理安装、升级和账号认证。官方说明：Sign out of Codex.",
+      "summaryZh": "退出当前账号，清除本地认证信息。",
       "usage": "/logout",
       "examples": [
-        "/logout"
+        "/logout",
+        "/logout <参数>"
       ],
       "requirements": [
-        "适用场景：Clear local credentials when using a shared machine."
+        "适用场景：Clear local credentials when using a shared machine.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2411,7 +2491,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:mcp",
@@ -2424,21 +2504,26 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/mcp 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：List configured Model Context Protocol (MCP) tools.",
+      "summaryZh": "管理 Model Context Protocol 服务器连接和配置。",
       "usage": "/mcp",
       "examples": [
-        "/mcp"
+        "/mcp",
+        "/mcp <参数>"
       ],
       "requirements": [
-        "适用场景：Check which external tools Codex can call during the session; add verbose for server details."
+        "适用场景：Check which external tools Codex can call during the session; add verbose for server details.",
+        "需要在交互会话中使用",
+        "需要对应扩展已安装"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2465,7 +2550,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:memories",
@@ -2478,21 +2563,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/memories 用于执行常用开发工作流。官方说明：Configure memory use and generation.",
+      "summaryZh": "/memories配置memory use and generation.。",
       "usage": "/memories",
       "examples": [
-        "/memories"
+        "/memories",
+        "/memories <参数>"
       ],
       "requirements": [
-        "适用场景：Turn memory injection or memory generation on or off without leaving the TUI."
+        "适用场景：Turn memory injection or memory generation on or off without leaving the TUI.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2519,7 +2608,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:mention",
@@ -2532,21 +2621,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/mention 用于执行常用开发工作流。官方说明：Attach a file to the conversation.",
+      "summaryZh": "/mention 用于执行常用开发工作流：Attach a file to the conversation.",
       "usage": "/mention",
       "examples": [
-        "/mention"
+        "/mention",
+        "/mention <参数>"
       ],
       "requirements": [
-        "适用场景：Point Codex at specific files or folders you want it to inspect next."
+        "适用场景：Point Codex at specific files or folders you want it to inspect next.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2573,7 +2666,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:model",
@@ -2586,13 +2679,15 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/model 用于选择模型、推理强度或响应速度。官方说明：Choose the active model (and reasoning effort, when available).",
+      "summaryZh": "切换或查看当前使用的 AI 模型。",
       "usage": "/model",
       "examples": [
-        "/model"
+        "/model",
+        "/model <参数>"
       ],
       "requirements": [
-        "适用场景：Switch between general-purpose models (gpt-4.1-mini) and deeper reasoning models before running a task."
+        "适用场景：Switch between general-purpose models (gpt-4.1-mini) and deeper reasoning models before running a task.",
+        "需要在交互会话中使用"
       ],
       "availability": [
         "macOS",
@@ -2602,7 +2697,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2629,7 +2724,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:new",
@@ -2637,26 +2732,30 @@
       "name": "/new",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/new 用于执行常用开发工作流。官方说明：Start a new conversation inside the same CLI session.",
+      "summaryZh": "创建一个新的空白会话。",
       "usage": "/new",
       "examples": [
-        "/new"
+        "/new",
+        "/new <参数>"
       ],
       "requirements": [
-        "适用场景：Reset the chat context without leaving the CLI when you want a fresh prompt in the same repo."
+        "适用场景：Reset the chat context without leaving the CLI when you want a fresh prompt in the same repo.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2683,7 +2782,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:permissions",
@@ -2696,13 +2795,15 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/permissions 用于调整权限、安全边界或高风险操作。官方说明：Set what Codex can do without asking first.",
+      "summaryZh": "/permissions 用于调整权限、安全边界或高风险操作：Set what Codex can do without asking first.",
       "usage": "/permissions",
       "examples": [
-        "/permissions"
+        "/permissions",
+        "/permissions <参数>"
       ],
       "requirements": [
-        "适用场景：Relax or tighten approval requirements mid-session, such as switching between Auto and Read Only."
+        "适用场景：Relax or tighten approval requirements mid-session, such as switching between Auto and Read Only.",
+        "需要在交互会话中使用"
       ],
       "availability": [
         "macOS",
@@ -2712,7 +2813,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2739,7 +2840,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:personality",
@@ -2752,21 +2853,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/personality 用于执行常用开发工作流。官方说明：Choose a communication style for responses.",
+      "summaryZh": "/personality 用于执行常用开发工作流：Choose a communication style for responses.",
       "usage": "/personality",
       "examples": [
-        "/personality"
+        "/personality",
+        "/personality <参数>"
       ],
       "requirements": [
-        "适用场景：Make Codex more concise, more explanatory, or more collaborative without changing your instructions."
+        "适用场景：Make Codex more concise, more explanatory, or more collaborative without changing your instructions.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2793,7 +2898,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:plan",
@@ -2806,21 +2911,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/plan 用于执行常用开发工作流。官方说明：Switch to plan mode and optionally send a prompt.",
+      "summaryZh": "进入规划模式，先制定实施方案再动手编写代码。",
       "usage": "/plan",
       "examples": [
-        "/plan"
+        "/plan",
+        "/plan <参数>"
       ],
       "requirements": [
-        "适用场景：Ask Codex to propose an execution plan before implementation work starts."
+        "适用场景：Ask Codex to propose an execution plan before implementation work starts.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2847,7 +2956,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:plugins",
@@ -2860,21 +2969,26 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/plugins 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Browse installed and discoverable plugins.",
+      "summaryZh": "/plugins 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Browse installed and discoverable plugins.",
       "usage": "/plugins",
       "examples": [
-        "/plugins"
+        "/plugins",
+        "/plugins <参数>"
       ],
       "requirements": [
-        "适用场景：Inspect plugin tools, install suggested plugins, or manage plugin availability."
+        "适用场景：Inspect plugin tools, install suggested plugins, or manage plugin availability.",
+        "需要在交互会话中使用",
+        "需要对应扩展已安装"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2901,7 +3015,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:ps",
@@ -2914,21 +3028,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "experimental",
-      "summaryZh": "/ps 用于执行常用开发工作流。官方说明：Show experimental background terminals and their recent output.",
+      "summaryZh": "/ps显示experimental background terminals and their recent output.。",
       "usage": "/ps",
       "examples": [
-        "/ps"
+        "/ps",
+        "/ps <参数>"
       ],
       "requirements": [
-        "适用场景：Check long-running commands without leaving the main transcript."
+        "适用场景：Check long-running commands without leaving the main transcript.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2955,7 +3073,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:quit",
@@ -2963,26 +3081,30 @@
       "name": "/quit",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/quit 用于执行常用开发工作流。官方说明：Exit the CLI.",
+      "summaryZh": "退出当前交互会话并返回终端。",
       "usage": "/quit",
       "examples": [
-        "/quit"
+        "/quit",
+        "/quit <参数>"
       ],
       "requirements": [
-        "适用场景：Leave the session immediately."
+        "适用场景：Leave the session immediately.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3009,7 +3131,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:raw",
@@ -3017,26 +3139,30 @@
       "name": "/raw",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/raw 用于执行常用开发工作流。官方说明：Toggle raw scrollback mode.",
+      "summaryZh": "/raw切换raw scrollback mode.。",
       "usage": "/raw",
       "examples": [
-        "/raw"
+        "/raw",
+        "/raw <参数>"
       ],
       "requirements": [
-        "适用场景：Make terminal selection and copying less formatted while reviewing long output."
+        "适用场景：Make terminal selection and copying less formatted while reviewing long output.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3063,7 +3189,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:resume",
@@ -3076,21 +3202,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/resume 用于管理会话、并行任务和远程工作。官方说明：Resume a saved conversation from your session list.",
+      "summaryZh": "恢复之前中断的会话，继续未完成的工作。",
       "usage": "/resume",
       "examples": [
-        "/resume"
+        "/resume",
+        "/resume <参数>"
       ],
       "requirements": [
-        "适用场景：Continue work from a previous CLI session without starting over."
+        "适用场景：Continue work from a previous CLI session without starting over.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3117,7 +3247,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:review",
@@ -3130,21 +3260,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/review 用于检查代码改动、Pull Request 或实现质量。官方说明：Ask Codex to review your working tree.",
+      "summaryZh": "对当前代码变更执行深度审查，查找正确性和质量问题。",
       "usage": "/review",
       "examples": [
-        "/review"
+        "/review",
+        "/review <参数>"
       ],
       "requirements": [
-        "适用场景：Run after Codex completes work or when you want a second set of eyes on local changes."
+        "适用场景：Run after Codex completes work or when you want a second set of eyes on local changes.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3171,7 +3305,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:sandbox-add-read-dir",
@@ -3184,21 +3318,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/sandbox-add-read-dir 用于调整权限、安全边界或高风险操作。官方说明：Grant sandbox read access to an extra directory (Windows only).",
+      "summaryZh": "/sandbox-add-read-dir 用于调整权限、安全边界或高风险操作：Grant sandbox read access to an extra directory (Windows only).",
       "usage": "/sandbox-add-read-dir",
       "examples": [
-        "/sandbox-add-read-dir"
+        "/sandbox-add-read-dir",
+        "/sandbox-add-read-dir <参数>"
       ],
       "requirements": [
-        "适用场景：Unblock commands that need to read an absolute directory path outside the current readable roots."
+        "适用场景：Unblock commands that need to read an absolute directory path outside the current readable roots.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3225,7 +3363,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:side",
@@ -3233,26 +3371,30 @@
       "name": "/side",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/side 用于执行常用开发工作流。官方说明：Start an ephemeral side conversation.",
+      "summaryZh": "/side启动an ephemeral side conversation.。",
       "usage": "/side",
       "examples": [
-        "/side"
+        "/side",
+        "/side <参数>"
       ],
       "requirements": [
-        "适用场景：Ask a focused follow-up without disrupting the main thread's transcript."
+        "适用场景：Ask a focused follow-up without disrupting the main thread's transcript.",
+        "需要在交互会话中使用",
+        "需要对应的 IDE 集成已启用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "VS Code",
+        "JetBrains"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3279,7 +3421,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:skills",
@@ -3292,21 +3434,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/skills 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Browse and use skills.",
+      "summaryZh": "/skills 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Browse and use skills.",
       "usage": "/skills",
       "examples": [
-        "/skills"
+        "/skills",
+        "/skills <参数>"
       ],
       "requirements": [
-        "适用场景：Improve task-specific behavior by selecting a relevant local skill."
+        "适用场景：Improve task-specific behavior by selecting a relevant local skill.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3333,7 +3479,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:status",
@@ -3346,21 +3492,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/status 用于查看状态、使用量或排查故障。官方说明：Display session configuration and token usage.",
+      "summaryZh": "查看当前会话、账户和工具的运行状态。",
       "usage": "/status",
       "examples": [
-        "/status"
+        "/status",
+        "/status <参数>"
       ],
       "requirements": [
-        "适用场景：Confirm the active model, approval policy, writable roots, and remaining context capacity."
+        "适用场景：Confirm the active model, approval policy, writable roots, and remaining context capacity.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3387,7 +3537,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:statusline",
@@ -3400,21 +3550,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/statusline 用于调整终端界面和工具配置。官方说明：Configure TUI status-line fields interactively.",
+      "summaryZh": "/statusline配置TUI status-line fields interactively.。",
       "usage": "/statusline",
       "examples": [
-        "/statusline"
+        "/statusline",
+        "/statusline <参数>"
       ],
       "requirements": [
-        "适用场景：Pick and reorder footer items (model/context/limits/git/tokens/session) and persist in config.toml."
+        "适用场景：Pick and reorder footer items (model/context/limits/git/tokens/session) and persist in config.toml.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3441,7 +3595,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:stop",
@@ -3454,21 +3608,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/stop 用于执行常用开发工作流。官方说明：Stop all background terminals.",
+      "summaryZh": "/stop 用于执行常用开发工作流：Stop all background terminals.",
       "usage": "/stop",
       "examples": [
-        "/stop"
+        "/stop",
+        "/stop <参数>"
       ],
       "requirements": [
-        "适用场景：Cancel background terminal work started by the current session."
+        "适用场景：Cancel background terminal work started by the current session.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3495,7 +3653,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:theme",
@@ -3508,21 +3666,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/theme 用于调整终端界面和工具配置。官方说明：Choose a syntax-highlighting theme.",
+      "summaryZh": "切换终端界面的颜色主题。",
       "usage": "/theme",
       "examples": [
-        "/theme"
+        "/theme",
+        "/theme <参数>"
       ],
       "requirements": [
-        "适用场景：Preview and persist a terminal syntax-highlighting theme."
+        "适用场景：Preview and persist a terminal syntax-highlighting theme.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3549,7 +3711,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:title",
@@ -3557,26 +3719,30 @@
       "name": "/title",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "会话",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/title 用于执行常用开发工作流。官方说明：Configure terminal window or tab title fields interactively.",
+      "summaryZh": "/title配置terminal window or tab title fields interactively.。",
       "usage": "/title",
       "examples": [
-        "/title"
+        "/title",
+        "/title <参数>"
       ],
       "requirements": [
-        "适用场景：Pick and reorder title items such as project, status, thread, branch, model, and task progress."
+        "适用场景：Pick and reorder title items such as project, status, thread, branch, model, and task progress.",
+        "需要在交互会话中使用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3603,7 +3769,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:slash:vim",
@@ -3611,26 +3777,30 @@
       "name": "/vim",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/vim 用于执行常用开发工作流。官方说明：Toggle Vim mode for the composer.",
+      "summaryZh": "切换 Vim 编辑模式，启用 Vim 键绑定。",
       "usage": "/vim",
       "examples": [
-        "/vim"
+        "/vim",
+        "/vim <参数>"
       ],
       "requirements": [
-        "适用场景：Switch between Vim normal/insert behavior and the default composer editing mode."
+        "适用场景：Switch between Vim normal/insert behavior and the default composer editing mode.",
+        "需要在交互会话中使用",
+        "需要对应的 IDE 集成已启用"
       ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "VS Code",
+        "JetBrains"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3657,7 +3827,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     }
   ],
   "skills": [

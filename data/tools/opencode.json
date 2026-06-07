@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T01:51:53.792Z",
+  "generatedAt": "2026-06-07T02:55:59.284Z",
   "tool": {
     "slug": "opencode",
     "name": "OpenCode",
@@ -79,19 +79,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode acp 用于执行常用开发工作流。官方说明：Start an ACP (Agent Client Protocol) server.",
+      "summaryZh": "opencode acp启动an ACP (Agent Client Protocol) server.。",
       "usage": "opencode acp",
       "examples": [
-        "opencode acp"
+        "opencode acp",
+        "opencode acp --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -118,7 +121,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-agent",
@@ -131,10 +134,11 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode agent 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Manage agents for OpenCode.",
+      "summaryZh": "管理可用的 AI Agent 和工具配置。",
       "usage": "opencode agent",
       "examples": [
-        "opencode agent"
+        "opencode agent",
+        "opencode agent --help"
       ],
       "requirements": [],
       "availability": [
@@ -145,7 +149,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -172,7 +176,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-attach",
@@ -185,19 +189,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode attach 用于执行常用开发工作流。官方说明：Attach a terminal to an already running OpenCode backend server started via serve or web commands.",
+      "summaryZh": "opencode attach 用于执行常用开发工作流：Attach a terminal to an already running OpenCode backend server started via serve or web commands.",
       "usage": "opencode attach",
       "examples": [
-        "opencode attach"
+        "opencode attach",
+        "opencode attach --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -224,7 +231,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-auth",
@@ -237,19 +244,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode auth 用于处理安装、升级和账号认证。官方说明：Command to manage credentials and login for providers.",
+      "summaryZh": "opencode auth 用于处理安装、升级和账号认证：Command to manage credentials and login for providers.",
       "usage": "opencode auth",
       "examples": [
-        "opencode auth"
+        "opencode auth",
+        "opencode auth --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要账号或 API 密钥"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -276,7 +288,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-db",
@@ -289,19 +301,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode db 用于执行常用开发工作流。官方说明：Database tools.",
+      "summaryZh": "opencode db 用于执行常用开发工作流：Database tools.",
       "usage": "opencode db",
       "examples": [
-        "opencode db"
+        "opencode db",
+        "opencode db --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -328,7 +343,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-debug",
@@ -341,19 +356,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode debug 用于查看状态、使用量或排查故障。官方说明：Debugging and troubleshooting tools.",
+      "summaryZh": "opencode debug 用于查看状态、使用量或排查故障：Debugging and troubleshooting tools.",
       "usage": "opencode debug",
       "examples": [
-        "opencode debug"
+        "opencode debug",
+        "opencode debug --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -380,7 +398,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-export",
@@ -393,19 +411,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode export 用于复制、分享、导入或导出内容。官方说明：Export session data as JSON.",
+      "summaryZh": "opencode export导出session data as JSON.。",
       "usage": "opencode export",
       "examples": [
-        "opencode export"
+        "opencode export",
+        "opencode export --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -432,7 +453,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-github",
@@ -445,19 +466,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode github 用于执行常用开发工作流。官方说明：Manage the GitHub agent for repository automation.",
+      "summaryZh": "opencode github管理the GitHub agent for repository automation.。",
       "usage": "opencode github",
       "examples": [
-        "opencode github"
+        "opencode github",
+        "opencode github --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -484,7 +508,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-import",
@@ -497,19 +521,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode import 用于复制、分享、导入或导出内容。官方说明：Import session data from a JSON file or OpenCode share URL.",
+      "summaryZh": "opencode import导入session data from a JSON file or OpenCode share URL.。",
       "usage": "opencode import",
       "examples": [
-        "opencode import"
+        "opencode import",
+        "opencode import --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -536,7 +563,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-mcp",
@@ -549,12 +576,15 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode mcp 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Manage Model Context Protocol servers.",
+      "summaryZh": "管理 Model Context Protocol 服务器连接。",
       "usage": "opencode mcp",
       "examples": [
-        "opencode mcp"
+        "opencode mcp",
+        "opencode mcp --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
         "macOS",
         "Linux",
@@ -563,7 +593,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -590,7 +620,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-models",
@@ -603,19 +633,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode models 用于选择模型、推理强度或响应速度。官方说明：List all available models from configured providers.",
+      "summaryZh": "opencode models列出all available models from configured providers.。",
       "usage": "opencode models",
       "examples": [
-        "opencode models"
+        "opencode models",
+        "opencode models --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -642,7 +675,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-plugin",
@@ -655,19 +688,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode plugin 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Install a plugin and update your config.",
+      "summaryZh": "opencode plugin安装a plugin and update your config.。",
       "usage": "opencode plugin",
       "examples": [
-        "opencode plugin"
+        "opencode plugin",
+        "opencode plugin --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -694,7 +732,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-pr",
@@ -707,19 +745,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode pr 用于执行常用开发工作流。官方说明：Fetch and checkout a GitHub PR branch, then run OpenCode.",
+      "summaryZh": "opencode pr 用于执行常用开发工作流：Fetch and checkout a GitHub PR branch, then run OpenCode.",
       "usage": "opencode pr",
       "examples": [
-        "opencode pr"
+        "opencode pr",
+        "opencode pr --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -746,7 +787,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-project",
@@ -754,12 +795,12 @@
       "name": "opencode project",
       "aliases": [],
       "kind": "cli",
-      "category": "待分类",
+      "category": "配置",
       "introducedIn": "1.16.2",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "unknown",
-      "summaryZh": "自动发现的新子命令。官方 help 说明：path to start opencode in                                                        [string]",
+      "summaryZh": "opencode project 用于调整终端界面、工具配置或通用信息：path to start opencode in                                                        [string]",
       "usage": "opencode project --help",
       "examples": [
         "opencode project --help"
@@ -814,10 +855,11 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode run 用于执行常用开发工作流。官方说明：Run opencode in non-interactive mode by passing a prompt directly.",
+      "summaryZh": "非交互模式执行一次性任务，适合 CI/CD 场景。",
       "usage": "opencode run",
       "examples": [
-        "opencode run"
+        "opencode run",
+        "opencode run --help"
       ],
       "requirements": [],
       "availability": [
@@ -828,7 +870,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -855,7 +897,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-serve",
@@ -863,24 +905,27 @@
       "name": "opencode serve",
       "aliases": [],
       "kind": "cli",
-      "category": "工作流",
+      "category": "自动化",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode serve 用于执行常用开发工作流。官方说明：Start a headless OpenCode server for API access. Check out the server docs for the full HTTP interface.",
+      "summaryZh": "opencode serve启动a headless OpenCode server for API access. Check out the server docs for the full HTTP interface.。",
       "usage": "opencode serve",
       "examples": [
-        "opencode serve"
+        "opencode serve",
+        "opencode serve --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -907,7 +952,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-session",
@@ -920,19 +965,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode session 用于管理会话、并行任务和远程工作。官方说明：Manage OpenCode sessions.",
+      "summaryZh": "opencode session管理OpenCode sessions.。",
       "usage": "opencode session",
       "examples": [
-        "opencode session"
+        "opencode session",
+        "opencode session --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -959,7 +1007,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-stats",
@@ -972,19 +1020,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode stats 用于查看状态、使用量或排查故障。官方说明：Show token usage and cost statistics for your OpenCode sessions.",
+      "summaryZh": "opencode stats显示token usage and cost statistics for your OpenCode sessions.。",
       "usage": "opencode stats",
       "examples": [
-        "opencode stats"
+        "opencode stats",
+        "opencode stats --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1011,7 +1062,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-uninstall",
@@ -1024,19 +1075,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode uninstall 用于处理安装、升级和账号认证。官方说明：Uninstall OpenCode and remove all related files.",
+      "summaryZh": "opencode uninstall 用于处理安装、升级和账号认证：Uninstall OpenCode and remove all related files.",
       "usage": "opencode uninstall",
       "examples": [
-        "opencode uninstall"
+        "opencode uninstall",
+        "opencode uninstall --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1063,7 +1117,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-upgrade",
@@ -1076,19 +1130,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode upgrade 用于处理安装、升级和账号认证。官方说明：Updates opencode to the latest version or a specific version.",
+      "summaryZh": "opencode upgrade 用于处理安装、升级和账号认证：Updates opencode to the latest version or a specific version.",
       "usage": "opencode upgrade",
       "examples": [
-        "opencode upgrade"
+        "opencode upgrade",
+        "opencode upgrade --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1115,7 +1172,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:cli:opencode-web",
@@ -1128,19 +1185,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "opencode web 用于执行常用开发工作流。官方说明：Start a headless OpenCode server with a web interface.",
+      "summaryZh": "opencode web启动a headless OpenCode server with a web interface.。",
       "usage": "opencode web",
       "examples": [
-        "opencode web"
+        "opencode web",
+        "opencode web --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1168,7 +1228,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:compact",
@@ -1181,19 +1241,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/compact 用于控制上下文、记忆和对话历史。官方说明：Compact the current session. Alias: /summarize",
+      "summaryZh": "压缩较早的会话内容，释放上下文窗口空间，保留关键信息。",
       "usage": "/compact",
       "examples": [
-        "/compact"
+        "/compact",
+        "/compact <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1220,7 +1285,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:connect",
@@ -1233,19 +1298,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/connect 用于执行常用开发工作流。官方说明：Add a provider to OpenCode. Allows you to select from available providers and add their API keys.",
+      "summaryZh": "/connect 用于执行常用开发工作流：Add a provider to OpenCode. Allows you to select from available providers and add their API keys.",
       "usage": "/connect",
       "examples": [
-        "/connect"
+        "/connect",
+        "/connect <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1272,7 +1342,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:details",
@@ -1285,19 +1355,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/details 用于执行常用开发工作流。官方说明：Toggle tool execution details.",
+      "summaryZh": "/details切换tool execution details.。",
       "usage": "/details",
       "examples": [
-        "/details"
+        "/details",
+        "/details <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1324,7 +1399,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:editor",
@@ -1337,19 +1412,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/editor 用于调整终端界面和工具配置。官方说明：Open external editor for composing messages. Uses the editor set in your EDITOR environment variable. Learn more.",
+      "summaryZh": "/editor打开external editor for composing messages. Uses the editor set in your EDITOR environment variable. Learn more.。",
       "usage": "/editor",
       "examples": [
-        "/editor"
+        "/editor",
+        "/editor <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1376,7 +1456,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:exit",
@@ -1384,24 +1464,29 @@
       "name": "/exit",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/exit 用于执行常用开发工作流。官方说明：Exit OpenCode. Aliases: /quit, /q",
+      "summaryZh": "退出当前交互会话并返回终端。",
       "usage": "/exit",
       "examples": [
-        "/exit"
+        "/exit",
+        "/exit <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1428,7 +1513,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:export",
@@ -1441,19 +1526,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/export 用于复制、分享、导入或导出内容。官方说明：Export current conversation to Markdown and open in your default editor. Uses the editor set in your EDITOR environment variable. Learn more.",
+      "summaryZh": "/export导出current conversation to Markdown and open in your default editor. Uses the editor set in your EDITOR environment variable. Learn more.。",
       "usage": "/export",
       "examples": [
-        "/export"
+        "/export",
+        "/export <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1480,7 +1570,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:help",
@@ -1488,24 +1578,29 @@
       "name": "/help",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/help 用于执行常用开发工作流。官方说明：Show the help dialog.",
+      "summaryZh": "显示所有可用命令及其简要说明。",
       "usage": "/help",
       "examples": [
-        "/help"
+        "/help",
+        "/help <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1532,7 +1627,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:init",
@@ -1540,24 +1635,29 @@
       "name": "/init",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/init 用于执行常用开发工作流。官方说明：Guided setup for creating or updating AGENTS.md. Learn more.",
+      "summaryZh": "在当前项目目录中生成配置文件，初始化工具。",
       "usage": "/init",
       "examples": [
-        "/init"
+        "/init",
+        "/init <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1584,7 +1684,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:models",
@@ -1597,19 +1697,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/models 用于选择模型、推理强度或响应速度。官方说明：List available models.",
+      "summaryZh": "/models列出available models.。",
       "usage": "/models",
       "examples": [
-        "/models"
+        "/models",
+        "/models <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1636,7 +1741,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:new",
@@ -1644,24 +1749,29 @@
       "name": "/new",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/new 用于执行常用开发工作流。官方说明：Start a new session. Alias: /clear",
+      "summaryZh": "创建一个新的空白会话。",
       "usage": "/new",
       "examples": [
-        "/new"
+        "/new",
+        "/new <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1688,7 +1798,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:redo",
@@ -1701,19 +1811,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/redo 用于执行常用开发工作流。官方说明：Redo a previously undone message. Only available after using /undo.",
+      "summaryZh": "重做最近被撤销的代码变更。",
       "usage": "/redo",
       "examples": [
-        "/redo"
+        "/redo",
+        "/redo <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1740,7 +1855,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:sessions",
@@ -1753,19 +1868,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/sessions 用于管理会话、并行任务和远程工作。官方说明：List and switch between sessions. Aliases: /resume, /continue",
+      "summaryZh": "/sessions列出and switch between sessions. Aliases: /resume, /continue。",
       "usage": "/sessions",
       "examples": [
-        "/sessions"
+        "/sessions",
+        "/sessions <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1792,7 +1912,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:share",
@@ -1805,12 +1925,16 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/share 用于复制、分享、导入或导出内容。官方说明：Share current session. Learn more.",
+      "summaryZh": "将当前会话内容分享到云端，生成可访问链接。",
       "usage": "/share",
       "examples": [
-        "/share"
+        "/share",
+        "/share <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用",
+        "需要网络连接"
+      ],
       "availability": [
         "macOS",
         "Linux",
@@ -1819,7 +1943,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1847,7 +1971,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:themes",
@@ -1860,19 +1984,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/themes 用于调整终端界面和工具配置。官方说明：List available themes.",
+      "summaryZh": "/themes列出available themes.。",
       "usage": "/themes",
       "examples": [
-        "/themes"
+        "/themes",
+        "/themes <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1899,7 +2028,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:thinking",
@@ -1912,19 +2041,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/thinking 用于选择模型、推理强度或响应速度。官方说明：Toggle the visibility of thinking/reasoning blocks in the conversation. When enabled, you can see the model's reasoning process for models that support extended thinking.",
+      "summaryZh": "切换思维链模式，让 AI 展示推理过程。",
       "usage": "/thinking",
       "examples": [
-        "/thinking"
+        "/thinking",
+        "/thinking <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1951,7 +2085,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:undo",
@@ -1964,12 +2098,15 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/undo 用于执行常用开发工作流。官方说明：Undo last message in the conversation. Removes the most recent user message, all subsequent responses, and any file changes.",
+      "summaryZh": "撤销最近一次代码变更，回退到上一个状态。",
       "usage": "/undo",
       "examples": [
-        "/undo"
+        "/undo",
+        "/undo <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
         "macOS",
         "Linux",
@@ -1978,7 +2115,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2005,7 +2142,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "opencode:slash:unshare",
@@ -2018,19 +2155,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/unshare 用于复制、分享、导入或导出内容。官方说明：Unshare current session. Learn more.",
+      "summaryZh": "/unshare 用于复制、分享、导入或导出内容：Unshare current session. Learn more.",
       "usage": "/unshare",
       "examples": [
-        "/unshare"
+        "/unshare",
+        "/unshare <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用",
+        "需要网络连接"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2058,7 +2201,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     }
   ],
   "skills": [

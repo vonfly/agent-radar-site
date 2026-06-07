@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T01:51:53.792Z",
+  "generatedAt": "2026-06-07T02:55:59.284Z",
   "tools": [
     {
       "slug": "codex",
@@ -59,10 +59,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/batch 用于执行常用开发工作流。官方说明：Orchestrate large-scale changes across a codebase in parallel. Researches the codebase, decomposes the work into 5 to 30 independent units, and presents a plan. Once approved, spawns one background subagent per unit in an isolated git worktree. Each subagent implements its unit, runs tests, and opens a pull request. Requires a git repository. Example: /batch migrate src/ from Solid to React",
+      "summaryZh": "/batch 用于非交互执行、批处理、定时任务或 CI 集成：Orchestrate large-scale changes across a codebase in parallel. Researches the codebase, decomposes the work into 5 to 30 independent units, and presents a plan. Once approved, spawns one background subagent per unit in an isolated git worktree. Each subagent implements its unit, runs tests, and opens a pull request. Requires a git repository. Example: /batch migrate src/ from Solid to React",
       "useCases": [
-        "执行常用开发工作流",
-        "需要通过 /batch 执行官方内置工作流时"
+        "非交互执行、批处理、定时任务或 CI 集成",
+        "通过 /batch 快速调用官方内置能力"
       ],
       "usage": [
         "/batch <instruction>"
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -87,10 +87,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/claude-api 用于执行常用开发工作流。官方说明：Load Claude API reference material for your project's language (Python, TypeScript, Java, Go, Ruby, C#, PHP, or cURL) and Managed Agents reference. Covers tool use, streaming, batches, structured outputs, and common pitfalls. Also activates automatically when your code imports anthropic or @anthropic-ai/sdk. Run /claude-api migrate to upgrade existing Claude API code to a newer model: Claude asks which files to scan and which model to target, then updates model IDs, thinking configuration, and other parameters that changed between versions. Run /claude-api managed-agents-onboard for an interactive walkthrough that creates a new Managed Agent from scratch",
+      "summaryZh": "/claude-api 用于执行常用开发工作流：Load Claude API reference material for your project's language (Python, TypeScript, Java, Go, Ruby, C#, PHP, or cURL) and Managed Agents reference. Covers tool use, streaming, batches, structured outputs, and common pitfalls. Also activates automatically when your code imports anthropic or @anthropic-ai/sdk. Run /claude-api migrate to upgrade existing Claude API code to a newer model: Claude asks which files to scan and which model to target, then updates model IDs, thinking configuration, and other parameters that changed between versions. Run /claude-api managed-agents-onboard for an interactive walkthrough that creates a new Managed Agent from scratch",
       "useCases": [
         "执行常用开发工作流",
-        "需要通过 /claude-api 执行官方内置工作流时"
+        "通过 /claude-api 快速调用官方内置能力"
       ],
       "usage": [
         "/claude-api [migrate|managed-agents-onboard]"
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -115,10 +115,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/code-review 用于检查代码改动、Pull Request 或实现质量。官方说明：Review the current diff for correctness bugs and for reuse, simplification, and efficiency cleanups. Pass --fix to apply findings to your working tree, --comment to post them as inline GitHub PR comments, or ultra to run a deep cloud review. From v2.1.154, /simplify runs a separate cleanup-only review that applies fixes without hunting for bugs. See Review a diff locally for effort levels and targeting",
+      "summaryZh": "/code-review 用于检查代码改动、Pull Request 或实现质量：Review the current diff for correctness bugs and for reuse, simplification, and efficiency cleanups. Pass --fix to apply findings to your working tree, --comment to post them as inline GitHub PR comments, or ultra to run a deep cloud review. From v2.1.154, /simplify runs a separate cleanup-only review that applies fixes without hunting for bugs. See Review a diff locally for effort levels and targeting",
       "useCases": [
         "检查代码改动、Pull Request 或实现质量",
-        "需要通过 /code-review 执行官方内置工作流时"
+        "通过 /code-review 快速调用官方内置能力"
       ],
       "usage": [
         "/code-review [low|medium|high|xhigh|max|ultra] [--fix] [--comment] [target]"
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -143,10 +143,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/debug 用于查看状态、使用量或排查故障。官方说明：Enable debug logging for the current session and troubleshoot issues by reading the session debug log. Debug logging is off by default unless you started with claude --debug, so running /debug mid-session starts capturing logs from that point forward. Optionally describe the issue to focus the analysis",
+      "summaryZh": "/debug启用debug logging for the current session and troubleshoot issues by reading the session debug log. Debug logging is off by default unless you started with claude --debug, so running /debug mid-session starts capturing logs from that point forward. Optionally describe the issue to focus the analysis。",
       "useCases": [
         "查看状态、使用量或排查故障",
-        "需要通过 /debug 执行官方内置工作流时"
+        "通过 /debug 快速调用官方内置能力"
       ],
       "usage": [
         "/debug [description]"
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -171,10 +171,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/fewer-permission-prompts 用于调整权限、安全边界或高风险操作。官方说明：Scan your transcripts for common read-only Bash and MCP tool calls, then add a prioritized allowlist to project .claude/settings.json to reduce permission prompts",
+      "summaryZh": "/fewer-permission-prompts 用于调整权限、安全边界或高风险操作：Scan your transcripts for common read-only Bash and MCP tool calls, then add a prioritized allowlist to project .claude/settings.json to reduce permission prompts",
       "useCases": [
         "调整权限、安全边界或高风险操作",
-        "需要通过 /fewer-permission-prompts 执行官方内置工作流时"
+        "通过 /fewer-permission-prompts 快速调用官方内置能力"
       ],
       "usage": [
         "/fewer-permission-prompts"
@@ -190,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -199,10 +199,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/loop 用于执行常用开发工作流。官方说明：Run a prompt repeatedly while the session stays open. Omit the interval and Claude self-paces between iterations. Omit the prompt and, where available, Claude runs an autonomous maintenance check or the prompt in .claude/loop.md. Example: /loop 5m check if the deploy finished. See Run prompts on a schedule. Alias: /proactive",
+      "summaryZh": "/loop对a schedule. Alias: /proactive执行prompt repeatedly while the session stays open. Omit the interval and Claude self-paces between iterations. Omit the prompt and, where available, Claude runs an autonomous maintenance check or the prompt in .claude/loop.md. Example: /loop 5m check if the deploy finished. See Run prompts。",
       "useCases": [
-        "执行常用开发工作流",
-        "需要通过 /loop 执行官方内置工作流时"
+        "非交互执行、批处理、定时任务或 CI 集成",
+        "通过 /loop 快速调用官方内置能力"
       ],
       "usage": [
         "/loop [interval] [prompt]"
@@ -218,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -227,10 +227,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/run 用于执行常用开发工作流。官方说明：Launch and drive your project's app to see a change working in the running app, not just in tests. See Run and verify your app. Requires Claude Code v2.1.145 or later",
+      "summaryZh": "启动并运行当前项目，观察变更的实际效果。",
       "useCases": [
         "执行常用开发工作流",
-        "需要通过 /run 执行官方内置工作流时"
+        "通过 /run 快速调用官方内置能力"
       ],
       "usage": [
         "/run"
@@ -246,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -255,10 +255,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/run-skill-generator 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Teach /run and /verify how to build, launch, and drive your project's app from a clean environment by writing a per-project skill. Requires Claude Code v2.1.145 or later",
+      "summaryZh": "/run-skill-generator 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Teach /run and /verify how to build, launch, and drive your project's app from a clean environment by writing a per-project skill. Requires Claude Code v2.1.145 or later",
       "useCases": [
         "管理 Skills、插件、Agents、Hooks 或 MCP 扩展",
-        "需要通过 /run-skill-generator 执行官方内置工作流时"
+        "通过 /run-skill-generator 快速调用官方内置能力"
       ],
       "usage": [
         "/run-skill-generator"
@@ -274,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -283,10 +283,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/simplify 用于执行常用开发工作流。官方说明：Review the changed code for cleanup opportunities and apply the fixes. Four review agents run in parallel, covering reuse of existing helpers, simplification, efficiency, and whether the change sits at the right level of abstraction. From v2.1.154, the review does not look for correctness bugs. Use /code-review to find bugs. On earlier versions /simplify is equivalent to /code-review --fix. Pass a path or PR reference to review a specific target",
+      "summaryZh": "/simplify 用于执行常用开发工作流：Review the changed code for cleanup opportunities and apply the fixes. Four review agents run in parallel, covering reuse of existing helpers, simplification, efficiency, and whether the change sits at the right level of abstraction. From v2.1.154, the review does not look for correctness bugs. Use /code-review to find bugs. On earlier versions /simplify is equivalent to /code-review --fix. Pass a path or PR reference to review a specific target",
       "useCases": [
         "执行常用开发工作流",
-        "需要通过 /simplify 执行官方内置工作流时"
+        "通过 /simplify 快速调用官方内置能力"
       ],
       "usage": [
         "/simplify [target]"
@@ -302,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -311,10 +311,10 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/verify 用于检查代码改动、Pull Request 或实现质量。官方说明：Confirm a code change does what it should by building your project's app, running it, and observing the result, rather than relying on tests or type checks. See Run and verify your app. Requires Claude Code v2.1.145 or later",
+      "summaryZh": "/verify 用于检查代码改动、Pull Request 或实现质量：Confirm a code change does what it should by building your project's app, running it, and observing the result, rather than relying on tests or type checks. See Run and verify your app. Requires Claude Code v2.1.145 or later",
       "useCases": [
         "检查代码改动、Pull Request 或实现质量",
-        "需要通过 /verify 执行官方内置工作流时"
+        "通过 /verify 快速调用官方内置能力"
       ],
       "usage": [
         "/verify"
@@ -330,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "codex:skill:gh-address-comments",

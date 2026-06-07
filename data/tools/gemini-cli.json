@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T01:51:53.792Z",
+  "generatedAt": "2026-06-07T02:55:59.284Z",
   "tool": {
     "slug": "gemini-cli",
     "name": "Gemini CLI",
@@ -25,10 +25,11 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini 用于执行常用开发工作流。官方说明：Start interactive REPL",
+      "summaryZh": "gemini启动interactive REPL。",
       "usage": "gemini",
       "examples": [
-        "gemini"
+        "gemini",
+        "gemini --help"
       ],
       "requirements": [],
       "availability": [
@@ -39,7 +40,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -66,7 +67,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini--i",
@@ -289,19 +290,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Manage extensions",
+      "summaryZh": "gemini extensions管理extensions。",
       "usage": "See Extensions Management",
       "examples": [
-        "See Extensions Management"
+        "See Extensions Management",
+        "gemini extensions --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -328,7 +334,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-disable",
@@ -341,19 +347,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions disable 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Disable an extension",
+      "summaryZh": "gemini extensions disable禁用an extension。",
       "usage": "gemini extensions disable my-extension",
       "examples": [
-        "gemini extensions disable my-extension"
+        "gemini extensions disable my-extension",
+        "gemini extensions disable --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -380,7 +391,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-enable",
@@ -393,19 +404,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions enable 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Enable an extension",
+      "summaryZh": "gemini extensions enable启用an extension。",
       "usage": "gemini extensions enable my-extension",
       "examples": [
-        "gemini extensions enable my-extension"
+        "gemini extensions enable my-extension",
+        "gemini extensions enable --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -432,7 +448,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-install",
@@ -445,19 +461,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions install 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Install with auto-update enabled",
+      "summaryZh": "gemini extensions install安装with auto-update enabled。",
       "usage": "gemini extensions install https://github.com/user/my-extension --auto-update",
       "examples": [
-        "gemini extensions install https://github.com/user/my-extension --auto-update"
+        "gemini extensions install https://github.com/user/my-extension --auto-update",
+        "gemini extensions install --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -484,7 +505,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-link",
@@ -497,19 +518,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions link 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Link local extension for development",
+      "summaryZh": "gemini extensions link 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Link local extension for development",
       "usage": "gemini extensions link /path/to/extension",
       "examples": [
-        "gemini extensions link /path/to/extension"
+        "gemini extensions link /path/to/extension",
+        "gemini extensions link --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -536,7 +562,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-list",
@@ -549,19 +575,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions list 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：List all installed extensions",
+      "summaryZh": "gemini extensions list列出all installed extensions。",
       "usage": "gemini extensions list",
       "examples": [
-        "gemini extensions list"
+        "gemini extensions list",
+        "gemini extensions list --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -588,7 +619,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-new",
@@ -601,19 +632,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions new 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Create new extension from template",
+      "summaryZh": "gemini extensions new创建new extension from template。",
       "usage": "gemini extensions new ./my-extension",
       "examples": [
-        "gemini extensions new ./my-extension"
+        "gemini extensions new ./my-extension",
+        "gemini extensions new --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -640,7 +676,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-uninstall",
@@ -653,19 +689,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions uninstall 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Uninstall one or more extensions",
+      "summaryZh": "gemini extensions uninstall 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Uninstall one or more extensions",
       "usage": "gemini extensions uninstall my-extension",
       "examples": [
-        "gemini extensions uninstall my-extension"
+        "gemini extensions uninstall my-extension",
+        "gemini extensions uninstall --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -692,7 +733,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-update",
@@ -705,19 +746,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions update 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Update all extensions",
+      "summaryZh": "gemini extensions update更新all extensions。",
       "usage": "gemini extensions update --all",
       "examples": [
-        "gemini extensions update --all"
+        "gemini extensions update --all",
+        "gemini extensions update --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -744,7 +790,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-validate",
@@ -757,19 +803,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini extensions validate 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Validate extension structure",
+      "summaryZh": "gemini extensions validate 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Validate extension structure",
       "usage": "gemini extensions validate ./my-extension",
       "examples": [
-        "gemini extensions validate ./my-extension"
+        "gemini extensions validate ./my-extension",
+        "gemini extensions validate --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -796,7 +847,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-mcp",
@@ -809,19 +860,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini mcp 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Configure MCP servers",
+      "summaryZh": "管理 Gemini CLI 的 MCP 服务器连接。",
       "usage": "See MCP Server Management",
       "examples": [
-        "See MCP Server Management"
+        "See MCP Server Management",
+        "gemini mcp --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -848,7 +904,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-mcp-add",
@@ -861,19 +917,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini mcp add 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Add with specific tools",
+      "summaryZh": "gemini mcp add 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Add with specific tools",
       "usage": "gemini mcp add github npx -y @modelcontextprotocol/server-github --include-tools listrepos,getpr",
       "examples": [
-        "gemini mcp add github npx -y @modelcontextprotocol/server-github --include-tools listrepos,getpr"
+        "gemini mcp add github npx -y @modelcontextprotocol/server-github --include-tools listrepos,getpr",
+        "gemini mcp add --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -900,7 +961,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-mcp-list",
@@ -913,19 +974,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini mcp list 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：List all configured MCP servers",
+      "summaryZh": "gemini mcp list列出all configured MCP servers。",
       "usage": "gemini mcp list",
       "examples": [
-        "gemini mcp list"
+        "gemini mcp list",
+        "gemini mcp list --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -952,7 +1018,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-mcp-remove",
@@ -965,19 +1031,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini mcp remove 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Remove an MCP server",
+      "summaryZh": "gemini mcp remove移除an MCP server。",
       "usage": "gemini mcp remove github",
       "examples": [
-        "gemini mcp remove github"
+        "gemini mcp remove github",
+        "gemini mcp remove --help"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1004,7 +1075,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills",
@@ -1017,19 +1088,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini skills disable 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Disable all skills",
+      "summaryZh": "gemini skills disable禁用all skills。",
       "usage": "gemini skills disable --all",
       "examples": [
-        "gemini skills disable --all"
+        "gemini skills disable --all",
+        "gemini skills disable --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1056,7 +1130,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-enable",
@@ -1069,19 +1143,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini skills enable 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Enable all skills",
+      "summaryZh": "gemini skills enable启用all skills。",
       "usage": "gemini skills enable --all",
       "examples": [
-        "gemini skills enable --all"
+        "gemini skills enable --all",
+        "gemini skills enable --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1108,7 +1185,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-install",
@@ -1121,19 +1198,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini skills install 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Install skill from Git, path, or file",
+      "summaryZh": "gemini skills install安装skill from Git, path, or file。",
       "usage": "gemini skills install https://github.com/u/repo",
       "examples": [
-        "gemini skills install https://github.com/u/repo"
+        "gemini skills install https://github.com/u/repo",
+        "gemini skills install --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1160,7 +1240,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-link",
@@ -1173,19 +1253,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini skills link 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Link local agent skills via symlink",
+      "summaryZh": "gemini skills link 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Link local agent skills via symlink",
       "usage": "gemini skills link /path/to/my-skills",
       "examples": [
-        "gemini skills link /path/to/my-skills"
+        "gemini skills link /path/to/my-skills",
+        "gemini skills link --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1212,7 +1295,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-list",
@@ -1225,19 +1308,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini skills list 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：List all discovered agent skills",
+      "summaryZh": "gemini skills list列出all discovered agent skills。",
       "usage": "gemini skills list",
       "examples": [
-        "gemini skills list"
+        "gemini skills list",
+        "gemini skills list --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1264,7 +1350,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-uninstall",
@@ -1277,19 +1363,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini skills uninstall 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Uninstall an agent skill",
+      "summaryZh": "gemini skills uninstall 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Uninstall an agent skill",
       "usage": "gemini skills uninstall my-skill",
       "examples": [
-        "gemini skills uninstall my-skill"
+        "gemini skills uninstall my-skill",
+        "gemini skills uninstall --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1316,7 +1405,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:cli:gemini-update",
@@ -1329,19 +1418,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "gemini update 用于处理安装、升级和账号认证。官方说明：Update to latest version",
+      "summaryZh": "gemini update更新to latest version。",
       "usage": "gemini update",
       "examples": [
-        "gemini update"
+        "gemini update",
+        "gemini update --help"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1368,7 +1460,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:allowed-mcp-server-names",
@@ -1381,19 +1473,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--allowed-mcp-server-names 用于调整权限、安全边界或高风险操作。官方说明：Allowed MCP server names (comma-separated or multiple flags)",
+      "summaryZh": "--allowed-mcp-server-names 用于调整权限、安全边界或高风险操作：Allowed MCP server names (comma-separated or multiple flags)",
       "usage": "--allowed-mcp-server-names",
       "examples": [
-        "--allowed-mcp-server-names"
+        "--allowed-mcp-server-names",
+        "--allowed-mcp-server-names=<值>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1420,7 +1517,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:allowed-tools",
@@ -1433,19 +1530,22 @@
       "deprecatedIn": "见官方说明",
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--allowed-tools 用于调整权限、安全边界或高风险操作。官方说明：Deprecated. Use the Policy Engine instead. Tools that are allowed to run without confirmation (comma-separated or multiple flags)",
+      "summaryZh": "--allowed-tools 用于调整权限、安全边界或高风险操作：Deprecated. Use the Policy Engine instead. Tools that are allowed to run without confirmation (comma-separated or multiple flags)",
       "usage": "--allowed-tools",
       "examples": [
-        "--allowed-tools"
+        "--allowed-tools",
+        "--allowed-tools=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1472,7 +1572,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:approval-mode",
@@ -1485,19 +1585,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--approval-mode 用于执行常用开发工作流。官方说明：Approval mode for tool execution. Choices: default, autoedit, yolo, plan",
+      "summaryZh": "--approval-mode 用于执行常用开发工作流：Approval mode for tool execution. Choices: default, autoedit, yolo, plan",
       "usage": "--approval-mode",
       "examples": [
-        "--approval-mode"
+        "--approval-mode",
+        "--approval-mode=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1524,7 +1627,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:debug",
@@ -1537,19 +1640,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--debug 用于查看状态、使用量或排查故障。官方说明：Run in debug mode with verbose logging",
+      "summaryZh": "--debug 用于查看状态、使用量或排查故障：Run in debug mode with verbose logging",
       "usage": "--debug",
       "examples": [
-        "--debug"
+        "--debug",
+        "--debug=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1576,7 +1682,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:delete-session",
@@ -1589,19 +1695,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--delete-session 用于管理会话、并行任务和远程工作。官方说明：Delete a session by index number (use --list-sessions to see available sessions)",
+      "summaryZh": "--delete-session删除a session by index number (use --list-sessions to see available sessions)。",
       "usage": "--delete-session",
       "examples": [
-        "--delete-session"
+        "--delete-session",
+        "--delete-session=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1628,7 +1737,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:experimental-acp",
@@ -1641,19 +1750,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "experimental",
-      "summaryZh": "--experimental-acp 用于执行常用开发工作流。官方说明：Start in ACP (Agent Code Pilot) mode. Experimental feature.",
+      "summaryZh": "--experimental-acp启动in ACP (Agent Code Pilot) mode. Experimental feature.。",
       "usage": "--experimental-acp",
       "examples": [
-        "--experimental-acp"
+        "--experimental-acp",
+        "--experimental-acp=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1680,7 +1792,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:experimental-zed-integration",
@@ -1693,19 +1805,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "experimental",
-      "summaryZh": "--experimental-zed-integration 用于执行常用开发工作流。官方说明：Run in Zed editor integration mode. Experimental feature.",
+      "summaryZh": "--experimental-zed-integration 用于执行常用开发工作流：Run in Zed editor integration mode. Experimental feature.",
       "usage": "--experimental-zed-integration",
       "examples": [
-        "--experimental-zed-integration"
+        "--experimental-zed-integration",
+        "--experimental-zed-integration=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1732,7 +1847,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:extensions",
@@ -1745,19 +1860,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--extensions 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：List of extensions to use. If not provided, all extensions are enabled (comma-separated or multiple flags)",
+      "summaryZh": "--extensions列出of extensions to use. If not provided, all extensions are enabled (comma-separated or multiple flags)。",
       "usage": "--extensions",
       "examples": [
-        "--extensions"
+        "--extensions",
+        "--extensions=<值>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1784,7 +1904,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:help",
@@ -1792,24 +1912,27 @@
       "name": "--help",
       "aliases": [],
       "kind": "flag",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--help 用于执行常用开发工作流。官方说明：Show help information",
+      "summaryZh": "--help显示help information。",
       "usage": "--help",
       "examples": [
-        "--help"
+        "--help",
+        "--help=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1836,7 +1959,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:include-directories",
@@ -1849,19 +1972,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--include-directories 用于执行常用开发工作流。官方说明：Additional directories to include in the workspace (comma-separated or multiple flags)",
+      "summaryZh": "--include-directories 用于执行常用开发工作流：Additional directories to include in the workspace (comma-separated or multiple flags)",
       "usage": "--include-directories",
       "examples": [
-        "--include-directories"
+        "--include-directories",
+        "--include-directories=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1888,7 +2014,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:list-extensions",
@@ -1901,19 +2027,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--list-extensions 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：List all available extensions and exit",
+      "summaryZh": "--list-extensions列出all available extensions and exit。",
       "usage": "--list-extensions",
       "examples": [
-        "--list-extensions"
+        "--list-extensions",
+        "--list-extensions=<值>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1940,7 +2071,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:list-sessions",
@@ -1953,19 +2084,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--list-sessions 用于管理会话、并行任务和远程工作。官方说明：List available sessions for the current project and exit",
+      "summaryZh": "--list-sessions列出available sessions for the current project and exit。",
       "usage": "--list-sessions",
       "examples": [
-        "--list-sessions"
+        "--list-sessions",
+        "--list-sessions=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1992,7 +2126,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:model",
@@ -2005,19 +2139,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--model 用于选择模型、推理强度或响应速度。官方说明：Model to use. See Model Selection for available values.",
+      "summaryZh": "--model 用于选择模型、推理强度或响应速度：Model to use. See Model Selection for available values.",
       "usage": "--model",
       "examples": [
-        "--model"
+        "--model",
+        "--model=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2044,7 +2181,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:output-format",
@@ -2057,19 +2194,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--output-format 用于执行常用开发工作流。官方说明：The format of the CLI output. Choices: text, json, stream-json",
+      "summaryZh": "--output-format 用于执行常用开发工作流：The format of the CLI output. Choices: text, json, stream-json",
       "usage": "--output-format",
       "examples": [
-        "--output-format"
+        "--output-format",
+        "--output-format=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2096,7 +2236,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:prompt",
@@ -2109,19 +2249,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--prompt 用于执行常用开发工作流。官方说明：Prompt text. Appended to stdin input if provided. Forces non-interactive mode.",
+      "summaryZh": "--prompt 用于执行常用开发工作流：Prompt text. Appended to stdin input if provided. Forces non-interactive mode.",
       "usage": "--prompt",
       "examples": [
-        "--prompt"
+        "--prompt",
+        "--prompt=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2148,7 +2291,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:prompt-interactive",
@@ -2161,19 +2304,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--prompt-interactive 用于执行常用开发工作流。官方说明：Execute prompt and continue in interactive mode",
+      "summaryZh": "--prompt-interactive执行prompt and continue in interactive mode。",
       "usage": "--prompt-interactive",
       "examples": [
-        "--prompt-interactive"
+        "--prompt-interactive",
+        "--prompt-interactive=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2200,7 +2346,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:resume",
@@ -2213,19 +2359,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--resume 用于管理会话、并行任务和远程工作。官方说明：Resume a previous session. Use \"latest\" for most recent or index number (for example --resume 5)",
+      "summaryZh": "--resume 用于管理会话、并行任务和远程工作：Resume a previous session. Use \"latest\" for most recent or index number (for example --resume 5)",
       "usage": "--resume",
       "examples": [
-        "--resume"
+        "--resume",
+        "--resume=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2252,7 +2401,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:sandbox",
@@ -2265,19 +2414,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--sandbox 用于调整权限、安全边界或高风险操作。官方说明：Run in a sandboxed environment for safer execution",
+      "summaryZh": "--sandbox 用于调整权限、安全边界或高风险操作：Run in a sandboxed environment for safer execution",
       "usage": "--sandbox",
       "examples": [
-        "--sandbox"
+        "--sandbox",
+        "--sandbox=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2304,7 +2456,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:screen-reader",
@@ -2317,19 +2469,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--screen-reader 用于执行常用开发工作流。官方说明：Enable screen reader mode for accessibility",
+      "summaryZh": "--screen-reader启用screen reader mode for accessibility。",
       "usage": "--screen-reader",
       "examples": [
-        "--screen-reader"
+        "--screen-reader",
+        "--screen-reader=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2356,7 +2511,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:skip-trust",
@@ -2369,19 +2524,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--skip-trust 用于调整权限、安全边界或高风险操作。官方说明：Trust the current workspace for this session, skipping the folder trust check.",
+      "summaryZh": "--skip-trust 用于调整权限、安全边界或高风险操作：Trust the current workspace for this session, skipping the folder trust check.",
       "usage": "--skip-trust",
       "examples": [
-        "--skip-trust"
+        "--skip-trust",
+        "--skip-trust=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2408,7 +2566,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:version",
@@ -2416,24 +2574,27 @@
       "name": "--version",
       "aliases": [],
       "kind": "flag",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--version 用于执行常用开发工作流。官方说明：Show CLI version number and exit",
+      "summaryZh": "--version显示CLI version number and exit。",
       "usage": "--version",
       "examples": [
-        "--version"
+        "--version",
+        "--version=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2460,7 +2621,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:worktree",
@@ -2473,19 +2634,22 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "experimental",
-      "summaryZh": "--worktree 用于执行常用开发工作流。官方说明：Start Gemini in a new git worktree. If no name is provided, one is generated automatically. Requires experimental.worktrees: true in settings.",
+      "summaryZh": "--worktree启动Gemini in a new git worktree. If no name is provided, one is generated automatically. Requires experimental.worktrees: true in settings.。",
       "usage": "--worktree",
       "examples": [
-        "--worktree"
+        "--worktree",
+        "--worktree=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2512,7 +2676,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:flag:yolo",
@@ -2525,19 +2689,22 @@
       "deprecatedIn": "见官方说明",
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "--yolo 用于调整权限、安全边界或高风险操作。官方说明：Deprecated. Auto-approve all actions. Use --approval-mode=yolo instead.",
+      "summaryZh": "--yolo 用于调整权限、安全边界或高风险操作：Deprecated. Auto-approve all actions. Use --approval-mode=yolo instead.",
       "usage": "--yolo",
       "examples": [
-        "--yolo"
+        "--yolo",
+        "--yolo=<值>"
       ],
       "requirements": [],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2565,7 +2732,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:slash:agents",
@@ -2578,19 +2745,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/agents 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Reload the agent registry",
+      "summaryZh": "查看和管理可用的 AI Agent 及其配置。",
       "usage": "/agents reload",
       "examples": [
-        "/agents reload"
+        "/agents reload",
+        "/agents <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2617,7 +2789,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:slash:commands",
@@ -2630,19 +2802,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/commands 用于执行常用开发工作流。官方说明：Reload custom slash commands",
+      "summaryZh": "/commands 用于执行常用开发工作流：Reload custom slash commands",
       "usage": "/commands reload",
       "examples": [
-        "/commands reload"
+        "/commands reload",
+        "/commands <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2669,7 +2846,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:slash:extensions",
@@ -2682,19 +2859,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/extensions 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Reload all active extensions",
+      "summaryZh": "/extensions 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Reload all active extensions",
       "usage": "/extensions reload",
       "examples": [
-        "/extensions reload"
+        "/extensions reload",
+        "/extensions <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用",
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2721,7 +2904,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:slash:help",
@@ -2729,24 +2912,29 @@
       "name": "/help",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/help 用于执行常用开发工作流。官方说明：Show help for all commands",
+      "summaryZh": "显示所有可用命令及其简要说明。",
       "usage": "/help",
       "examples": [
-        "/help"
+        "/help",
+        "/help <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2773,7 +2961,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:slash:mcp",
@@ -2786,19 +2974,25 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/mcp 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Restart and reload MCP servers",
+      "summaryZh": "管理 Model Context Protocol 服务器连接和配置。",
       "usage": "/mcp reload",
       "examples": [
-        "/mcp reload"
+        "/mcp reload",
+        "/mcp <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用",
+        "需要对应扩展已安装"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2825,7 +3019,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:slash:memory",
@@ -2838,19 +3032,24 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/memory 用于控制上下文、记忆和对话历史。官方说明：Reload context files (for example, GEMINI.md)",
+      "summaryZh": "管理持久化记忆，保存跨会话的重要上下文。",
       "usage": "/memory reload",
       "examples": [
-        "/memory reload"
+        "/memory reload",
+        "/memory <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2877,7 +3076,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:slash:quit",
@@ -2885,24 +3084,29 @@
       "name": "/quit",
       "aliases": [],
       "kind": "slash",
-      "category": "工作流",
+      "category": "配置",
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/quit 用于执行常用开发工作流。官方说明：Exit the interactive session",
+      "summaryZh": "退出当前交互会话并返回终端。",
       "usage": "/quit",
       "examples": [
-        "/quit"
+        "/quit",
+        "/quit <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
-        "具体可用性取决于平台、套餐和环境"
+        "macOS",
+        "Linux",
+        "Windows"
       ],
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2929,7 +3133,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     },
     {
       "id": "gemini-cli:slash:restore",
@@ -3050,12 +3254,15 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/skills 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展。官方说明：Reload discovered skills from disk",
+      "summaryZh": "/skills 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Reload discovered skills from disk",
       "usage": "/skills reload",
       "examples": [
-        "/skills reload"
+        "/skills reload",
+        "/skills <参数>"
       ],
-      "requirements": [],
+      "requirements": [
+        "需要在交互会话中使用"
+      ],
       "availability": [
         "macOS",
         "Linux",
@@ -3064,7 +3271,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-07T01:51:53.792Z",
+        "checkedAt": "2026-06-07T02:55:59.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3091,7 +3298,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-07T01:51:53.792Z"
+      "lastCheckedAt": "2026-06-07T02:55:59.284Z"
     }
   ],
   "skills": [
