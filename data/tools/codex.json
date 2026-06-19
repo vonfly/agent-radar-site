@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T05:17:03.612Z",
+  "generatedAt": "2026-06-19T05:33:25.804Z",
   "tool": {
     "slug": "codex",
     "name": "Codex",
@@ -1417,7 +1417,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1444,7 +1444,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:approve",
@@ -1475,7 +1475,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1502,7 +1502,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:apps",
@@ -1533,7 +1533,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1560,7 +1560,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:archive",
@@ -1591,7 +1591,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1618,7 +1618,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:btw",
@@ -1649,7 +1649,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1676,7 +1676,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:clear",
@@ -1707,7 +1707,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1734,7 +1734,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:compact",
@@ -1765,7 +1765,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1792,7 +1792,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:copy",
@@ -1823,7 +1823,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1850,7 +1850,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:debug-config",
@@ -1881,7 +1881,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1908,7 +1908,65 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
+    },
+    {
+      "id": "codex:slash:delete",
+      "tool": "codex",
+      "name": "/delete",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/delete 用于执行常用开发工作流：Permanently delete the current session and exit Codex.",
+      "usage": "/delete",
+      "examples": [
+        "/delete",
+        "/delete <参数>"
+      ],
+      "requirements": [
+        "适用场景：Remove the transcript and descendant sessions when archiving isn't enough.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "high",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 74,
+        "verdict": "pilot",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 32/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 32,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:diff",
@@ -1939,7 +1997,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1966,7 +2024,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:exit",
@@ -1997,7 +2055,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2024,7 +2082,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:experimental",
@@ -2055,7 +2113,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2082,7 +2140,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:fast",
@@ -2113,7 +2171,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2140,7 +2198,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:feedback",
@@ -2171,7 +2229,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2198,7 +2256,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:fork",
@@ -2229,7 +2287,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2256,7 +2314,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:goal",
@@ -2287,7 +2345,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2314,7 +2372,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:hooks",
@@ -2334,7 +2392,7 @@
         "/hooks <参数>"
       ],
       "requirements": [
-        "适用场景：Inspect hook configuration loaded into the current session.",
+        "适用场景：Inspect configured hooks, trust new or changed hooks, or disable non-managed hooks before they run.",
         "需要在交互会话中使用"
       ],
       "availability": [
@@ -2345,7 +2403,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2372,7 +2430,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:ide",
@@ -2403,7 +2461,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2430,7 +2488,65 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
+    },
+    {
+      "id": "codex:slash:import",
+      "tool": "codex",
+      "name": "/import",
+      "aliases": [],
+      "kind": "slash",
+      "category": "导入导出",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/import导入Claude Code setup, project files, and recent chats.。",
+      "usage": "/import",
+      "examples": [
+        "/import",
+        "/import <参数>"
+      ],
+      "requirements": [
+        "适用场景：Migrate supported external-agent artifacts into Codex configuration and local files.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:init",
@@ -2461,7 +2577,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2488,7 +2604,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:keymap",
@@ -2519,7 +2635,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2546,7 +2662,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:logout",
@@ -2577,7 +2693,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2604,7 +2720,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:mcp",
@@ -2636,7 +2752,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2663,7 +2779,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:memories",
@@ -2694,7 +2810,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2721,7 +2837,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:mention",
@@ -2752,7 +2868,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2779,7 +2895,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:model",
@@ -2810,7 +2926,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2837,7 +2953,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:new",
@@ -2868,7 +2984,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2895,7 +3011,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:permissions",
@@ -2926,7 +3042,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2953,7 +3069,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:personality",
@@ -2984,7 +3100,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3011,7 +3127,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:plan",
@@ -3042,7 +3158,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3069,7 +3185,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:plugins",
@@ -3101,7 +3217,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3128,7 +3244,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:ps",
@@ -3159,7 +3275,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3186,7 +3302,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:quit",
@@ -3217,7 +3333,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3244,7 +3360,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:raw",
@@ -3275,7 +3391,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3302,7 +3418,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:resume",
@@ -3333,7 +3449,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3360,7 +3476,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:review",
@@ -3391,7 +3507,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3418,7 +3534,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:sandbox-add-read-dir",
@@ -3449,7 +3565,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3476,7 +3592,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:side",
@@ -3507,7 +3623,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3534,7 +3650,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:skills",
@@ -3565,7 +3681,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3592,7 +3708,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:status",
@@ -3623,7 +3739,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3650,7 +3766,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:statusline",
@@ -3681,7 +3797,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3708,7 +3824,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:stop",
@@ -3739,7 +3855,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3766,7 +3882,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:theme",
@@ -3797,7 +3913,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3824,7 +3940,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:title",
@@ -3855,7 +3971,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3882,7 +3998,65 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
+    },
+    {
+      "id": "codex:slash:usage",
+      "tool": "codex",
+      "name": "/usage",
+      "aliases": [],
+      "kind": "slash",
+      "category": "诊断",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/usage查看account token usage or use a rate-limit reset.。",
+      "usage": "/usage",
+      "examples": [
+        "/usage",
+        "/usage <参数>"
+      ],
+      "requirements": [
+        "适用场景：Inspect daily, weekly, or cumulative ChatGPT token activity from inside the TUI.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     },
     {
       "id": "codex:slash:vim",
@@ -3913,7 +4087,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-06-18T05:16:25.955Z",
+        "checkedAt": "2026-06-19T05:33:20.062Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3940,7 +4114,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-06-18T05:16:25.955Z"
+      "lastCheckedAt": "2026-06-19T05:33:20.062Z"
     }
   ],
   "skills": [
