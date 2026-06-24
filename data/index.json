@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:40:15.632Z",
+  "generatedAt": "2026-06-24T04:46:38.573Z",
   "tools": [
     {
       "slug": "codex",
@@ -18,8 +18,8 @@
       "name": "Claude Code",
       "vendor": "Anthropic",
       "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-      "latestVersion": "2.1.186",
-      "latestReleaseDate": "2026-06-22",
+      "latestVersion": "2.1.187",
+      "latestReleaseDate": "2026-06-23",
       "repository": "https://github.com/anthropics/claude-code",
       "docs": "https://code.claude.com/docs",
       "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -190,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -218,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -246,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -274,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -302,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -330,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-23T04:40:03.413Z"
+      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -661,6 +661,21 @@
   ],
   "recentChanges": [
     {
+      "id": "claude-code-2.1.187",
+      "tool": "claude-code",
+      "version": "2.1.187",
+      "publishedAt": "2026-06-23",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.187 发布",
+      "summaryZh": "从 2.1.186 更新到 2.1.187。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
+        "official": true
+      }
+    },
+    {
       "id": "codex-0.142.0",
       "tool": "codex",
       "version": "0.142.0",
@@ -942,21 +957,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.3",
-        "official": true
-      }
-    },
-    {
-      "id": "gemini-cli-0.46.0",
-      "tool": "gemini-cli",
-      "version": "0.46.0",
-      "publishedAt": "2026-06-10",
-      "type": "changed",
-      "titleZh": "Gemini CLI 0.46.0 发布",
-      "summaryZh": "从 0.45.2 更新到 0.46.0。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0",
         "official": true
       }
     }
