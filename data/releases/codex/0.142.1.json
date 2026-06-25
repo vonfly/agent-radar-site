@@ -1,0 +1,15 @@
+{
+  "id": "codex-0.142.1",
+  "tool": "codex",
+  "version": "0.142.1",
+  "publishedAt": "2026-06-25",
+  "type": "changed",
+  "titleZh": "Codex 0.142.1 发布",
+  "summaryZh": "从 0.142.0 更新到 0.142.1。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+  "commandIds": [],
+  "source": {
+    "label": "官方 GitHub Release",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.1",
+    "official": true
+  }
+}

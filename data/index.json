@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-24T04:46:38.573Z",
+  "generatedAt": "2026-06-25T04:45:19.118Z",
   "tools": [
     {
       "slug": "codex",
       "name": "Codex",
       "vendor": "OpenAI",
       "descriptionZh": "本地与云端协作的智能体编码工具。",
-      "latestVersion": "0.142.0",
-      "latestReleaseDate": "2026-06-22",
+      "latestVersion": "0.142.1",
+      "latestReleaseDate": "2026-06-25",
       "repository": "https://github.com/openai/codex",
       "docs": "https://developers.openai.com/codex/cli",
       "installCommand": "npm install -g @openai/codex",
@@ -18,8 +18,8 @@
       "name": "Claude Code",
       "vendor": "Anthropic",
       "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-      "latestVersion": "2.1.187",
-      "latestReleaseDate": "2026-06-23",
+      "latestVersion": "2.1.191",
+      "latestReleaseDate": "2026-06-24",
       "repository": "https://github.com/anthropics/claude-code",
       "docs": "https://code.claude.com/docs",
       "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -43,8 +43,8 @@
       "name": "OpenCode",
       "vendor": "Anomaly",
       "descriptionZh": "支持多模型、多提供商和本地扩展的开源编码智能体。",
-      "latestVersion": "1.17.9",
-      "latestReleaseDate": "2026-06-21",
+      "latestVersion": "1.17.10",
+      "latestReleaseDate": "2026-06-24",
       "repository": "https://github.com/anomalyco/opencode",
       "docs": "https://opencode.ai/docs/",
       "installCommand": "npm install -g opencode-ai",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -190,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -218,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -246,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -274,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -302,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -330,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-24T04:46:32.213Z"
+      "lastCheckedAt": "2026-06-25T04:44:56.146Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -661,6 +661,51 @@
   ],
   "recentChanges": [
     {
+      "id": "codex-0.142.1",
+      "tool": "codex",
+      "version": "0.142.1",
+      "publishedAt": "2026-06-25",
+      "type": "changed",
+      "titleZh": "Codex 0.142.1 发布",
+      "summaryZh": "从 0.142.0 更新到 0.142.1。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.1",
+        "official": true
+      }
+    },
+    {
+      "id": "claude-code-2.1.191",
+      "tool": "claude-code",
+      "version": "2.1.191",
+      "publishedAt": "2026-06-24",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.191 发布",
+      "summaryZh": "从 2.1.187 更新到 2.1.191。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
+        "official": true
+      }
+    },
+    {
+      "id": "opencode-1.17.10",
+      "tool": "opencode",
+      "version": "1.17.10",
+      "publishedAt": "2026-06-24",
+      "type": "changed",
+      "titleZh": "OpenCode 1.17.10 发布",
+      "summaryZh": "从 1.17.9 更新到 1.17.10。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.10",
+        "official": true
+      }
+    },
+    {
       "id": "claude-code-2.1.187",
       "tool": "claude-code",
       "version": "2.1.187",
@@ -912,51 +957,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
-        "official": true
-      }
-    },
-    {
-      "id": "opencode-1.17.4",
-      "tool": "opencode",
-      "version": "1.17.4",
-      "publishedAt": "2026-06-12",
-      "type": "changed",
-      "titleZh": "OpenCode 1.17.4 发布",
-      "summaryZh": "从 1.17.3 更新到 1.17.4。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.4",
-        "official": true
-      }
-    },
-    {
-      "id": "claude-code-2.1.172",
-      "tool": "claude-code",
-      "version": "2.1.172",
-      "publishedAt": "2026-06-10",
-      "type": "changed",
-      "titleZh": "Claude Code 2.1.172 发布",
-      "summaryZh": "从 2.1.170 更新到 2.1.172。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
-        "official": true
-      }
-    },
-    {
-      "id": "opencode-1.17.3",
-      "tool": "opencode",
-      "version": "1.17.3",
-      "publishedAt": "2026-06-10",
-      "type": "changed",
-      "titleZh": "OpenCode 1.17.3 发布",
-      "summaryZh": "从 1.17.0 更新到 1.17.3。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.3",
         "official": true
       }
     }
