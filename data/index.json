@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-30T04:44:02.906Z",
+  "generatedAt": "2026-07-01T05:05:48.699Z",
   "tools": [
     {
       "slug": "codex",
       "name": "Codex",
       "vendor": "OpenAI",
       "descriptionZh": "本地与云端协作的智能体编码工具。",
-      "latestVersion": "0.142.4",
-      "latestReleaseDate": "2026-06-29",
+      "latestVersion": "0.142.5",
+      "latestReleaseDate": "2026-07-01",
       "repository": "https://github.com/openai/codex",
       "docs": "https://developers.openai.com/codex/cli",
       "installCommand": "npm install -g @openai/codex",
@@ -18,8 +18,8 @@
       "name": "Claude Code",
       "vendor": "Anthropic",
       "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-      "latestVersion": "2.1.196",
-      "latestReleaseDate": "2026-06-29",
+      "latestVersion": "2.1.197",
+      "latestReleaseDate": "2026-06-30",
       "repository": "https://github.com/anthropics/claude-code",
       "docs": "https://code.claude.com/docs",
       "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -43,8 +43,8 @@
       "name": "OpenCode",
       "vendor": "Anomaly",
       "descriptionZh": "支持多模型、多提供商和本地扩展的开源编码智能体。",
-      "latestVersion": "1.17.11",
-      "latestReleaseDate": "2026-06-25",
+      "latestVersion": "1.17.12",
+      "latestReleaseDate": "2026-06-30",
       "repository": "https://github.com/anomalyco/opencode",
       "docs": "https://opencode.ai/docs/",
       "installCommand": "npm install -g opencode-ai",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -162,7 +162,35 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
+    },
+    {
+      "id": "claude-code:skill:design-sync",
+      "slug": "claude-code-design-sync",
+      "name": "design-sync",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/design-sync 用于执行常用开发工作流：Convert your repo's React design system and upload it to Claude Design, so designs it produces use your real components. Optionally name the design system, for example /design-sync Acme DS. A first-time sync verifies every component and can take a few hours on a large repo. Available on the Anthropic API; on Amazon Bedrock, Google Cloud's Agent Platform, and Microsoft Foundry the underlying tool can't reach claude.ai, so the command is unavailable",
+      "useCases": [
+        "执行常用开发工作流",
+        "通过 /design-sync 快速调用官方内置能力"
+      ],
+      "usage": [
+        "/design-sync [hint]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/design-sync",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "low",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -190,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -218,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -246,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -274,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -302,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -330,7 +358,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-06-30T04:43:57.034Z"
+      "lastCheckedAt": "2026-07-01T05:05:23.412Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -661,6 +689,51 @@
   ],
   "recentChanges": [
     {
+      "id": "codex-0.142.5",
+      "tool": "codex",
+      "version": "0.142.5",
+      "publishedAt": "2026-07-01",
+      "type": "changed",
+      "titleZh": "Codex 0.142.5 发布",
+      "summaryZh": "从 0.142.4 更新到 0.142.5。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.5",
+        "official": true
+      }
+    },
+    {
+      "id": "claude-code-2.1.197",
+      "tool": "claude-code",
+      "version": "2.1.197",
+      "publishedAt": "2026-06-30",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.197 发布",
+      "summaryZh": "从 2.1.196 更新到 2.1.197。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
+        "official": true
+      }
+    },
+    {
+      "id": "opencode-1.17.12",
+      "tool": "opencode",
+      "version": "1.17.12",
+      "publishedAt": "2026-06-30",
+      "type": "changed",
+      "titleZh": "OpenCode 1.17.12 发布",
+      "summaryZh": "从 1.17.11 更新到 1.17.12。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.12",
+        "official": true
+      }
+    },
+    {
       "id": "claude-code-2.1.196",
       "tool": "claude-code",
       "version": "2.1.196",
@@ -912,51 +985,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
-        "official": true
-      }
-    },
-    {
-      "id": "codex-0.141.0",
-      "tool": "codex",
-      "version": "0.141.0",
-      "publishedAt": "2026-06-18",
-      "type": "changed",
-      "titleZh": "Codex 0.141.0 发布",
-      "summaryZh": "从 0.140.0 更新到 0.141.0。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0",
-        "official": true
-      }
-    },
-    {
-      "id": "gemini-cli-0.47.0",
-      "tool": "gemini-cli",
-      "version": "0.47.0",
-      "publishedAt": "2026-06-18",
-      "type": "changed",
-      "titleZh": "Gemini CLI 0.47.0 发布",
-      "summaryZh": "从 0.46.0 更新到 0.47.0。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0",
-        "official": true
-      }
-    },
-    {
-      "id": "claude-code-2.1.181",
-      "tool": "claude-code",
-      "version": "2.1.181",
-      "publishedAt": "2026-06-17",
-      "type": "changed",
-      "titleZh": "Claude Code 2.1.181 发布",
-      "summaryZh": "从 2.1.179 更新到 2.1.181。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
         "official": true
       }
     }
