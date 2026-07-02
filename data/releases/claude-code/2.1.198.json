@@ -1,0 +1,15 @@
+{
+  "id": "claude-code-2.1.198",
+  "tool": "claude-code",
+  "version": "2.1.198",
+  "publishedAt": "2026-07-01",
+  "type": "changed",
+  "titleZh": "Claude Code 2.1.198 发布",
+  "summaryZh": "从 2.1.197 更新到 2.1.198。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+  "commandIds": [],
+  "source": {
+    "label": "官方 GitHub Release",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+    "official": true
+  }
+}
