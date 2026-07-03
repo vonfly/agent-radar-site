@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T04:39:32.409Z",
+  "generatedAt": "2026-07-03T04:25:18.977Z",
   "tools": [
     {
       "slug": "codex",
@@ -18,8 +18,8 @@
       "name": "Claude Code",
       "vendor": "Anthropic",
       "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-      "latestVersion": "2.1.198",
-      "latestReleaseDate": "2026-07-01",
+      "latestVersion": "2.1.199",
+      "latestReleaseDate": "2026-07-02",
       "repository": "https://github.com/anthropics/claude-code",
       "docs": "https://code.claude.com/docs",
       "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,35 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
+    },
+    {
+      "id": "claude-code:skill:dataviz",
+      "slug": "claude-code-dataviz",
+      "name": "dataviz",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/dataviz 用于执行常用开发工作流：Design guidance for charts, graphs, and dashboards. Claude picks the chart form for the data, assigns color by role, validates the palette for colorblind safety and contrast with a bundled script, and applies mark, interaction, and accessibility rules. Uses a brand-neutral placeholder palette that you replace with your own. Requires Claude Code v2.1.198 or later",
+      "useCases": [
+        "执行常用开发工作流",
+        "通过 /dataviz 快速调用官方内置能力"
+      ],
+      "usage": [
+        "/dataviz [request]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/dataviz",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "low",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -162,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -190,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -218,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -246,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -274,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -302,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -311,7 +339,7 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/simplify 用于执行常用开发工作流：Review the changed code for cleanup opportunities and apply the fixes. Four review agents run in parallel, covering reuse of existing helpers, simplification, efficiency, and whether the change sits at the right level of abstraction. From v2.1.154, the review does not look for correctness bugs. Use /code-review to find bugs. On earlier versions /simplify is equivalent to /code-review --fix. Pass a path or PR reference to review a specific target",
+      "summaryZh": "/simplify 用于执行常用开发工作流：Review the changed code for cleanup opportunities and apply the fixes. Four review agents run in parallel, covering reuse of existing helpers, simplification, efficiency, and whether the change is at the right level of abstraction. From v2.1.154, the review doesn't look for correctness bugs. Use /code-review to find bugs. On earlier versions, /simplify is equivalent to /code-review --fix. Pass a path or PR reference to review a specific target",
       "useCases": [
         "执行常用开发工作流",
         "通过 /simplify 快速调用官方内置能力"
@@ -330,7 +358,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -358,7 +386,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-07-02T04:39:12.513Z"
+      "lastCheckedAt": "2026-07-03T04:25:10.329Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -689,6 +717,21 @@
   ],
   "recentChanges": [
     {
+      "id": "claude-code-2.1.199",
+      "tool": "claude-code",
+      "version": "2.1.199",
+      "publishedAt": "2026-07-02",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.199 发布",
+      "summaryZh": "从 2.1.198 更新到 2.1.199。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
+        "official": true
+      }
+    },
+    {
       "id": "claude-code-2.1.198",
       "tool": "claude-code",
       "version": "2.1.198",
@@ -970,21 +1013,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
-        "official": true
-      }
-    },
-    {
-      "id": "opencode-1.17.9",
-      "tool": "opencode",
-      "version": "1.17.9",
-      "publishedAt": "2026-06-21",
-      "type": "changed",
-      "titleZh": "OpenCode 1.17.9 发布",
-      "summaryZh": "从 1.17.8 更新到 1.17.9。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.9",
         "official": true
       }
     }

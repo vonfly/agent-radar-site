@@ -2,9 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Agent Radar 更新</title>
   <id>https://vonfly.github.io/agent-radar-site</id>
-  <updated>2026-07-02T04:39:32.409Z</updated>
+  <updated>2026-07-03T04:25:18.977Z</updated>
   <link href="https://vonfly.github.io/agent-radar-site/rss.xml" rel="self" />
   
+    <entry>
+      <id>claude-code-2.1.199</id>
+      <title>Claude Code 2.1.199 发布</title>
+      <updated>2026-07-02T00:00:00.000Z</updated>
+      <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.199" />
+      <summary>从 2.1.198 更新到 2.1.199。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
+    </entry>
     <entry>
       <id>claude-code-2.1.198</id>
       <title>Claude Code 2.1.198 发布</title>
@@ -207,12 +214,5 @@
       <updated>2026-06-15T00:00:00.000Z</updated>
       <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.178" />
       <summary>从 2.1.177 更新到 2.1.178。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
-    </entry>
-    <entry>
-      <id>opencode-1.17.7</id>
-      <title>OpenCode 1.17.7 发布</title>
-      <updated>2026-06-14T00:00:00.000Z</updated>
-      <link href="https://github.com/anomalyco/opencode/releases/tag/v1.17.7" />
-      <summary>从 1.17.6 更新到 1.17.7。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
     </entry>
 </feed>
