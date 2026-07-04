@@ -2,9 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Agent Radar 更新</title>
   <id>https://vonfly.github.io/agent-radar-site</id>
-  <updated>2026-07-03T04:25:18.977Z</updated>
+  <updated>2026-07-04T04:11:02.342Z</updated>
   <link href="https://vonfly.github.io/agent-radar-site/rss.xml" rel="self" />
   
+    <entry>
+      <id>claude-code-2.1.201</id>
+      <title>Claude Code 2.1.201 发布</title>
+      <updated>2026-07-03T00:00:00.000Z</updated>
+      <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.201" />
+      <summary>从 2.1.199 更新到 2.1.201。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
+    </entry>
     <entry>
       <id>claude-code-2.1.199</id>
       <title>Claude Code 2.1.199 发布</title>
@@ -207,12 +214,5 @@
       <updated>2026-06-15T00:00:00.000Z</updated>
       <link href="https://github.com/openai/codex/releases/tag/rust-v0.140.0" />
       <summary>从 0.139.0 更新到 0.140.0。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
-    </entry>
-    <entry>
-      <id>claude-code-2.1.178</id>
-      <title>Claude Code 2.1.178 发布</title>
-      <updated>2026-06-15T00:00:00.000Z</updated>
-      <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.178" />
-      <summary>从 2.1.177 更新到 2.1.178。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
     </entry>
 </feed>
