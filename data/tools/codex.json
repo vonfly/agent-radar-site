@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-09T04:30:15.146Z",
+  "generatedAt": "2026-07-10T04:33:20.006Z",
   "tool": {
     "slug": "codex",
     "name": "Codex",
     "vendor": "OpenAI",
     "descriptionZh": "本地与云端协作的智能体编码工具。",
-    "latestVersion": "0.143.0",
-    "latestReleaseDate": "2026-07-08",
+    "latestVersion": "0.144.1",
+    "latestReleaseDate": "2026-07-09",
     "repository": "https://github.com/openai/codex",
     "docs": "https://developers.openai.com/codex/cli",
     "installCommand": "npm install -g @openai/codex",
@@ -38,8 +38,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -66,7 +66,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-app",
@@ -93,8 +93,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -121,7 +121,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-app-server",
@@ -148,8 +148,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -176,7 +176,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-apply",
@@ -203,8 +203,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -231,7 +231,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-archive",
@@ -258,8 +258,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -286,7 +286,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-cloud",
@@ -313,8 +313,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -341,7 +341,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-completion",
@@ -368,8 +368,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -396,7 +396,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-debug",
@@ -423,8 +423,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -451,7 +451,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-delete",
@@ -478,8 +478,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -506,7 +506,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-doctor",
@@ -533,8 +533,8 @@
       "riskLevel": "low",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -561,7 +561,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-exec",
@@ -588,8 +588,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -616,7 +616,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-exec-server",
@@ -643,8 +643,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -671,7 +671,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-features",
@@ -698,8 +698,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -726,7 +726,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-fork",
@@ -753,8 +753,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -781,7 +781,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-login",
@@ -808,8 +808,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -836,7 +836,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-logout",
@@ -863,8 +863,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -891,7 +891,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-mcp",
@@ -918,8 +918,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -946,7 +946,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-mcp-server",
@@ -973,8 +973,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1001,7 +1001,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-plugin",
@@ -1028,8 +1028,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1056,7 +1056,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-remote-control",
@@ -1083,8 +1083,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1111,7 +1111,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-resume",
@@ -1138,8 +1138,8 @@
       "riskLevel": "low",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1166,7 +1166,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-review",
@@ -1193,8 +1193,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1221,7 +1221,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-sandbox",
@@ -1248,8 +1248,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1276,7 +1276,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-unarchive",
@@ -1303,8 +1303,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1331,7 +1331,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:cli:codex-update",
@@ -1358,8 +1358,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-07-08T03:53:56.246Z",
-        "version": "0.143.0",
+        "checkedAt": "2026-07-10T04:33:04.306Z",
+        "version": "0.144.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1386,7 +1386,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-08T03:53:56.246Z"
+      "lastCheckedAt": "2026-07-10T04:33:04.306Z"
     },
     {
       "id": "codex:slash:agent",
@@ -1417,7 +1417,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1444,7 +1444,65 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
+    },
+    {
+      "id": "codex:slash:app",
+      "tool": "codex",
+      "name": "/app",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/app 用于执行常用开发工作流：Continue the current session in the ChatGPT desktop app.",
+      "usage": "/app",
+      "examples": [
+        "/app",
+        "/app <参数>"
+      ],
+      "requirements": [
+        "适用场景：Move from the TUI to the desktop app on macOS or Windows.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:approve",
@@ -1475,7 +1533,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1502,7 +1560,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:apps",
@@ -1533,7 +1591,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1560,7 +1618,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:archive",
@@ -1591,7 +1649,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1618,7 +1676,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:btw",
@@ -1638,7 +1696,7 @@
         "/btw <参数>"
       ],
       "requirements": [
-        "适用场景：Ask a focused follow-up without disrupting the main thread's transcript.",
+        "适用场景：Ask a focused follow-up without disrupting the main task's transcript.",
         "需要在交互会话中使用"
       ],
       "availability": [
@@ -1649,7 +1707,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1676,7 +1734,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:clear",
@@ -1696,7 +1754,7 @@
         "/clear <参数>"
       ],
       "requirements": [
-        "适用场景：Reset the visible UI and conversation together when you want a fresh start.",
+        "适用场景：Reset the visible UI and task context together when you want a fresh start.",
         "需要在交互会话中使用"
       ],
       "availability": [
@@ -1707,7 +1765,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1734,7 +1792,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:compact",
@@ -1765,7 +1823,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1792,7 +1850,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:copy",
@@ -1823,7 +1881,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1850,7 +1908,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:debug-config",
@@ -1881,7 +1939,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1908,7 +1966,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:delete",
@@ -1939,7 +1997,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1966,7 +2024,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:diff",
@@ -1997,7 +2055,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2024,7 +2082,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:exit",
@@ -2055,7 +2113,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2082,7 +2140,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:experimental",
@@ -2102,7 +2160,7 @@
         "/experimental <参数>"
       ],
       "requirements": [
-        "适用场景：Enable optional features such as subagents from the CLI.",
+        "适用场景：Enable options such as Network proxy or Prevent sleep while running.",
         "需要在交互会话中使用"
       ],
       "availability": [
@@ -2113,7 +2171,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2140,7 +2198,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:fast",
@@ -2160,7 +2218,7 @@
         "/fast <参数>"
       ],
       "requirements": [
-        "适用场景：Turn the current model's Fast tier on or off, or check whether the thread is using it.",
+        "适用场景：Turn the current model's Fast tier on or off and persist the selection.",
         "需要在交互会话中使用"
       ],
       "availability": [
@@ -2171,7 +2229,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2198,7 +2256,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:feedback",
@@ -2229,7 +2287,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2256,7 +2314,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:fork",
@@ -2287,7 +2345,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2314,7 +2372,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:goal",
@@ -2327,7 +2385,7 @@
       "deprecatedIn": null,
       "removedIn": null,
       "maturity": "stable",
-      "summaryZh": "/goal 用于执行常用开发工作流：Set, pause, resume, view, or clear a task goal.",
+      "summaryZh": "/goal 用于执行常用开发工作流：Set, edit, pause, resume, view, or clear a task goal.",
       "usage": "/goal",
       "examples": [
         "/goal",
@@ -2345,7 +2403,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2372,7 +2430,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:hooks",
@@ -2403,7 +2461,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2430,7 +2488,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:ide",
@@ -2461,7 +2519,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2488,7 +2546,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:import",
@@ -2519,7 +2577,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2546,7 +2604,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:init",
@@ -2577,7 +2635,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2604,7 +2662,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:keymap",
@@ -2635,7 +2693,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2662,7 +2720,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:logout",
@@ -2693,7 +2751,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2720,7 +2778,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:mcp",
@@ -2752,7 +2810,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2779,7 +2837,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:memories",
@@ -2810,7 +2868,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2837,7 +2895,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:mention",
@@ -2868,7 +2926,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2895,7 +2953,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:model",
@@ -2915,7 +2973,7 @@
         "/model <参数>"
       ],
       "requirements": [
-        "适用场景：Switch between general-purpose models (gpt-4.1-mini) and deeper reasoning models before running a task.",
+        "适用场景：Switch between models such as gpt-5.4-mini and gpt-5.5 before running a task.",
         "需要在交互会话中使用"
       ],
       "availability": [
@@ -2926,7 +2984,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2953,7 +3011,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:new",
@@ -2973,7 +3031,7 @@
         "/new <参数>"
       ],
       "requirements": [
-        "适用场景：Reset the chat context without leaving the CLI when you want a fresh prompt in the same repo.",
+        "适用场景：Reset the task context without leaving the CLI when you want a fresh prompt in the same repo.",
         "需要在交互会话中使用"
       ],
       "availability": [
@@ -2984,7 +3042,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3011,7 +3069,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:permissions",
@@ -3042,7 +3100,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3069,7 +3127,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:personality",
@@ -3100,7 +3158,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3127,7 +3185,123 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
+    },
+    {
+      "id": "codex:slash:pet",
+      "tool": "codex",
+      "name": "/pet",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/pet 用于执行常用开发工作流：Choose or hide a terminal pet.",
+      "usage": "/pet",
+      "examples": [
+        "/pet",
+        "/pet <参数>"
+      ],
+      "requirements": [
+        "适用场景：Personalize the TUI with a built-in or custom ambient pet.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
+    },
+    {
+      "id": "codex:slash:pets",
+      "tool": "codex",
+      "name": "/pets",
+      "aliases": [],
+      "kind": "slash",
+      "category": "工作流",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/pets 用于执行常用开发工作流：Choose or hide a terminal pet.",
+      "usage": "/pets",
+      "examples": [
+        "/pets",
+        "/pets <参数>"
+      ],
+      "requirements": [
+        "适用场景：Personalize the TUI with a built-in or custom ambient pet.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:plan",
@@ -3158,7 +3332,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3185,7 +3359,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:plugins",
@@ -3217,7 +3391,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3244,7 +3418,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:ps",
@@ -3256,8 +3430,8 @@
       "introducedIn": "官方文档当前版本",
       "deprecatedIn": null,
       "removedIn": null,
-      "maturity": "experimental",
-      "summaryZh": "/ps显示experimental background terminals and their recent output.。",
+      "maturity": "stable",
+      "summaryZh": "/ps显示background terminals and their recent output.。",
       "usage": "/ps",
       "examples": [
         "/ps",
@@ -3275,20 +3449,20 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
-        "score": 76,
-        "verdict": "pilot",
+        "score": 86,
+        "verdict": "recommended",
         "reasons": [
           "实用价值 82/100",
-          "成熟度 45/100",
+          "成熟度 95/100",
           "安全性 95/100"
         ],
         "breakdown": {
           "utility": 82,
-          "maturity": 45,
+          "maturity": 95,
           "safety": 95,
           "compatibility": 82,
           "learning": 78,
@@ -3302,7 +3476,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:quit",
@@ -3333,7 +3507,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3360,7 +3534,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:raw",
@@ -3391,7 +3565,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3418,7 +3592,65 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
+    },
+    {
+      "id": "codex:slash:rename",
+      "tool": "codex",
+      "name": "/rename",
+      "aliases": [],
+      "kind": "slash",
+      "category": "会话",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "为当前会话重命名，方便后续查找。",
+      "usage": "/rename",
+      "examples": [
+        "/rename",
+        "/rename <参数>"
+      ],
+      "requirements": [
+        "适用场景：Give a saved session a recognizable name without leaving the TUI.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:resume",
@@ -3449,7 +3681,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3476,7 +3708,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:review",
@@ -3507,7 +3739,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3534,7 +3766,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:sandbox-add-read-dir",
@@ -3565,7 +3797,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3592,7 +3824,65 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
+    },
+    {
+      "id": "codex:slash:setup-default-sandbox",
+      "tool": "codex",
+      "name": "/setup-default-sandbox",
+      "aliases": [],
+      "kind": "slash",
+      "category": "安全",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/setup-default-sandbox 用于调整权限、安全边界或高风险操作：Set up the elevated agent sandbox (Windows only).",
+      "usage": "/setup-default-sandbox",
+      "examples": [
+        "/setup-default-sandbox",
+        "/setup-default-sandbox <参数>"
+      ],
+      "requirements": [
+        "适用场景：Replace the degraded Windows sandbox after Codex offers the elevated setup.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "medium",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 81,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 68/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 68,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:side",
@@ -3612,7 +3902,7 @@
         "/side <参数>"
       ],
       "requirements": [
-        "适用场景：Ask a focused follow-up without disrupting the main thread's transcript.",
+        "适用场景：Ask a focused follow-up without disrupting the main task's transcript.",
         "需要在交互会话中使用",
         "需要对应的 IDE 集成已启用"
       ],
@@ -3623,7 +3913,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3650,7 +3940,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:skills",
@@ -3681,7 +3971,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3708,7 +3998,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:status",
@@ -3739,7 +4029,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3766,7 +4056,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:statusline",
@@ -3797,7 +4087,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3824,7 +4114,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:stop",
@@ -3855,7 +4145,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3882,7 +4172,65 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
+    },
+    {
+      "id": "codex:slash:subagents",
+      "tool": "codex",
+      "name": "/subagents",
+      "aliases": [],
+      "kind": "slash",
+      "category": "扩展",
+      "introducedIn": "官方文档当前版本",
+      "deprecatedIn": null,
+      "removedIn": null,
+      "maturity": "stable",
+      "summaryZh": "/subagents 用于管理 Skills、插件、Agents、Hooks 或 MCP 扩展：Switch the active agent thread.",
+      "usage": "/subagents",
+      "examples": [
+        "/subagents",
+        "/subagents <参数>"
+      ],
+      "requirements": [
+        "适用场景：Inspect or continue work in a spawned subagent thread.",
+        "需要在交互会话中使用"
+      ],
+      "availability": [
+        "macOS",
+        "Linux",
+        "Windows"
+      ],
+      "riskLevel": "low",
+      "verification": {
+        "mode": "documentation",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
+        "detail": "从官方命令参考自动同步"
+      },
+      "assessment": {
+        "score": 86,
+        "verdict": "recommended",
+        "reasons": [
+          "实用价值 82/100",
+          "成熟度 95/100",
+          "安全性 95/100"
+        ],
+        "breakdown": {
+          "utility": 82,
+          "maturity": 95,
+          "safety": 95,
+          "compatibility": 82,
+          "learning": 78,
+          "cost": 75
+        }
+      },
+      "sources": [
+        {
+          "label": "官方命令参考",
+          "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+          "official": true
+        }
+      ],
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:theme",
@@ -3913,7 +4261,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3940,7 +4288,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:title",
@@ -3971,7 +4319,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3998,7 +4346,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:usage",
@@ -4029,7 +4377,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4056,7 +4404,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     },
     {
       "id": "codex:slash:vim",
@@ -4087,7 +4435,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-07-09T04:29:49.409Z",
+        "checkedAt": "2026-07-10T04:32:56.765Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4114,7 +4462,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-07-09T04:29:49.409Z"
+      "lastCheckedAt": "2026-07-10T04:32:56.765Z"
     }
   ],
   "skills": [
@@ -4356,6 +4704,21 @@
     }
   ],
   "changes": [
+    {
+      "id": "codex-0.144.1",
+      "tool": "codex",
+      "version": "0.144.1",
+      "publishedAt": "2026-07-09",
+      "type": "changed",
+      "titleZh": "Codex 0.144.1 发布",
+      "summaryZh": "从 0.143.0 更新到 0.144.1。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.144.1",
+        "official": true
+      }
+    },
     {
       "id": "codex-0.143.0",
       "tool": "codex",
