@@ -1,0 +1,15 @@
+{
+  "id": "opencode-1.18.4",
+  "tool": "opencode",
+  "version": "1.18.4",
+  "publishedAt": "2026-07-20",
+  "type": "changed",
+  "titleZh": "OpenCode 1.18.4 发布",
+  "summaryZh": "从 1.18.3 更新到 1.18.4。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+  "commandIds": [],
+  "source": {
+    "label": "官方 GitHub Release",
+    "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.4",
+    "official": true
+  }
+}
