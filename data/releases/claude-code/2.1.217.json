@@ -1,0 +1,15 @@
+{
+  "id": "claude-code-2.1.217",
+  "tool": "claude-code",
+  "version": "2.1.217",
+  "publishedAt": "2026-07-21",
+  "type": "changed",
+  "titleZh": "Claude Code 2.1.217 发布",
+  "summaryZh": "从 2.1.216 更新到 2.1.217。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+  "commandIds": [],
+  "source": {
+    "label": "官方 GitHub Release",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
+    "official": true
+  }
+}
