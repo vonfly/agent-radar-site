@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T04:03:44.885Z",
+  "generatedAt": "2026-08-03T04:05:29.878Z",
   "tool": {
     "slug": "gemini-cli",
     "name": "Gemini CLI",
@@ -40,7 +40,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -67,7 +67,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini--i",
@@ -307,7 +307,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -334,7 +334,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-disable",
@@ -364,7 +364,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -391,7 +391,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-enable",
@@ -421,7 +421,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -448,7 +448,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-install",
@@ -478,7 +478,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -505,7 +505,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-link",
@@ -535,7 +535,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -562,7 +562,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-list",
@@ -592,7 +592,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -619,7 +619,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-new",
@@ -649,7 +649,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -676,7 +676,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-uninstall",
@@ -706,7 +706,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -733,7 +733,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-update",
@@ -763,7 +763,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -790,7 +790,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-extensions-validate",
@@ -820,7 +820,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -847,7 +847,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-mcp",
@@ -877,7 +877,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -904,7 +904,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-mcp-add",
@@ -934,7 +934,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -961,7 +961,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-mcp-list",
@@ -991,7 +991,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1018,7 +1018,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-mcp-remove",
@@ -1048,7 +1048,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1075,7 +1075,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills",
@@ -1103,7 +1103,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1130,7 +1130,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-enable",
@@ -1158,7 +1158,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1185,7 +1185,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-install",
@@ -1213,7 +1213,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1240,7 +1240,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-link",
@@ -1268,7 +1268,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1295,7 +1295,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-list",
@@ -1323,7 +1323,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1350,7 +1350,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-skills-uninstall",
@@ -1378,7 +1378,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1405,7 +1405,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:cli:gemini-update",
@@ -1433,7 +1433,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1460,7 +1460,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:allowed-mcp-server-names",
@@ -1490,7 +1490,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1517,7 +1517,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:allowed-tools",
@@ -1545,7 +1545,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1572,7 +1572,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:approval-mode",
@@ -1600,7 +1600,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1627,7 +1627,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:debug",
@@ -1655,7 +1655,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1682,7 +1682,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:delete-session",
@@ -1710,7 +1710,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1737,7 +1737,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:experimental-acp",
@@ -1765,7 +1765,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1792,7 +1792,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:experimental-zed-integration",
@@ -1820,7 +1820,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1847,7 +1847,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:extensions",
@@ -1877,7 +1877,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1904,7 +1904,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:help",
@@ -1932,7 +1932,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1959,7 +1959,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:include-directories",
@@ -1987,7 +1987,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2014,7 +2014,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:list-extensions",
@@ -2044,7 +2044,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2071,7 +2071,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:list-sessions",
@@ -2099,7 +2099,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2126,7 +2126,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:model",
@@ -2154,7 +2154,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2181,7 +2181,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:output-format",
@@ -2209,7 +2209,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2236,7 +2236,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:prompt",
@@ -2264,7 +2264,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2291,7 +2291,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:prompt-interactive",
@@ -2319,7 +2319,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2346,7 +2346,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:resume",
@@ -2374,7 +2374,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2401,7 +2401,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:sandbox",
@@ -2429,7 +2429,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2456,7 +2456,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:screen-reader",
@@ -2484,7 +2484,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2511,7 +2511,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:skip-trust",
@@ -2539,7 +2539,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2566,7 +2566,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:version",
@@ -2594,7 +2594,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2621,7 +2621,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:worktree",
@@ -2649,7 +2649,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2676,7 +2676,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:flag:yolo",
@@ -2704,7 +2704,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2732,7 +2732,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:slash:agents",
@@ -2762,7 +2762,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2789,7 +2789,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:slash:commands",
@@ -2819,7 +2819,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2846,7 +2846,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:slash:extensions",
@@ -2877,7 +2877,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2904,7 +2904,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:slash:help",
@@ -2934,7 +2934,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2961,7 +2961,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:slash:mcp",
@@ -2992,7 +2992,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3019,7 +3019,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:slash:memory",
@@ -3049,7 +3049,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3076,7 +3076,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:slash:quit",
@@ -3106,7 +3106,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3133,7 +3133,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     },
     {
       "id": "gemini-cli:slash:restore",
@@ -3271,7 +3271,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-02T04:03:27.067Z",
+        "checkedAt": "2026-08-03T04:05:29.878Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3298,7 +3298,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-02T04:03:27.067Z"
+      "lastCheckedAt": "2026-08-03T04:05:29.878Z"
     }
   ],
   "skills": [
