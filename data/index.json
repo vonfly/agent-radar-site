@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-06T03:49:30.102Z",
+  "generatedAt": "2026-08-07T03:27:20.229Z",
   "tools": [
     {
       "slug": "codex",
       "name": "Codex",
       "vendor": "OpenAI",
       "descriptionZh": "本地与云端协作的智能体编码工具。",
-      "latestVersion": "0.146.1",
-      "latestReleaseDate": "2026-08-05",
+      "latestVersion": "0.147.0",
+      "latestReleaseDate": "2026-08-07",
       "repository": "https://github.com/openai/codex",
       "docs": "https://developers.openai.com/codex/cli",
       "installCommand": "npm install -g @openai/codex",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -115,13 +115,13 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/code-review 用于检查代码改动、Pull Request 或实现质量：Review the current diff for correctness bugs and cleanup opportunities. Pass --fix to apply findings, --comment to post them as inline GitHub PR comments, or ultra to run a deep cloud review. See Review a diff locally for effort levels, targeting, and how it relates to /simplify",
+      "summaryZh": "/code-review 用于检查代码改动、Pull Request 或实现质量：Review the current diff, or a PR number, branch, or path you pass, for correctness bugs and cleanup opportunities. Pass --fix to apply findings, --comment to post them as inline GitHub PR comments, or ultra to run a deep cloud review. With no level given, the review reuses the level you typed last, falling back to the session's effort level if you've never typed one; before v2.1.223, it always used the session's effort level. A local review runs as a subagent, in the background in interactive sessions, so it doesn't fill your conversation; before v2.1.218, it ran inside your conversation. See Review a diff locally for effort levels, targeting, and how it relates to /simplify. Alias: /review",
       "useCases": [
         "检查代码改动、Pull Request 或实现质量",
         "通过 /code-review 快速调用官方内置能力"
       ],
       "usage": [
-        "/code-review [low|medium|high|xhigh|max|ultra] [--fix] [--comment] [target]"
+        "/code-review [low|medium|high|xhigh|max|ultra] [--fix] [--comment] [pr#|branch|path]"
       ],
       "installCommand": null,
       "invokeCommand": "/code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:dataviz",
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -190,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -218,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:doctor",
@@ -246,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -274,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -302,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -330,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -358,7 +358,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -386,7 +386,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -414,7 +414,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-06T03:48:43.033Z"
+      "lastCheckedAt": "2026-08-07T03:27:13.653Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -745,6 +745,21 @@
   ],
   "recentChanges": [
     {
+      "id": "codex-0.147.0",
+      "tool": "codex",
+      "version": "0.147.0",
+      "publishedAt": "2026-08-07",
+      "type": "changed",
+      "titleZh": "Codex 0.147.0 发布",
+      "summaryZh": "从 0.146.1 更新到 0.147.0。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
+        "official": true
+      }
+    },
+    {
       "id": "claude-code-2.1.223",
       "tool": "claude-code",
       "version": "2.1.223",
@@ -1026,21 +1041,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
-        "official": true
-      }
-    },
-    {
-      "id": "gemini-cli-0.52.0",
-      "tool": "gemini-cli",
-      "version": "0.52.0",
-      "publishedAt": "2026-07-22",
-      "type": "changed",
-      "titleZh": "Gemini CLI 0.52.0 发布",
-      "summaryZh": "从 0.51.0 更新到 0.52.0。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0",
         "official": true
       }
     }
