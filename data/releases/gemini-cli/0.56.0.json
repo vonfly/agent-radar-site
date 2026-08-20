@@ -1,0 +1,15 @@
+{
+  "id": "gemini-cli-0.56.0",
+  "tool": "gemini-cli",
+  "version": "0.56.0",
+  "publishedAt": "2026-08-19",
+  "type": "changed",
+  "titleZh": "Gemini CLI 0.56.0 发布",
+  "summaryZh": "从 0.55.1 更新到 0.56.0。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+  "commandIds": [],
+  "source": {
+    "label": "官方 GitHub Release",
+    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0",
+    "official": true
+  }
+}
