@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T01:57:18.619Z",
+  "generatedAt": "2026-08-23T02:08:58.376Z",
   "tools": [
     {
       "slug": "codex",
@@ -18,8 +18,8 @@
       "name": "Claude Code",
       "vendor": "Anthropic",
       "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-      "latestVersion": "2.1.239",
-      "latestReleaseDate": "2026-08-21",
+      "latestVersion": "2.1.241",
+      "latestReleaseDate": "2026-08-23",
       "repository": "https://github.com/anthropics/claude-code",
       "docs": "https://code.claude.com/docs",
       "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -87,13 +87,13 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/claude-api 用于执行常用开发工作流：Load Claude API and Managed Agents reference material for your project's language. Also activates automatically when your code imports anthropic or @anthropic-ai/sdk. Run migrate to upgrade existing Claude API code to a newer model, managed-agents-onboard for a walkthrough that creates a new Managed Agent, or prompt-audit to flag instructions written for older models in your prompts, skills, and tool descriptions and propose fixes as a diff. The prompt-audit subcommand requires Claude Code v2.1.221 or later",
+      "summaryZh": "/claude-api 用于执行常用开发工作流：Load Claude API and Managed Agents reference material for your project's language. Also activates automatically when your code imports anthropic or @anthropic-ai/sdk. Run migrate to update existing Claude API code to a newer model; upgrade to move your project's Anthropic SDK dependency across a major version, currently the Python anthropic package from 0.x to 1.x; managed-agents-onboard for a walkthrough that creates a new Managed Agent; or prompt-audit to flag instructions written for older models in your prompts, skills, and tool descriptions and propose fixes as a diff. The prompt-audit subcommand requires Claude Code v2.1.221 or later, and upgrade requires v2.1.236 or later",
       "useCases": [
         "执行常用开发工作流",
         "通过 /claude-api 快速调用官方内置能力"
       ],
       "usage": [
-        "/claude-api [migrate|managed-agents-onboard|prompt-audit]"
+        "/claude-api [migrate|upgrade|managed-agents-onboard|prompt-audit]"
       ],
       "installCommand": null,
       "invokeCommand": "/claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:dataviz",
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -190,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -218,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:doctor",
@@ -246,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -274,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -302,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -330,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -358,7 +358,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -386,7 +386,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -414,7 +414,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-22T01:56:56.909Z"
+      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -745,6 +745,21 @@
   ],
   "recentChanges": [
     {
+      "id": "claude-code-2.1.241",
+      "tool": "claude-code",
+      "version": "2.1.241",
+      "publishedAt": "2026-08-23",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.241 发布",
+      "summaryZh": "从 2.1.239 更新到 2.1.241。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
+        "official": true
+      }
+    },
+    {
       "id": "claude-code-2.1.239",
       "tool": "claude-code",
       "version": "2.1.239",
@@ -1026,21 +1041,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
-        "official": true
-      }
-    },
-    {
-      "id": "claude-code-2.1.225",
-      "tool": "claude-code",
-      "version": "2.1.225",
-      "publishedAt": "2026-08-08",
-      "type": "changed",
-      "titleZh": "Claude Code 2.1.225 发布",
-      "summaryZh": "从 2.1.223 更新到 2.1.225。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
         "official": true
       }
     }
