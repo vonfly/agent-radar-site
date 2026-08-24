@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-23T02:08:58.376Z",
+  "generatedAt": "2026-08-24T02:06:51.618Z",
   "tool": {
     "slug": "codex",
     "name": "Codex",
     "vendor": "OpenAI",
     "descriptionZh": "本地与云端协作的智能体编码工具。",
-    "latestVersion": "0.149.0",
-    "latestReleaseDate": "2026-08-20",
+    "latestVersion": "0.149.1",
+    "latestReleaseDate": "2026-08-24",
     "repository": "https://github.com/openai/codex",
     "docs": "https://developers.openai.com/codex/cli",
     "installCommand": "npm install -g @openai/codex",
@@ -38,8 +38,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -66,7 +66,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-agents",
@@ -93,9 +93,9 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
-        "detail": "从 codex --help 自动发现并确认"
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
+        "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
         "score": 73,
@@ -121,7 +121,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-app",
@@ -148,8 +148,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -176,7 +176,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-app-server",
@@ -203,8 +203,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -231,7 +231,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-apply",
@@ -258,8 +258,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -286,7 +286,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-archive",
@@ -313,8 +313,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -341,7 +341,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-cloud",
@@ -368,8 +368,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -396,7 +396,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-completion",
@@ -423,8 +423,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -451,7 +451,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-debug",
@@ -478,8 +478,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -506,7 +506,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-delete",
@@ -533,8 +533,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -561,7 +561,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-doctor",
@@ -588,8 +588,8 @@
       "riskLevel": "low",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -616,7 +616,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-exec",
@@ -643,8 +643,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -671,7 +671,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-exec-server",
@@ -698,8 +698,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -726,7 +726,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-features",
@@ -753,8 +753,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -781,7 +781,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-fork",
@@ -808,8 +808,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -836,7 +836,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-login",
@@ -863,8 +863,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -891,7 +891,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-logout",
@@ -918,8 +918,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -946,7 +946,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-mcp",
@@ -973,8 +973,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1001,7 +1001,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-mcp-server",
@@ -1028,8 +1028,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1056,7 +1056,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-migrate-rollouts",
@@ -1083,8 +1083,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1111,7 +1111,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-plugin",
@@ -1138,8 +1138,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1166,7 +1166,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-queue",
@@ -1193,9 +1193,9 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
-        "detail": "从 codex --help 自动发现并确认"
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
+        "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
         "score": 73,
@@ -1221,7 +1221,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-remote-control",
@@ -1248,8 +1248,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1276,7 +1276,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-resume",
@@ -1303,8 +1303,8 @@
       "riskLevel": "low",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1331,7 +1331,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-review",
@@ -1358,8 +1358,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1386,7 +1386,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-sandbox",
@@ -1413,8 +1413,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1441,7 +1441,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-unarchive",
@@ -1468,8 +1468,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1496,7 +1496,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:cli:codex-update",
@@ -1523,8 +1523,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-08-21T02:07:29.834Z",
-        "version": "0.149.0",
+        "checkedAt": "2026-08-24T02:06:51.616Z",
+        "version": "0.149.1",
         "detail": "已运行验证：codex --version、codex --help、codex exec --help、codex resume --help"
       },
       "assessment": {
@@ -1551,7 +1551,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-21T02:07:29.834Z"
+      "lastCheckedAt": "2026-08-24T02:06:51.616Z"
     },
     {
       "id": "codex:slash:agent",
@@ -1582,7 +1582,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1609,7 +1609,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:app",
@@ -1640,7 +1640,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1667,7 +1667,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:approve",
@@ -1698,7 +1698,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1725,7 +1725,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:apps",
@@ -1756,7 +1756,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1783,7 +1783,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:archive",
@@ -1814,7 +1814,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1841,7 +1841,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:btw",
@@ -1872,7 +1872,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1899,7 +1899,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:clear",
@@ -1930,7 +1930,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1957,7 +1957,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:compact",
@@ -1988,7 +1988,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2015,7 +2015,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:copy",
@@ -2046,7 +2046,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2073,7 +2073,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:debug-config",
@@ -2104,7 +2104,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2131,7 +2131,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:delete",
@@ -2162,7 +2162,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2189,7 +2189,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:diff",
@@ -2220,7 +2220,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2247,7 +2247,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:exit",
@@ -2278,7 +2278,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2305,7 +2305,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:experimental",
@@ -2336,7 +2336,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2363,7 +2363,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:fast",
@@ -2394,7 +2394,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2421,7 +2421,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:feedback",
@@ -2452,7 +2452,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2479,7 +2479,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:fork",
@@ -2510,7 +2510,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2537,7 +2537,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:goal",
@@ -2568,7 +2568,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2595,7 +2595,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:hooks",
@@ -2626,7 +2626,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2653,7 +2653,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:ide",
@@ -2684,7 +2684,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2711,7 +2711,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:import",
@@ -2742,7 +2742,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2769,7 +2769,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:init",
@@ -2800,7 +2800,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2827,7 +2827,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:keymap",
@@ -2858,7 +2858,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2885,7 +2885,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:logout",
@@ -2916,7 +2916,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2943,7 +2943,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:mcp",
@@ -2975,7 +2975,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3002,7 +3002,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:memories",
@@ -3033,7 +3033,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3060,7 +3060,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:mention",
@@ -3091,7 +3091,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3118,7 +3118,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:model",
@@ -3149,7 +3149,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3176,7 +3176,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:new",
@@ -3207,7 +3207,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3234,7 +3234,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:permissions",
@@ -3265,7 +3265,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3292,7 +3292,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:personality",
@@ -3323,7 +3323,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3350,7 +3350,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:pet",
@@ -3381,7 +3381,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3408,7 +3408,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:pets",
@@ -3439,7 +3439,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3466,7 +3466,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:plan",
@@ -3497,7 +3497,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3524,7 +3524,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:plugins",
@@ -3556,7 +3556,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3583,7 +3583,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:ps",
@@ -3614,7 +3614,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3641,7 +3641,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:quit",
@@ -3672,7 +3672,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3699,7 +3699,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:raw",
@@ -3730,7 +3730,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3757,7 +3757,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:rename",
@@ -3788,7 +3788,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3815,7 +3815,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:resume",
@@ -3846,7 +3846,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3873,7 +3873,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:review",
@@ -3904,7 +3904,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3931,7 +3931,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:sandbox-add-read-dir",
@@ -3962,7 +3962,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3989,7 +3989,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:setup-default-sandbox",
@@ -4020,7 +4020,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4047,7 +4047,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:side",
@@ -4078,7 +4078,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4105,7 +4105,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:skills",
@@ -4136,7 +4136,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4163,7 +4163,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:status",
@@ -4194,7 +4194,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4221,7 +4221,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:statusline",
@@ -4252,7 +4252,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4279,7 +4279,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:stop",
@@ -4310,7 +4310,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4337,7 +4337,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:subagents",
@@ -4368,7 +4368,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4395,7 +4395,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:theme",
@@ -4426,7 +4426,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4453,7 +4453,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:title",
@@ -4484,7 +4484,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4511,7 +4511,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:usage",
@@ -4542,7 +4542,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4569,7 +4569,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     },
     {
       "id": "codex:slash:vim",
@@ -4600,7 +4600,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-08-23T02:08:51.520Z",
+        "checkedAt": "2026-08-24T02:06:44.284Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4627,7 +4627,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-08-23T02:08:51.520Z"
+      "lastCheckedAt": "2026-08-24T02:06:44.284Z"
     }
   ],
   "skills": [
@@ -4869,6 +4869,21 @@
     }
   ],
   "changes": [
+    {
+      "id": "codex-0.149.1",
+      "tool": "codex",
+      "version": "0.149.1",
+      "publishedAt": "2026-08-24",
+      "type": "changed",
+      "titleZh": "Codex 0.149.1 发布",
+      "summaryZh": "从 0.149.0 更新到 0.149.1。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1",
+        "official": true
+      }
+    },
     {
       "id": "codex-0.149.0",
       "tool": "codex",
