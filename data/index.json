@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-26T02:08:56.852Z",
+  "generatedAt": "2026-08-27T10:06:59.492Z",
   "tools": [
     {
       "slug": "codex",
       "name": "Codex",
       "vendor": "OpenAI",
       "descriptionZh": "本地与云端协作的智能体编码工具。",
-      "latestVersion": "0.149.1",
-      "latestReleaseDate": "2026-08-24",
+      "latestVersion": "0.150.1",
+      "latestReleaseDate": "2026-08-27",
       "repository": "https://github.com/openai/codex",
       "docs": "https://developers.openai.com/codex/cli",
       "installCommand": "npm install -g @openai/codex",
@@ -18,8 +18,8 @@
       "name": "Claude Code",
       "vendor": "Anthropic",
       "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-      "latestVersion": "2.1.246",
-      "latestReleaseDate": "2026-08-25",
+      "latestVersion": "2.1.247",
+      "latestReleaseDate": "2026-08-26",
       "repository": "https://github.com/anthropics/claude-code",
       "docs": "https://code.claude.com/docs",
       "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -59,7 +59,7 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/batch 用于非交互执行、批处理、定时任务或 CI 集成：Orchestrate large-scale changes across a codebase in parallel. Researches the codebase, decomposes the work into 5 to 30 independent units, and presents a plan. Once approved, spawns one background subagent per unit in an isolated git worktree. Each subagent implements its unit, runs tests, and opens a pull request. Requires a git repository. Example: /batch migrate src/ from Solid to React",
+      "summaryZh": "/batch 用于非交互执行、批处理、定时任务或 CI 集成：Orchestrate large-scale changes across a codebase in parallel. Researches the codebase, decomposes the work into 5 to 30 independent units, and presents a plan. Once approved, spawns one background subagent per unit in an isolated git worktree. Each subagent implements its unit, runs tests, and opens a pull request. Requires a git repository. Example: /batch migrate src/ from JavaScript to TypeScript",
       "useCases": [
         "非交互执行、批处理、定时任务或 CI 集成",
         "通过 /batch 快速调用官方内置能力"
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:dataviz",
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -190,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -218,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:doctor",
@@ -246,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -274,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -302,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -330,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -358,7 +358,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -386,7 +386,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -414,7 +414,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-26T02:08:17.244Z"
+      "lastCheckedAt": "2026-08-27T10:06:47.359Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -745,6 +745,36 @@
   ],
   "recentChanges": [
     {
+      "id": "codex-0.150.1",
+      "tool": "codex",
+      "version": "0.150.1",
+      "publishedAt": "2026-08-27",
+      "type": "changed",
+      "titleZh": "Codex 0.150.1 发布",
+      "summaryZh": "从 0.149.1 更新到 0.150.1。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.150.1",
+        "official": true
+      }
+    },
+    {
+      "id": "claude-code-2.1.247",
+      "tool": "claude-code",
+      "version": "2.1.247",
+      "publishedAt": "2026-08-26",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.247 发布",
+      "summaryZh": "从 2.1.246 更新到 2.1.247。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
+        "official": true
+      }
+    },
+    {
       "id": "claude-code-2.1.246",
       "tool": "claude-code",
       "version": "2.1.246",
@@ -1011,36 +1041,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
-        "official": true
-      }
-    },
-    {
-      "id": "claude-code-2.1.232",
-      "tool": "claude-code",
-      "version": "2.1.232",
-      "publishedAt": "2026-08-13",
-      "type": "changed",
-      "titleZh": "Claude Code 2.1.232 发布",
-      "summaryZh": "从 2.1.229 更新到 2.1.232。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
-        "official": true
-      }
-    },
-    {
-      "id": "opencode-1.18.18",
-      "tool": "opencode",
-      "version": "1.18.18",
-      "publishedAt": "2026-08-13",
-      "type": "changed",
-      "titleZh": "OpenCode 1.18.18 发布",
-      "summaryZh": "从 1.18.16 更新到 1.18.18。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.18",
         "official": true
       }
     }
