@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T05:39:20.571Z",
+  "generatedAt": "2026-08-31T05:53:43.477Z",
   "tools": [
     {
       "slug": "codex",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:dataviz",
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -190,7 +190,35 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
+    },
+    {
+      "id": "claude-code:skill:design",
+      "slug": "claude-code-design",
+      "name": "design",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/design 用于执行常用开发工作流：Draft UI mockups, screen flows, landing pages, or posters as artboards on one canvas, published as an artifact that runs a research preview of Claude Design's editor, for example /design a settings screen for a mobile banking app. Where saving is enabled for your account, you edit the artboards on the canvas and save to publish a new version; otherwise you view the draft and export it as PNG or PDF. Requires a session where artifacts are available and Claude Code v2.1.234 or later. Available on the Anthropic API. On Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, and Claude Platform on AWS, artifacts aren't available, so the command is unavailable there",
+      "useCases": [
+        "执行常用开发工作流",
+        "通过 /design 快速调用官方内置能力"
+      ],
+      "usage": [
+        "/design [brief]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/design",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -218,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:doctor",
@@ -246,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -274,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -302,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -330,7 +358,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -358,7 +386,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -386,7 +414,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -414,7 +442,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "claude-code:skill:workflow-authoring",
@@ -442,7 +470,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-08-30T05:39:13.027Z"
+      "lastCheckedAt": "2026-08-31T05:53:43.477Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
