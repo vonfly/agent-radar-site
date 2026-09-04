@@ -2,9 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Agent Radar 更新</title>
   <id>https://vonfly.github.io/agent-radar-site</id>
-  <updated>2026-09-03T04:51:59.390Z</updated>
+  <updated>2026-09-04T04:54:40.263Z</updated>
   <link href="https://vonfly.github.io/agent-radar-site/rss.xml" rel="self" />
   
+    <entry>
+      <id>codex-0.153.2</id>
+      <title>Codex 0.153.2 发布</title>
+      <updated>2026-09-03T00:00:00.000Z</updated>
+      <link href="https://github.com/openai/codex/releases/tag/rust-v0.153.2" />
+      <summary>从 0.153.0 更新到 0.153.2。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
+    </entry>
+    <entry>
+      <id>claude-code-2.1.260</id>
+      <title>Claude Code 2.1.260 发布</title>
+      <updated>2026-09-03T00:00:00.000Z</updated>
+      <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.260" />
+      <summary>从 2.1.259 更新到 2.1.260。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
+    </entry>
     <entry>
       <id>codex-0.153.0</id>
       <title>Codex 0.153.0 发布</title>
@@ -200,19 +214,5 @@
       <updated>2026-08-20T00:00:00.000Z</updated>
       <link href="https://github.com/anthropics/claude-code/releases/tag/v2.1.237" />
       <summary>从 2.1.235 更新到 2.1.237。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
-    </entry>
-    <entry>
-      <id>gemini-cli-0.56.0</id>
-      <title>Gemini CLI 0.56.0 发布</title>
-      <updated>2026-08-19T00:00:00.000Z</updated>
-      <link href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0" />
-      <summary>从 0.55.1 更新到 0.56.0。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
-    </entry>
-    <entry>
-      <id>codex-0.148.0</id>
-      <title>Codex 0.148.0 发布</title>
-      <updated>2026-08-18T00:00:00.000Z</updated>
-      <link href="https://github.com/openai/codex/releases/tag/rust-v0.148.0" />
-      <summary>从 0.147.0 更新到 0.148.0。已检测到官方稳定版本发布，详细变化请查看官方来源。</summary>
     </entry>
 </feed>
