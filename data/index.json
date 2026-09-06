@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T04:48:18.834Z",
+  "generatedAt": "2026-09-06T04:56:45.274Z",
   "tools": [
     {
       "slug": "codex",
@@ -18,8 +18,8 @@
       "name": "Claude Code",
       "vendor": "Anthropic",
       "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-      "latestVersion": "2.1.261",
-      "latestReleaseDate": "2026-09-04",
+      "latestVersion": "2.1.263",
+      "latestReleaseDate": "2026-09-06",
       "repository": "https://github.com/anthropics/claude-code",
       "docs": "https://code.claude.com/docs",
       "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -78,7 +78,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -106,7 +106,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:dataviz",
@@ -162,7 +162,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -190,7 +190,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:design",
@@ -218,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -246,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:doctor",
@@ -274,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -302,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -330,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -358,7 +358,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -386,7 +386,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -414,7 +414,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -442,7 +442,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "claude-code:skill:workflow-authoring",
@@ -470,7 +470,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-05T04:47:58.302Z"
+      "lastCheckedAt": "2026-09-06T04:56:38.833Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -801,6 +801,21 @@
   ],
   "recentChanges": [
     {
+      "id": "claude-code-2.1.263",
+      "tool": "claude-code",
+      "version": "2.1.263",
+      "publishedAt": "2026-09-06",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.263 发布",
+      "summaryZh": "从 2.1.261 更新到 2.1.263。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+        "official": true
+      }
+    },
+    {
       "id": "codex-0.153.4",
       "tool": "codex",
       "version": "0.153.4",
@@ -1082,21 +1097,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.150.1",
-        "official": true
-      }
-    },
-    {
-      "id": "claude-code-2.1.247",
-      "tool": "claude-code",
-      "version": "2.1.247",
-      "publishedAt": "2026-08-26",
-      "type": "changed",
-      "titleZh": "Claude Code 2.1.247 发布",
-      "summaryZh": "从 2.1.246 更新到 2.1.247。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
         "official": true
       }
     }
