@@ -1,0 +1,15 @@
+{
+  "id": "opencode-1.18.32",
+  "tool": "opencode",
+  "version": "1.18.32",
+  "publishedAt": "2026-09-21",
+  "type": "changed",
+  "titleZh": "OpenCode 1.18.32 发布",
+  "summaryZh": "从 1.18.31 更新到 1.18.32。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+  "commandIds": [],
+  "source": {
+    "label": "官方 GitHub Release",
+    "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.32",
+    "official": true
+  }
+}
