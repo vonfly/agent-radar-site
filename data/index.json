@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-29T05:59:38.013Z",
+  "generatedAt": "2026-09-30T05:49:16.032Z",
   "tools": [
     {
       "slug": "codex",
       "name": "Codex",
       "vendor": "OpenAI",
       "descriptionZh": "本地与云端协作的智能体编码工具。",
-      "latestVersion": "0.158.0",
-      "latestReleaseDate": "2026-09-28",
+      "latestVersion": "0.159.2",
+      "latestReleaseDate": "2026-09-29",
       "repository": "https://github.com/openai/codex",
       "docs": "https://developers.openai.com/codex/cli",
       "installCommand": "npm install -g @openai/codex",
@@ -18,8 +18,8 @@
       "name": "Claude Code",
       "vendor": "Anthropic",
       "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-      "latestVersion": "2.1.284",
-      "latestReleaseDate": "2026-09-28",
+      "latestVersion": "2.1.285",
+      "latestReleaseDate": "2026-09-29",
       "repository": "https://github.com/anthropics/claude-code",
       "docs": "https://code.claude.com/docs",
       "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -30,8 +30,8 @@
       "name": "Gemini CLI",
       "vendor": "Google",
       "descriptionZh": "Apache-2.0 开源的 Gemini 终端智能体。",
-      "latestVersion": "0.61.0",
-      "latestReleaseDate": "2026-09-23",
+      "latestVersion": "0.62.0",
+      "latestReleaseDate": "2026-09-29",
       "repository": "https://github.com/google-gemini/gemini-cli",
       "docs": "https://geminicli.com/docs/",
       "installCommand": "npm install -g @google/gemini-cli",
@@ -52,6 +52,62 @@
     }
   ],
   "skills": [
+    {
+      "id": "claude-code:skill:artifact-capabilities",
+      "slug": "claude-code-artifact-capabilities",
+      "name": "artifact-capabilities",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/artifact-capabilities 用于执行常用开发工作流：Load the reference for the runtime capabilities a published artifact can use, such as calling your connectors or offering a file download, including which ones your account has. Claude normally loads it on its own before building a page that uses one. Available where artifacts are",
+      "useCases": [
+        "执行常用开发工作流",
+        "通过 /artifact-capabilities 快速调用官方内置能力"
+      ],
+      "usage": [
+        "/artifact-capabilities"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/artifact-capabilities",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
+    },
+    {
+      "id": "claude-code:skill:artifact-diagramming",
+      "slug": "claude-code-artifact-diagramming",
+      "name": "artifact-diagramming",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/artifact-diagramming 用于执行常用开发工作流：Load diagramming guidance for Claude to follow in artifacts: when a diagram helps, what to draw, and how to write inline SVG that stays legible in light and dark themes. Requires Claude Code v2.1.221 or later",
+      "useCases": [
+        "执行常用开发工作流",
+        "通过 /artifact-diagramming 快速调用官方内置能力"
+      ],
+      "usage": [
+        "/artifact-diagramming"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/artifact-diagramming",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
+    },
     {
       "id": "claude-code:skill:batch",
       "slug": "claude-code-batch",
@@ -78,7 +134,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -87,13 +143,13 @@
       "tool": "claude-code",
       "provider": "Anthropic",
       "status": "built-in",
-      "summaryZh": "/claude-api 用于执行常用开发工作流：Load Claude API and Managed Agents reference material for your project's language. Also activates automatically when your code imports anthropic or @anthropic-ai/sdk. Run migrate to update existing Claude API code to a newer model. Run upgrade to move your project's Anthropic SDK dependency across a major version, currently the Python anthropic package from 0.x to 1.x. Run managed-agents-onboard for a walkthrough that creates a new Managed Agent. Run prompt-audit to flag instructions written for older models in your prompts, skills, and tool descriptions and propose fixes as a diff. Run cost-optimize to profile where your project's Claude API spend goes and propose savings from options such as prompt caching, trimming unneeded input and output tokens, batch processing, effort, and model choice, one change at a time. Run build-eval to build an eval set for your Cla",
+      "summaryZh": "/claude-api 用于执行常用开发工作流：Load Claude API and Managed Agents reference material for your project's language. Also activates automatically when your code imports anthropic or @anthropic-ai/sdk. For what each subcommand does and the version it requires, see Work on Claude API projects",
       "useCases": [
         "执行常用开发工作流",
         "通过 /claude-api 快速调用官方内置能力"
       ],
       "usage": [
-        "/claude-api [migrate|upgrade|managed-agents-onboard|prompt-audit|cost-optimize|build-eval|hillclimb]"
+        "/claude-api [migrate|upgrade|managed-agents-onboard|prompt-audit|cost-optimize|build-eval|hillclimb|preserved-thinking-migration]"
       ],
       "installCommand": null,
       "invokeCommand": "/claude-api",
@@ -106,7 +162,35 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
+    },
+    {
+      "id": "claude-code:skill:claude-in-chrome",
+      "slug": "claude-code-claude-in-chrome",
+      "name": "claude-in-chrome",
+      "tool": "claude-code",
+      "provider": "Anthropic",
+      "status": "built-in",
+      "summaryZh": "/claude-in-chrome 用于调整终端界面、工具配置或通用信息：Have Claude carry out a task in your browser, such as testing a page, filling a form, or reading console logs, through Claude in Chrome. Available when Chrome integration is enabled for the session, for example with claude --chrome, or when Claude Code can offer to install the extension",
+      "useCases": [
+        "调整终端界面、工具配置或通用信息",
+        "通过 /claude-in-chrome 快速调用官方内置能力"
+      ],
+      "usage": [
+        "/claude-in-chrome [task]"
+      ],
+      "installCommand": null,
+      "invokeCommand": "/claude-in-chrome",
+      "requirements": [
+        "可用性可能取决于 Claude Code 版本、套餐和平台"
+      ],
+      "riskLevel": "medium",
+      "source": {
+        "label": "Claude Code 官方命令参考",
+        "url": "https://code.claude.com/docs/en/commands.md",
+        "official": true
+      },
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -134,7 +218,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:dataviz",
@@ -162,7 +246,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -190,7 +274,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:design",
@@ -218,7 +302,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -246,7 +330,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:doctor",
@@ -274,7 +358,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -302,7 +386,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -330,7 +414,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -358,7 +442,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -386,7 +470,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -414,7 +498,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:slides",
@@ -442,7 +526,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:update-config",
@@ -470,7 +554,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -498,7 +582,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "claude-code:skill:workflow-authoring",
@@ -526,7 +610,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-09-29T05:59:31.285Z"
+      "lastCheckedAt": "2026-09-30T05:48:48.523Z"
     },
     {
       "id": "codex:skill:gh-address-comments",
@@ -857,6 +941,51 @@
   ],
   "recentChanges": [
     {
+      "id": "codex-0.159.2",
+      "tool": "codex",
+      "version": "0.159.2",
+      "publishedAt": "2026-09-29",
+      "type": "changed",
+      "titleZh": "Codex 0.159.2 发布",
+      "summaryZh": "从 0.158.0 更新到 0.159.2。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.2",
+        "official": true
+      }
+    },
+    {
+      "id": "claude-code-2.1.285",
+      "tool": "claude-code",
+      "version": "2.1.285",
+      "publishedAt": "2026-09-29",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.285 发布",
+      "summaryZh": "从 2.1.284 更新到 2.1.285。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+        "official": true
+      }
+    },
+    {
+      "id": "gemini-cli-0.62.0",
+      "tool": "gemini-cli",
+      "version": "0.62.0",
+      "publishedAt": "2026-09-29",
+      "type": "changed",
+      "titleZh": "Gemini CLI 0.62.0 发布",
+      "summaryZh": "从 0.61.0 更新到 0.62.0。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0",
+        "official": true
+      }
+    },
+    {
       "id": "claude-code-2.1.284",
       "tool": "claude-code",
       "version": "2.1.284",
@@ -1108,51 +1237,6 @@
       "source": {
         "label": "官方 GitHub Release",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
-        "official": true
-      }
-    },
-    {
-      "id": "claude-code-2.1.273",
-      "tool": "claude-code",
-      "version": "2.1.273",
-      "publishedAt": "2026-09-15",
-      "type": "changed",
-      "titleZh": "Claude Code 2.1.273 发布",
-      "summaryZh": "从 2.1.272 更新到 2.1.273。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
-        "official": true
-      }
-    },
-    {
-      "id": "gemini-cli-0.60.0",
-      "tool": "gemini-cli",
-      "version": "0.60.0",
-      "publishedAt": "2026-09-15",
-      "type": "changed",
-      "titleZh": "Gemini CLI 0.60.0 发布",
-      "summaryZh": "从 0.59.0 更新到 0.60.0。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0",
-        "official": true
-      }
-    },
-    {
-      "id": "claude-code-2.1.272",
-      "tool": "claude-code",
-      "version": "2.1.272",
-      "publishedAt": "2026-09-15",
-      "type": "changed",
-      "titleZh": "Claude Code 2.1.272 发布",
-      "summaryZh": "从 2.1.267 更新到 2.1.272。已检测到官方稳定版本发布，详细变化请查看官方来源。",
-      "commandIds": [],
-      "source": {
-        "label": "官方 GitHub Release",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
         "official": true
       }
     }
