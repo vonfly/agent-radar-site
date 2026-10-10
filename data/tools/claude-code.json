@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-09T06:28:47.352Z",
+  "generatedAt": "2026-10-10T06:12:23.454Z",
   "tool": {
     "slug": "claude-code",
     "name": "Claude Code",
     "vendor": "Anthropic",
     "descriptionZh": "支持终端、IDE、桌面和远程会话的编码智能体。",
-    "latestVersion": "2.1.295",
-    "latestReleaseDate": "2026-10-08",
+    "latestVersion": "2.1.296",
+    "latestReleaseDate": "2026-10-09",
     "repository": "https://github.com/anthropics/claude-code",
     "docs": "https://code.claude.com/docs",
     "installCommand": "curl -fsSL https://claude.ai/install.sh | bash",
@@ -38,8 +38,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -66,7 +66,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-agents",
@@ -93,8 +93,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -121,7 +121,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-attach",
@@ -148,8 +148,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -176,7 +176,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-auth",
@@ -203,8 +203,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -231,7 +231,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-auto-mode",
@@ -258,8 +258,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -286,7 +286,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-doctor",
@@ -313,8 +313,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -341,7 +341,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-gateway",
@@ -368,8 +368,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -396,7 +396,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-import",
@@ -423,8 +423,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -451,7 +451,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-install",
@@ -478,8 +478,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -506,7 +506,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-logs",
@@ -533,8 +533,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -561,7 +561,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-mcp",
@@ -588,8 +588,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -616,7 +616,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-project",
@@ -643,8 +643,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -671,7 +671,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-purge",
@@ -698,8 +698,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -726,7 +726,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-respawn",
@@ -753,8 +753,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -781,7 +781,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-rm",
@@ -808,8 +808,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -836,7 +836,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-setup-token",
@@ -863,8 +863,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -891,7 +891,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:cli:claude-ultrareview",
@@ -918,8 +918,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -946,7 +946,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:flag:dangerously-skip-permissions",
@@ -973,8 +973,8 @@
       "riskLevel": "high",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -1002,7 +1002,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:flag:claude--p",
@@ -1029,8 +1029,8 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "runtime",
-        "checkedAt": "2026-10-09T06:28:47.351Z",
-        "version": "2.1.295",
+        "checkedAt": "2026-10-10T06:12:23.454Z",
+        "version": "2.1.296",
         "detail": "已运行验证：claude --version、claude --help、claude agents --help、claude auth --help"
       },
       "assessment": {
@@ -1057,7 +1057,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:47.351Z"
+      "lastCheckedAt": "2026-10-10T06:12:23.454Z"
     },
     {
       "id": "claude-code:skill:artifact-capabilities",
@@ -1086,7 +1086,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1113,7 +1113,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:artifact-diagramming",
@@ -1142,7 +1142,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1169,7 +1169,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:batch",
@@ -1198,7 +1198,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1225,7 +1225,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -1254,7 +1254,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1281,7 +1281,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:claude-in-chrome",
@@ -1310,7 +1310,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1337,7 +1337,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -1366,7 +1366,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1393,7 +1393,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:dataviz",
@@ -1422,7 +1422,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1449,7 +1449,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -1478,7 +1478,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1505,7 +1505,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:design",
@@ -1534,7 +1534,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1561,7 +1561,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -1590,7 +1590,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1617,7 +1617,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:doctor",
@@ -1646,7 +1646,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1673,7 +1673,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -1702,7 +1702,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1729,7 +1729,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -1758,7 +1758,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1785,7 +1785,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -1814,7 +1814,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1841,7 +1841,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -1870,7 +1870,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1897,7 +1897,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -1926,7 +1926,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -1953,7 +1953,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:slides",
@@ -1982,7 +1982,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2009,7 +2009,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:update-config",
@@ -2038,7 +2038,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2065,7 +2065,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -2094,7 +2094,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2121,7 +2121,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:workflow-authoring",
@@ -2151,7 +2151,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2178,7 +2178,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:add-dir",
@@ -2208,7 +2208,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2235,7 +2235,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:advisor",
@@ -2265,7 +2265,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2292,7 +2292,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:agents",
@@ -2322,7 +2322,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2349,7 +2349,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:artifacts",
@@ -2379,7 +2379,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2406,7 +2406,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:auto-mode-setup",
@@ -2436,7 +2436,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2463,7 +2463,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:autocompact",
@@ -2494,7 +2494,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2521,7 +2521,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:autofix-pr",
@@ -2551,7 +2551,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2578,7 +2578,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:background",
@@ -2608,7 +2608,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2635,7 +2635,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:branch",
@@ -2665,7 +2665,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2692,7 +2692,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:btw",
@@ -2722,7 +2722,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2749,7 +2749,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:bug",
@@ -2779,7 +2779,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2806,7 +2806,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:cd",
@@ -2836,7 +2836,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2863,7 +2863,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:chrome",
@@ -2893,7 +2893,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2920,7 +2920,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:clear",
@@ -2950,7 +2950,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -2977,7 +2977,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:color",
@@ -3007,7 +3007,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3034,7 +3034,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:compact",
@@ -3064,7 +3064,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3091,7 +3091,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:config",
@@ -3121,7 +3121,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3148,7 +3148,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:context",
@@ -3178,7 +3178,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3205,7 +3205,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:copy",
@@ -3235,7 +3235,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3262,7 +3262,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:cost",
@@ -3292,7 +3292,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3319,7 +3319,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:deep-research",
@@ -3349,7 +3349,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3376,7 +3376,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:design-login",
@@ -3407,7 +3407,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3434,7 +3434,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:desktop",
@@ -3464,7 +3464,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3491,7 +3491,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:diff",
@@ -3521,7 +3521,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3548,7 +3548,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:effort",
@@ -3578,7 +3578,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3605,7 +3605,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:exit",
@@ -3635,7 +3635,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3662,7 +3662,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:export",
@@ -3692,7 +3692,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3719,7 +3719,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:fast",
@@ -3749,7 +3749,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3776,7 +3776,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:feedback",
@@ -3806,7 +3806,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3833,7 +3833,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:focus",
@@ -3863,7 +3863,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3890,7 +3890,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:fork",
@@ -3920,7 +3920,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -3947,7 +3947,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:goal",
@@ -3977,7 +3977,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4004,7 +4004,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:heapdump",
@@ -4034,7 +4034,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4061,7 +4061,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:help",
@@ -4091,7 +4091,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4118,7 +4118,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:hooks",
@@ -4148,7 +4148,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4175,7 +4175,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:ide",
@@ -4205,7 +4205,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4232,7 +4232,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:import",
@@ -4262,7 +4262,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4289,7 +4289,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:init",
@@ -4319,7 +4319,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4346,7 +4346,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:insights",
@@ -4376,7 +4376,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4403,7 +4403,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:install-github-app",
@@ -4433,7 +4433,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4460,7 +4460,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:install-slack-app",
@@ -4490,7 +4490,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4517,7 +4517,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:keybindings",
@@ -4547,7 +4547,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4574,7 +4574,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:list-agents",
@@ -4604,7 +4604,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4631,7 +4631,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:login",
@@ -4662,7 +4662,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4689,7 +4689,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:logout",
@@ -4719,7 +4719,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4746,7 +4746,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:mcp",
@@ -4777,7 +4777,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4804,7 +4804,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:memory",
@@ -4834,7 +4834,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4861,7 +4861,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:mobile",
@@ -4891,7 +4891,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4918,7 +4918,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:model",
@@ -4948,7 +4948,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -4975,7 +4975,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:output-style",
@@ -5005,7 +5005,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5032,7 +5032,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:passes",
@@ -5062,7 +5062,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5089,7 +5089,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:permissions",
@@ -5119,7 +5119,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5146,7 +5146,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:plan",
@@ -5176,7 +5176,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5203,7 +5203,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:plugin",
@@ -5234,7 +5234,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5261,7 +5261,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:plugin-authoring",
@@ -5293,7 +5293,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5320,7 +5320,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:powerup",
@@ -5350,7 +5350,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5377,7 +5377,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:pr-comments",
@@ -5407,7 +5407,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5434,7 +5434,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:privacy-settings",
@@ -5464,7 +5464,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5491,7 +5491,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:radio",
@@ -5522,7 +5522,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5549,7 +5549,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:rate-limit-options",
@@ -5579,7 +5579,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5606,7 +5606,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:recap",
@@ -5636,7 +5636,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5663,7 +5663,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:release-notes",
@@ -5693,7 +5693,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5720,7 +5720,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:reload-plugins",
@@ -5751,7 +5751,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5778,7 +5778,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:reload-skills",
@@ -5808,7 +5808,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5835,7 +5835,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:remote-control",
@@ -5866,7 +5866,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5894,7 +5894,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:remote-env",
@@ -5925,7 +5925,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -5953,7 +5953,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:rename",
@@ -5983,7 +5983,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6010,7 +6010,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:resume",
@@ -6040,7 +6040,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6067,7 +6067,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:review",
@@ -6097,7 +6097,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6124,7 +6124,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:rewind",
@@ -6154,7 +6154,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6181,7 +6181,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:sandbox",
@@ -6211,7 +6211,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6238,7 +6238,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:schedule",
@@ -6268,7 +6268,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6295,7 +6295,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:scroll-speed",
@@ -6325,7 +6325,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6352,7 +6352,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:security-review",
@@ -6382,7 +6382,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6409,7 +6409,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:setup-bedrock",
@@ -6439,7 +6439,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6466,7 +6466,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:setup-vertex",
@@ -6496,7 +6496,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6523,7 +6523,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:skill-doctor",
@@ -6553,7 +6553,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6580,7 +6580,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:skills",
@@ -6610,7 +6610,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6637,7 +6637,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:stats",
@@ -6667,7 +6667,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6694,7 +6694,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:status",
@@ -6724,7 +6724,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6751,7 +6751,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:statusline",
@@ -6781,7 +6781,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6808,7 +6808,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:stickers",
@@ -6838,7 +6838,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6865,7 +6865,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:stop",
@@ -6895,7 +6895,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6922,7 +6922,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:subtask",
@@ -6952,7 +6952,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -6979,7 +6979,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:tasks",
@@ -7009,7 +7009,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7036,7 +7036,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:team-onboarding",
@@ -7066,7 +7066,7 @@
       "riskLevel": "high",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7093,7 +7093,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:teleport",
@@ -7123,7 +7123,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7150,7 +7150,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:terminal-setup",
@@ -7180,7 +7180,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7207,7 +7207,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:theme",
@@ -7237,7 +7237,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7264,7 +7264,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:tui",
@@ -7294,7 +7294,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7321,7 +7321,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:ultraplan",
@@ -7351,7 +7351,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7378,7 +7378,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:ultrareview",
@@ -7408,7 +7408,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7435,7 +7435,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:upgrade",
@@ -7465,7 +7465,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7492,7 +7492,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:usage",
@@ -7522,7 +7522,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7549,7 +7549,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:usage-credits",
@@ -7579,7 +7579,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7606,7 +7606,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:vim",
@@ -7636,7 +7636,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7663,7 +7663,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:voice",
@@ -7693,7 +7693,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7720,7 +7720,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:web-setup",
@@ -7750,7 +7750,7 @@
       "riskLevel": "low",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7778,7 +7778,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:slash:workflows",
@@ -7808,7 +7808,7 @@
       "riskLevel": "medium",
       "verification": {
         "mode": "documentation",
-        "checkedAt": "2026-10-09T06:28:34.171Z",
+        "checkedAt": "2026-10-10T06:12:09.225Z",
         "detail": "从官方命令参考自动同步"
       },
       "assessment": {
@@ -7835,7 +7835,7 @@
           "official": true
         }
       ],
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     }
   ],
   "skills": [
@@ -7865,7 +7865,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:artifact-diagramming",
@@ -7893,7 +7893,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:batch",
@@ -7921,7 +7921,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:claude-api",
@@ -7949,7 +7949,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:claude-in-chrome",
@@ -7977,7 +7977,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:code-review",
@@ -8005,7 +8005,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:dataviz",
@@ -8033,7 +8033,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:debug",
@@ -8061,7 +8061,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:design",
@@ -8089,7 +8089,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:design-sync",
@@ -8117,7 +8117,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:doctor",
@@ -8145,7 +8145,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:fewer-permission-prompts",
@@ -8173,7 +8173,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:loop",
@@ -8201,7 +8201,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:run",
@@ -8229,7 +8229,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:run-skill-generator",
@@ -8257,7 +8257,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:simplify",
@@ -8285,7 +8285,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:slides",
@@ -8313,7 +8313,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:update-config",
@@ -8341,7 +8341,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:verify",
@@ -8369,7 +8369,7 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     },
     {
       "id": "claude-code:skill:workflow-authoring",
@@ -8397,10 +8397,25 @@
         "url": "https://code.claude.com/docs/en/commands.md",
         "official": true
       },
-      "lastCheckedAt": "2026-10-09T06:28:34.171Z"
+      "lastCheckedAt": "2026-10-10T06:12:09.225Z"
     }
   ],
   "changes": [
+    {
+      "id": "claude-code-2.1.296",
+      "tool": "claude-code",
+      "version": "2.1.296",
+      "publishedAt": "2026-10-09",
+      "type": "changed",
+      "titleZh": "Claude Code 2.1.296 发布",
+      "summaryZh": "从 2.1.295 更新到 2.1.296。已检测到官方稳定版本发布，详细变化请查看官方来源。",
+      "commandIds": [],
+      "source": {
+        "label": "官方 GitHub Release",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+        "official": true
+      }
+    },
     {
       "id": "claude-code-2.1.295",
       "tool": "claude-code",
